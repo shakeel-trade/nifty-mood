@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NIFTY 50 Market Mood · __TITLE_DATE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#16181D; --muted:#5B616E; --line:#E2E4E9; --bg:#F4F5F7; --card:#FFFFFF;
+          --bull:#0B6E4F; --bull-bg:#E3F3EC; --bear:#A63D12; --bear-bg:#FBEADF; --neu:#4A505C; --neu-bg:#ECEDEF;
+          --sel:#EEF3FF; --link:#2148B8; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Inter, system-ui, sans-serif; }
+  a { color:var(--link); } a:hover { color:#16337F; }
+  .wrap { max-width:1320px; margin:0 auto; padding:24px 20px 40px; display:flex; flex-direction:column; gap:20px; }
+  .head { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; }
+  h1 { margin:0; font-family:'Space Grotesk', Inter, sans-serif; font-size:30px; letter-spacing:-0.5px; }
+  .sub { margin:4px 0 0; font-size:14px; color:var(--muted); }
+  .badge { padding:8px 12px; border-radius:8px; font-size:13px; font-weight:500; background:#E6ECFA; color:#1E3F9E; }
+  .badge.demo { background:#FFF4D6; border:1px solid #E8C96A; color:#5C4300; }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:12px; }
+  .tile { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:6px; }
+  .tile .k { font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; }
+  .tile .v { font-family:'Space Grotesk', Inter, sans-serif; font-size:26px; font-weight:700; }
+  .tile .s { font-size:13px; color:var(--muted); }
+  .main { display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start; }
+  .list { flex:999 1 560px; min-width:0; background:var(--card); border:1px solid var(--line); border-radius:12px; }
+  .detail { flex:1 1 360px; min-width:0; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px;
+            display:flex; flex-direction:column; gap:18px; }
+  .toolbar { display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px; padding:16px; border-bottom:1px solid var(--line); }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; }
+  .tab { min-height:44px; padding:0 14px; border-radius:8px; font:600 14px Inter, sans-serif; cursor:pointer;
+         border:1px solid #C9CDD5; background:#fff; color:var(--ink); }
+  .tab[aria-pressed="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .search { display:flex; flex-direction:column; gap:4px; flex:0 1 260px; min-width:200px; }
+  .search label, .sort label { font-size:12px; font-weight:600; color:var(--muted); }
+  .search input, .sort select { height:44px; padding:0 12px; border:1px solid #C9CDD5; border-radius:8px; font:14px Inter, sans-serif; color:var(--ink); background:#fff; }
+  .sort { display:flex; flex-direction:column; gap:4px; }
+  .scroll { overflow-x:auto; }
+  .table { min-width:620px; }
+  .row, .thead { display:grid; grid-template-columns:2.3fr 1fr 1fr 1.6fr; gap:12px; align-items:center; padding:10px 16px; }
+  .thead { font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; border-bottom:1px solid var(--line); }
+  .row { width:100%; min-height:60px; border:0; border-bottom:1px solid #EEF0F3; background:#fff; text-align:left; cursor:pointer; font-family:inherit; color:inherit; }
+  .row:hover { background:#F8F9FB; }
+  .row[aria-pressed="true"] { background:var(--sel); box-shadow:inset 3px 0 0 var(--link); }
+  .row:focus-visible, .tab:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
+  .name { font-size:14px; font-weight:600; } .meta { font-size:12px; color:var(--muted); }
+  .num { text-align:right; font-size:14px; font-variant-numeric:tabular-nums; }
+  .chg { font-weight:600; }
+  .mood { display:flex; align-items:center; gap:10px; }
+  .pill { font-size:12px; font-weight:600; padding:4px 8px; border-radius:999px; white-space:nowrap; }
+  .bar { flex:1 1 auto; height:6px; border-radius:3px; background:#E8EAEE; overflow:hidden; }
+  .bar > span { display:block; height:6px; }
+  .score { font-size:13px; font-weight:600; width:24px; text-align:right; font-variant-numeric:tabular-nums; }
+  .empty { padding:24px 16px; font-size:14px; color:var(--muted); margin:0; }
+  .d-meta { font-size:12px; font-weight:600; color:var(--muted); }
+  h2 { margin:0; font-family:'Space Grotesk', Inter, sans-serif; font-size:24px; }
+  .d-price { display:flex; flex-wrap:wrap; align-items:baseline; gap:12px; }
+  .why { background:var(--bg); border-radius:10px; padding:16px; display:flex; flex-direction:column; gap:8px; }
+  .why p { margin:0; font-size:15px; line-height:1.55; }
+  .sec { font-size:12px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; }
+  .factor { display:flex; flex-direction:column; gap:6px; }
+  .factor .top { display:flex; justify-content:space-between; gap:12px; font-size:14px; }
+  .src { display:flex; gap:10px; align-items:flex-start; font-size:14px; line-height:1.4; }
+  .src .tag { flex:0 0 auto; font-size:11px; font-weight:700; padding:3px 7px; border-radius:6px; background:#E6ECFA; color:#1E3F9E; text-transform:uppercase; }
+  .foot { margin:0; font-size:12px; line-height:1.5; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="head">
+    <div>
+      <h1>NIFTY 50 Market Mood</h1>
+      <p class="sub" id="subtitle"></p>
+    </div>
+    <div class="badge" id="badge"></div>
+  </div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <div class="main">
+    <section class="list" aria-label="Stocks">
+      <div class="toolbar">
+        <div class="tabs" role="group" aria-label="Filter by mood" id="tabs"></div>
+        <div class="sort">
+          <label for="sort">Sort by</label>
+          <select id="sort">
+            <option value="change">Change (high to low)</option>
+            <option value="abs">Biggest moves</option>
+            <option value="score">Mood score</option>
+            <option value="name">Name</option>
+          </select>
+        </div>
+        <div class="search">
+          <label for="q">Search stocks</label>
+          <input id="q" type="search" placeholder="Name or symbol" autocomplete="off">
+        </div>
+      </div>
+      <div class="scroll">
+        <div class="table">
+          <div class="thead"><span>Stock</span><span class="num">Price (₹)</span><span class="num">Change</span><span>Mood</span></div>
+          <div id="rows"></div>
+        </div>
+      </div>
+    </section>
+    <section class="detail" id="detail" aria-live="polite"></section>
+  </div>
+
+  <p class="foot">Mood scores and explanations describe past price moves and are not buy or sell recommendations.
+    Prices: Yahoo Finance (NSE, end of day, may be delayed or revised). Headlines: Google News. Explanations are generated
+    automatically and can be wrong; always check the linked sources.</p>
+</div>
+
+<script>
+const DATA = __MOOD_DATA__;
+
+const MOODS = {
+  Bullish: { fg: '#0B6E4F', bg: '#E3F3EC' },
+  Neutral: { fg: '#4A505C', bg: '#ECEDEF' },
+  Bearish: { fg: '#A63D12', bg: '#FBEADF' }
+};
+const moodOf = s => s >= 60 ? 'Bullish' : (s <= 40 ? 'Bearish' : 'Neutral');
+const dirColor = c => c > 0 ? MOODS.Bullish.fg : (c < 0 ? MOODS.Bearish.fg : MOODS.Neutral.fg);
+const arrow = c => c > 0 ? '▲' : (c < 0 ? '▼' : '•');
+const fmtChg = c => (c > 0 ? '+' : (c < 0 ? '−' : '')) + Math.abs(c).toFixed(2) + '%';
+const fmtPrice = p => p.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+// Small DOM helper: text is always set with textContent (headlines are untrusted)
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === 'style') Object.assign(n.style, v);
+    else if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v);
+  }
+  for (const kid of kids) if (kid != null) n.append(kid);
+  return n;
+}
+
+const state = { filter: 'all', q: '', sort: 'change', sel: null };
+const stocks = DATA.stocks;
+const sorted0 = stocks.slice().sort((a, b) => Math.abs(b.change) - Math.abs(a.change));
+state.sel = sorted0.length ? sorted0[0].ticker : null;
+
+function header() {
+  const m = DATA.market;
+  document.getElementById('subtitle').textContent =
+    `Trading day ${DATA.trade_date} · generated ${DATA.generated_at} · ${stocks.length} stocks`;
+  const badge = document.getElementById('badge');
+  if (DATA.demo) { badge.className = 'badge demo'; badge.textContent = 'DEMO DATA · random numbers, not real prices'; }
+  else badge.textContent = DATA.explained_by === 'ai' ? 'Explanations: AI from today’s headlines' : 'Explanations: rule-based';
+
+  const byChg = stocks.slice().sort((a, b) => b.change - a.change);
+  const top = byChg[0], low = byChg[byChg.length - 1];
+  const moodTxt = m.counts.bull > m.counts.bear + 3 ? 'Positive' : (m.counts.bear > m.counts.bull + 3 ? 'Negative' : 'Mixed');
+  const tile = (k, v, s, color) => el('div', { class: 'tile' },
+    el('span', { class: 'k', text: k, style: color ? { color } : {} }),
+    el('span', { class: 'v', text: v, style: color ? { color } : {} }),
+    el('span', { class: 's', text: s }));
+  const tiles = document.getElementById('tiles');
+  tiles.replaceChildren(
+    tile('Market mood', moodTxt, `NIFTY 50 ${fmtChg(m.index_change)} · ${m.advancers} up · ${m.decliners} down`),
+    tile('Bullish', String(m.counts.bull), 'mood score 60 or above', MOODS.Bullish.fg),
+    tile('Neutral', String(m.counts.neutral), 'mood score 41 to 59', MOODS.Neutral.fg),
+    tile('Bearish', String(m.counts.bear), 'mood score 40 or below', MOODS.Bearish.fg),
+    el('div', { class: 'tile' },
+      el('span', { class: 'k', text: 'Biggest moves' }),
+      top ? el('span', { text: `${arrow(top.change)} ${top.ticker} ${fmtChg(top.change)}`, style: { fontWeight: 600, color: dirColor(top.change) } }) : null,
+      low ? el('span', { text: `${arrow(low.change)} ${low.ticker} ${fmtChg(low.change)}`, style: { fontWeight: 600, color: dirColor(low.change) } }) : null)
+  );
+}
+
+function renderTabs() {
+  const counts = { all: stocks.length, Bullish: 0, Neutral: 0, Bearish: 0 };
+  stocks.forEach(s => counts[s.mood]++);
+  const defs = [['all', 'All'], ['Bullish', 'Bullish'], ['Neutral', 'Neutral'], ['Bearish', 'Bearish']];
+  document.getElementById('tabs').replaceChildren(...defs.map(([k, label]) =>
+    el('button', { type: 'button', class: 'tab', 'aria-pressed': String(state.filter === k), text: `${label} · ${counts[k]}`,
+      onclick: () => { state.filter = k; renderTabs(); renderRows(); } })));
+}
+
+function visibleStocks() {
+  const q = state.q.trim().toLowerCase();
+  const list = stocks.filter(s => (state.filter === 'all' || s.mood === state.filter) &&
+    (!q || s.name.toLowerCase().includes(q) || s.ticker.toLowerCase().includes(q)));
+  const cmp = {
+    change: (a, b) => b.change - a.change,
+    abs: (a, b) => Math.abs(b.change) - Math.abs(a.change),
+    score: (a, b) => b.score - a.score,
+    name: (a, b) => a.name.localeCompare(b.name)
+  }[state.sort];
+  return list.sort(cmp);
+}
+
+function renderRows() {
+  const list = visibleStocks();
+  const rows = document.getElementById('rows');
+  if (!list.length) { rows.replaceChildren(el('p', { class: 'empty', text: 'No stocks match this filter and search.' })); return; }
+  rows.replaceChildren(...list.map(s => {
+    const mc = MOODS[s.mood];
+    return el('button', { type: 'button', class: 'row', 'aria-pressed': String(s.ticker === state.sel),
+        onclick: () => { state.sel = s.ticker; renderRows(); renderDetail(); } },
+      el('span', { style: { display: 'flex', flexDirection: 'column', gap: '2px', minWidth: 0 } },
+        el('span', { class: 'name', text: s.name }),
+        el('span', { class: 'meta', text: `${s.ticker} · ${s.sector}` })),
+      el('span', { class: 'num', text: fmtPrice(s.price) }),
+      el('span', { class: 'num chg', text: `${arrow(s.change)} ${fmtChg(s.change)}`, style: { color: dirColor(s.change) } }),
+      el('span', { class: 'mood' },
+        el('span', { class: 'pill', text: s.mood, style: { color: mc.fg, background: mc.bg } }),
+        el('span', { class: 'bar', 'aria-hidden': 'true' }, el('span', { style: { width: s.score + '%', background: mc.fg } })),
+        el('span', { class: 'score', text: String(s.score) })));
+  }));
+}
+
+function renderDetail() {
+  const d = document.getElementById('detail');
+  const s = stocks.find(x => x.ticker === state.sel);
+  if (!s) { d.replaceChildren(el('p', { class: 'empty', text: 'Select a stock to see why it moved.' })); return; }
+  const mc = MOODS[s.mood];
+  const sources = s.sources.length
+    ? s.sources.map(h => el('div', { class: 'src' },
+        el('span', { class: 'tag', text: h.source || 'News' }),
+        /^https?:\/\//.test(h.url) ? el('a', { href: h.url, target: '_blank', rel: 'noopener noreferrer', text: h.title }) : el('span', { text: h.title })))
+    : [el('p', { class: 'empty', style: { padding: 0 }, text: 'No headlines were used for this explanation.' })];
+  d.replaceChildren(
+    el('div', { style: { display: 'flex', flexDirection: 'column', gap: '6px' } },
+      el('span', { class: 'd-meta', text: `${s.ticker} · ${s.sector}` }),
+      el('h2', { text: s.name }),
+      el('div', { class: 'd-price' },
+        el('span', { text: '₹' + fmtPrice(s.price), style: { fontSize: '22px', fontWeight: 600 } }),
+        el('span', { text: `${arrow(s.change)} ${fmtChg(s.change)}`, style: { fontSize: '16px', fontWeight: 600, color: dirColor(s.change) } }),
+        el('span', { class: 'pill', text: `${s.mood} · ${s.score}/100`, style: { color: mc.fg, background: mc.bg, fontSize: '13px' } }))),
+    el('div', { class: 'why' },
+      el('span', { class: 'sec', text: 'Why it moved' }),
+      el('p', { text: s.why }),
+      el('span', { style: { fontSize: '13px', color: '#5B616E' } }, 'Explanation confidence: ',
+        el('strong', { text: s.confidence, style: { color: '#16181D' } }),
+        s.explained_by === 'ai' ? ' · written by AI from the headlines below' : ' · rule-based summary')),
+    el('div', { style: { display: 'flex', flexDirection: 'column', gap: '12px' } },
+      el('span', { class: 'sec', text: 'What drives the mood score' }),
+      ...s.factors.map(f => el('div', { class: 'factor' },
+        el('div', { class: 'top' }, el('strong', { text: f.label }), el('span', { text: f.detail, style: { color: '#5B616E', textAlign: 'right' } })),
+        el('div', { class: 'bar', 'aria-hidden': 'true' }, el('span', { style: { width: f.score + '%', background: MOODS[moodOf(f.score)].fg } }))))),
+    el('div', { style: { display: 'flex', flexDirection: 'column', gap: '8px' } },
+      el('span', { class: 'sec', text: 'Sources' }), ...sources)
+  );
+}
+
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderRows(); });
+document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; renderRows(); });
+
+header(); renderTabs(); renderRows(); renderDetail();
+</script>
+</body>
+</html>
