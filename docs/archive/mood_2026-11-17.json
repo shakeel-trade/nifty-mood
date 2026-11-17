@@ -1,15 +1,15 @@
 {
  "trade_date": "2026-11-17",
- "generated_at": "17 Nov 2026 13:15 IST",
+ "generated_at": "17 Nov 2026 14:15 IST",
  "demo": false,
  "market": {
-  "index_change": 0.39,
-  "advancers": 26,
+  "index_change": 0.65,
+  "advancers": 27,
   "decliners": 23,
   "counts": {
-   "bull": 15,
-   "neutral": 27,
-   "bear": 7
+   "bull": 17,
+   "neutral": 31,
+   "bear": 2
   }
  },
  "stocks": [
@@ -17,25 +17,25 @@
    "ticker": "ADANIENT",
    "name": "Adani Enterprises",
    "sector": "Metals & Mining",
-   "price": 2692.3,
-   "change": 1.25,
-   "vol_ratio": 0.62,
-   "score": 60,
+   "price": 2714.3,
+   "change": 2.08,
+   "vol_ratio": 0.95,
+   "score": 62,
    "mood": "Bullish",
-   "why": "Up 1.3% on 0.6x normal volume. The Metals & Mining group moved -0.7% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
-   "confidence": "Low",
+   "why": "Up 2.1% on 1.0x normal volume. The Metals & Mining group moved -0.7% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.3% · above 20-day avg",
-     "score": 73
+     "detail": "+2.1% · above 20-day avg",
+     "score": 84
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.6× normal",
+     "detail": "1.0× normal",
      "score": 50
     },
     {
@@ -47,42 +47,73 @@
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
+     "detail": "5 headline(s)",
      "score": 50
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "Adani Enterprises to invest ₹800 crore in NDTV via perpetual debentures",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZ0FxWEhJZEg3Q0ZBOW1LaGtUd0hZTmlkNS1JT19CdmdEanVkUkQxNHBQZzlJRmpoamFzRkVXWjF2ci1hOVYxZmJHcndqbTFXTV9UQURFckwyOENJVzlTNG92NFI0QnpZWFZCdFZQUGl2T0J0N0VvZlZtREdJXy1CcFFRamVOeVBzZlF0SnhzMFRjSVZJQkxCd3hDOEtUeTV6YmVuRkxVWGtta2gz?oc=5",
+     "source": "Adgully",
+     "published": "2026-11-17T05:46:00+00:00"
+    },
+    {
+     "title": "NDTV turns to Adani Enterprises for Rs 800 crore to fund operations and refinance debt",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdXlFaEdwQmVicURET0UxaDJpSFlVeXptU3ppek1hbmZzNjNHTTVKa3kzVjA2alViQ1NqYTZzUEEyZGZqTzhhazJOalJFcGFoZWViZmsyeVk0d3pCR1RhUlZpZGRwRzZYTnNJV2llQm1qZk1nZjVWY0x2blRNWVB5cEJNcVFyanlSZXVnWlE1RkJJNE9EOEg0VE5EUGhlWVVDd1pSTlBFdHhUaVY2bmhUZkE3alZ2bU9NbXdBdG0yV0N4aVduMmpteldRY05NY3kycnpwUEk4RF9WZ9IB2gFBVV95cUxQdXlFaEdwQmVicURET0UxaDJpSFlVeXptU3ppek1hbmZzNjNHTTVKa3kzVjA2alViQ1NqYTZzUEEyZGZqTzhhazJOalJFcGFoZWViZmsyeVk0d3pCR1RhUlZpZGRwRzZYTnNJV2llQm1qZk1nZjVWY0x2blRNWVB5cEJNcVFyanlSZXVnWlE1RkJJNE9EOEg0VE5EUGhlWVVDd1pSTlBFdHhUaVY2bmhUZkE3alZ2bU9NbXdBdG0yV0N4aVduMmpteldRY05NY3kycnpwUEk4RF9WZw?oc=5",
+     "source": "BMI",
+     "published": "2026-11-17T04:58:14+00:00"
+    },
+    {
+     "title": "Stocks to watch, Nov 17: BSE, Tata Steel, JSW Steel, Urban Co, Adani Green, Happy Forgings, Adani Enterprises",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYzVQaHQxN1VobTlyT3JaZ1FPUzJRNUJuSjhqWEVZUGhvQmpkekV3eEVpcjlTSlVydGw3ZFhsYlVzN1Qwa002Zk5kRWhsbmhNb1JXN05Ga0M3VVJQakh3ZW9ETWJ0T3p6cWJPaklGR2I1S01iTUV0TDFTRmtkaHJxVC01bVVzazJHTy1LR2hJNGN6NmNQQU5QMmhkcFpCLXltam81WVVOUnJjTXNWV184V29ydnFGUk5tTVhuWDFCaDZ5T1lpNzJrYVZNV2ZOanlvYkJwSkRvcllwNFFjS0NnXzR2ZzY1LXR3MXB1Y1Fld0lnZw?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-17T02:40:43+00:00"
+    },
+    {
+     "title": "NDTV seeks shareholder nod for Rs 800-crore Adani funding through 9% perpetual debentures",
+     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU0taSWdjSGYzdVFMcWt5eWVURVFGMTVWWDNKU3Q3VEVxTWxGSG9uQkN3TjlvR2F5MGRPaDV0RjFod2V4T2VQQkVDRG9Za25DbmdTMXFxWWdiVUtYSHdEZVRVMTViNXY4Yjd5ZUxLbDRYeEdrS0JTaVctOHpVSFF3ZkpfNTRPV3UtS1cwZG5LVjlhOHR3S0VIMURBOHBvUkhKOGRXdFR4eVdFNDR0MjI4Y3BudEF4cWRKTXJzb1puWEU3Z0RYOEp3bXRDeGtoUmFvUlR1Nk5rTVJtOU5nS3c?oc=5",
+     "source": "Exchange4Media",
+     "published": "2026-11-17T05:24:46+00:00"
+    },
+    {
+     "title": "Adani Wind begins production of India’s longest 91.2-metre wind turbine blades",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXdXcHdwZU5RWHdfbHUxRm0yTVdMSzJrTGRnSzFoOEZkYjRvZEYtMHJBN0FQNWM2N21UZVRvSDJMbUpRb3Y0NmdFSTNsNzVncmw4Rnl5cFROclQzaWg5Y2x3ZExqYkJmNnNzUkthMURnRkIzUTZDd1ZQdU5RakNKa1FIVW5oZkUyS1FCc2RHeV9iMHFLTGtKNG1QWUJudl9yTlZpU1dLQVdGc1RDZEdXMQ?oc=5",
+     "source": "Machine Maker",
+     "published": "2026-11-17T05:52:50+00:00"
+    }
+   ]
   },
   {
    "ticker": "ADANIPORTS",
    "name": "Adani Ports and SEZ",
    "sector": "Services",
-   "price": 1914.5,
-   "change": 1.14,
-   "vol_ratio": 0.38,
+   "price": 1915.0,
+   "change": 1.16,
+   "vol_ratio": 0.48,
    "score": 63,
    "mood": "Bullish",
-   "why": "Up 1.1% on 0.4x normal volume. The Services group moved +1.9% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 1.2% on 0.5x normal volume. The Services group moved +1.9% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.1% · above 20-day avg",
+     "detail": "+1.2% · above 20-day avg",
      "score": 71
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.5× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
      "detail": "Services +1.9%",
-     "score": 79
+     "score": 78
     },
     {
      "key": "news",
@@ -104,32 +135,32 @@
    "ticker": "APOLLOHOSP",
    "name": "Apollo Hospitals",
    "sector": "Healthcare",
-   "price": 8786.0,
-   "change": 0.17,
-   "vol_ratio": 0.55,
-   "score": 53,
+   "price": 8799.0,
+   "change": 0.32,
+   "vol_ratio": 0.7,
+   "score": 54,
    "mood": "Neutral",
-   "why": "Up 0.2% on 0.6x normal volume. The Healthcare group moved +0.1% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 0.3% on 0.7x normal volume. The Healthcare group moved +0.3% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.2% · above 20-day avg",
-     "score": 57
+     "detail": "+0.3% · above 20-day avg",
+     "score": 59
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.6× normal",
+     "detail": "0.7× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Healthcare +0.1%",
-     "score": 51
+     "detail": "Healthcare +0.3%",
+     "score": 54
     },
     {
      "key": "news",
@@ -175,12 +206,12 @@
    "ticker": "ASIANPAINT",
    "name": "Asian Paints",
    "sector": "Consumer Durables",
-   "price": 2641.6,
-   "change": 3.59,
-   "vol_ratio": 0.95,
-   "score": 76,
+   "price": 2643.0,
+   "change": 3.65,
+   "vol_ratio": 1.03,
+   "score": 77,
    "mood": "Bullish",
-   "why": "Up 3.6% on 0.9x normal volume. The Consumer Durables group moved +1.2% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 3.6% on 1.0x normal volume. The Consumer Durables group moved +1.3% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
@@ -193,14 +224,14 @@
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.9× normal",
+     "detail": "1.0× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Consumer Durables +1.2%",
-     "score": 68
+     "detail": "Consumer Durables +1.3%",
+     "score": 69
     },
     {
      "key": "news",
@@ -246,123 +277,83 @@
    "ticker": "AXISBANK",
    "name": "Axis Bank",
    "sector": "Financial Services",
-   "price": 1367.3,
-   "change": 1.85,
-   "vol_ratio": 0.64,
-   "score": 67,
+   "price": 1373.1,
+   "change": 2.29,
+   "vol_ratio": 0.76,
+   "score": 77,
    "mood": "Bullish",
-   "why": "Up 1.9% on 0.6x normal volume. The Financial Services group moved +0.1% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
+   "why": "Up 2.3% on 0.8x normal volume. The Financial Services group moved +0.3% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.9% · above 20-day avg",
-     "score": 81
+     "detail": "+2.3% · above 20-day avg",
+     "score": 87
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.6× normal",
+     "detail": "0.8× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.1%",
-     "score": 52
-    },
-    {
-     "key": "news",
-     "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
-    }
-   ],
-   "sources": []
-  },
-  {
-   "ticker": "BAJAJ-AUTO",
-   "name": "Bajaj Auto",
-   "sector": "Automobile",
-   "price": 10770.0,
-   "change": 0.34,
-   "vol_ratio": 0.46,
-   "score": 56,
-   "mood": "Neutral",
-   "why": "Up 0.3% on 0.5x normal volume. The Automobile group moved +0.8% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
-   "confidence": "Low",
-   "explained_by": "rules",
-   "factors": [
-    {
-     "key": "price",
-     "label": "Price action",
-     "detail": "+0.3% · above 20-day avg",
-     "score": 60
-    },
-    {
-     "key": "volume",
-     "label": "Volume",
-     "detail": "0.5× normal",
-     "score": 50
-    },
-    {
-     "key": "sector",
-     "label": "Sector",
-     "detail": "Automobile +0.8%",
-     "score": 62
+     "detail": "Financial Services +0.3%",
+     "score": 55
     },
     {
      "key": "news",
      "label": "News sentiment",
      "detail": "5 headline(s)",
-     "score": 50
+     "score": 95
     }
    ],
    "sources": [
     {
-     "title": "Bajaj Pulsar 180 Discontinued Again - Is It For Good This Time?",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTBxSVN1RkxjcmlDMmg2NXRQdnFxUnZ5VmhuLUFHRC15YUxuZWpCNGtsMDBzSFNSWWNra21nR2hhRWE0RXFNYkVpZU41bHBHTWpWNEJYNEdEbUhLeTFIbzd3aEQ1bE9TOWhCM1hjZEpTWE92YU5YYTZUY2FwWW42WUpZV00yQW8tNjBOeWtheHdjNDUxWDRIbWxKQ3NPU2VjbUg4bVpn0gGmAUFVX3lxTE1NMHFJU3VGTGNyaUMyaDY1dFB2cXFSdnlWaG4tQUdELXlhTG5lakI0a2wwMHNIU1JZY2trbWdHaGFFYTRFcU1iRWllTjVscEdNalY0Qlg0R0RtSEt5MUhvN3doRDVsT1M5aEIzWGNkSlNYT3ZhTlhhNlRjYXBZbjZZSllXTTJBby02ME55a2F4d2M0NTFYNEhtbEpDc09TZWNtSDhtWmc?oc=5",
-     "source": "RushLane",
-     "published": "2026-11-17T02:11:38+00:00"
+     "title": "Axis Bank’s Munish Sharda Gets RBI Approval For Second Executive Director Term",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV2l1UUhKdmhoRXVOdklJUWczRWpwM1pScFR4TlVuNzZHbzVPQzFCRHVsWWFmaHNjNUtUYml5LXhYaWxoVDhUX2tLRkVyak84d1pyLVlOSjBrQ0ZaVUNBYWMtM1JWZDRWbTFXUVBfRHpDZjNheXF0OERXb3dNeVJxQ2NjN3dOX2N4ckR2d25seEp3YjMyWGhrU1dzeXR4TGJveW92WktkQW1jbEQ2ajJjLW5uNFZTei15?oc=5",
+     "source": "BW People",
+     "published": "2026-11-17T06:42:25+00:00"
     },
     {
-     "title": "Two-Wheeler Stocks: Hero vs Bajaj Auto vs Eicher vs TVS",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVJOSFlBZ2k5QmRuMWFyVmNuc3BENkNOQkpUbFphVFFsMFB6SXpFUDJ1LWR2TVFPT3BWQXp3ODBrRmU2SmtWamRDdjBlRDBoTDRyMkg1ZGFNUFQ2QWw4ODVNdWR3ZTJGbUp6OWEzWkU0ZWsyNnpnRWxIMEpRYUgyODVFWWRDa2FzUzhnemtobmpmdTdTbkhyNGlMOF9ZT3VBY2s3OGhBZ1g0NXJCZkFqME5mZlI?oc=5",
-     "source": "Univest",
-     "published": "2026-11-17T04:59:00+00:00"
+     "title": "Axis Bank Limited Mutual Fund Holding Reaches 34.15%",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb0JNbTZvWFRrUkt4elV6WFJYY0VaVjRYVE9fMldxVjlKZU9GRklyYnFablNYWmlwMmFHR0pQNDlJZm0wMXZlanppTU1PZ3BFWF85WXZ0ekhabEZBVkl1V3J0c0NxYzByWl9NUFRaOE1IREludmhVRjRwa2FzcEp5UmFCN3BfbXNLdWJaUlgzQnBiX1JWRFg5QXlEMzVWcXZfNEVia3pB?oc=5",
+     "source": "Multibagg AI",
+     "published": "2026-11-17T04:57:25+00:00"
     },
     {
-     "title": "Bajaj Auto to host Nuvama Group investor meeting in Pune on December 8",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdW84RXdPQl9WQWRqYy04ODhRdWFmQzVLczhza2NuZUV4WjNBY2ZIQmF6UWpZbjBpWWVlMG9fVV9nX05ETmFHMTl5YnNPVkxmRVFlTkthS21JYzRrSm1YcGxYZE9XT1VCb1hpMU14d2g1bkdHelZteGJDVnU5MEg4TkM1ODJkTXVDTm5hM1FkcnJtM3RNUTlyU3JIYlpFZWQzMzA4VlVpcmFFS2NxVlI5aktvUFBUUUV4NkE?oc=5",
+     "title": "BlackRock holding in Axis Bank crosses 5% after on-market buy",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPY1FHcmlVYkRlU1I1S2k0RXd1cm5ZTmdwZDlmWFpBM2xVLUVvbjRZRi1OYldSTTAyVU1uOWVwNzFfMklHZmd1eEhZc1llTXJzby14cmFWdlFEV3VkYVRNQ2VXRS0wZC1VX0FqMlQwWGFvVHNqUWYxNU5qem13bVQxb1ZjUDE3d3ltYllFWHVheER3WEVVNGFCQ3l2LWltcjY4SnU4WnozRng?oc=5",
      "source": "scanx.trade",
-     "published": "2026-11-16T12:12:57+00:00"
+     "published": "2026-11-17T05:19:16+00:00"
     },
     {
-     "title": "Top 10 Two-Wheeler Brands Oct 2026 - Honda, Hero, TVS, Bajaj, Royal Enfield",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTS1aUFNiT3BDbWRYS19iQVFiX3dzV3FGVDJvYkFRdWlGTjYwZmxqTG1Qd3J1VTEtRHJoWkxkbnduNHNna1N6SGhuOW82cFItN3ZQTTktc2pGSGJ1VGdkeEVTSUtMNHFIU3BOX0ZzN1RCU1NEMjVNVWV4YnhkNTNsalJndkhlTDg5V1M5OEJndW9tTGlXeGlCN9IBmAFBVV95cUxPTS1aUFNiT3BDbWRYS19iQVFiX3dzV3FGVDJvYkFRdWlGTjYwZmxqTG1Qd3J1VTEtRHJoWkxkbnduNHNna1N6SGhuOW82cFItN3ZQTTktc2pGSGJ1VGdkeEVTSUtMNHFIU3BOX0ZzN1RCU1NEMjVNVWV4YnhkNTNsalJndkhlTDg5V1M5OEJndW9tTGlXeGlCNw?oc=5",
-     "source": "Gaadiwaadi.com",
-     "published": "2026-11-16T10:00:40+00:00"
+     "title": "BlackRock Axis Bank holding reaches 5% after market purchase",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdmE3NEs5NkUzUEhEQWZ3d1doNGRZT2NKakEybVJXVEVHSG1vN2Y5ek91ZjItV281Yi1CeU5KbjI0aGJkVkloNVktZTExOHp1VzlUQUN4X2pFMHJnX0NHZVp4YVpUT3o5MGxvQ1EzUFBKandpQ2VuaFkzVHlhSnZvSHMxZzhLUUM0c0pHTFUyNS1nM21qSTNQR29INHFaNFBVaXVUMEgtOXVLZUFjelRTZ1l6cENrcDdmU1RVM2NB?oc=5",
+     "source": "Multibagg AI",
+     "published": "2026-11-17T04:57:57+00:00"
     },
     {
-     "title": "Bajaj Pulsar 180 Discontinued Again After Six Months of Relaunch",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwRjdTNm5wZnlUTnF2cmdXMU1nT1BaTVdVdHdpWlRsbjI5YTN2RmVoMUNEMzJwOTNtZ0MtRTVlUmtCaFRpQjZlbVh3UG42SGM0YTR4MGd1RGhiY0xVQS1WOEJoU2hqbnZOdHpZS1pEbHI2TDBDeXF1OE9feHVtS03SAYQBQVVfeXFMT19aRGhEZHh5cFZiWi1YTWg5SW1xZkw2YzF3V0ZhZ1cweUdKQVl3cUlXdkd2NjYxRXdMd3hJZW9Ca2xadEh1ZERlZmpmVkFPTjRRanpPeUVCWFhvOWswempYLUdzdEpWaUJzVk5MMjRvYjhEeFhxUDhEeFMxd1E5TFRnVnc3?oc=5",
-     "source": "BikeJunction",
-     "published": "2026-11-17T06:08:57+00:00"
+     "title": "Axis Bank is offering some credit cards lifetime free until December 2026",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcWNNWG8wdHNodXl2dEFNeEtHT240cV9yaXZiOElKcFlKSUZrdWNMd1hqWUtqNkpGX2lKLXpGTzdwYnJkMFMxNnlLMmVvbFlTYnBiSDlFU29LTTg2TGhuRjJUMmlHeVhzUklaOGhsc3JCdlVUdE16aERvbUQzUVIwT1lQSUVFa0psZG40aUxla04tRUdLUHBJbm42Q1NHNU84eWxKRw?oc=5",
+     "source": "Live From A Lounge",
+     "published": "2026-11-16T13:26:03+00:00"
     }
    ]
   },
   {
-   "ticker": "BAJFINANCE",
-   "name": "Bajaj Finance",
-   "sector": "Financial Services",
-   "price": 1118.2,
-   "change": 0.74,
-   "vol_ratio": 0.28,
-   "score": 57,
+   "ticker": "BAJAJ-AUTO",
+   "name": "Bajaj Auto",
+   "sector": "Automobile",
+   "price": 10809.0,
+   "change": 0.7,
+   "vol_ratio": 0.61,
+   "score": 59,
    "mood": "Neutral",
-   "why": "Up 0.7% on 0.3x normal volume. The Financial Services group moved +0.2% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 0.7% on 0.6x normal volume. The Automobile group moved +1.2% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
@@ -375,14 +366,85 @@
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.2%",
-     "score": 53
+     "detail": "Automobile +1.2%",
+     "score": 68
+    },
+    {
+     "key": "news",
+     "label": "News sentiment",
+     "detail": "5 headline(s)",
+     "score": 50
+    }
+   ],
+   "sources": [
+    {
+     "title": "Updated Bajaj Pulsar RS200 In The Works, Test Mule Spotted",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUdZQ1QxTDNrZHRENkJUSTdtTHVLdGl2UE8yc1daYlV1MVRKRkg3Q0IzUkFZcllOcGNSZkdtazJsYmxuWXlVZXItZ1ByNTNuUEw5WElxWmRCTFZSa1RfSWxidjBuZEs5aXFjLXl4Zk1HYVJLR0NIOUVjRjBfRzE5cTA5Z0QwYWJmdVdNNVpaemVVVjM0MGJZU2xRMzI1eHfSAaQBQVVfeXFMTXFPR3dmd3hVZ2JYWXl0VXIwZkUydExrVjV6MWdBdjk4UXlDT29kM3FMX0x0dzVTWjUtdEd3eGJsaWNEWENrTUdMV3gyUWtwRzJYYWRaYlRGVWVuZUQ1ZlhBZmVENlIyQWp2bFFSR2dXWXBCak1RWGtqQUJCU09mdVFoUkV1ZEVTVWVqa3JMUGZFbXpmNVFBYmRHckxsLUNLeXVrSlg?oc=5",
+     "source": "Overdrive",
+     "published": "2026-11-17T05:48:32+00:00"
+    },
+    {
+     "title": "Bajaj Pulsar 180 Discontinued Again - Is It For Good This Time?",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDcwbHNjN1NzZE5SN0Ffei1iR291VFNGMHdCRDV4dFppWnl6aHFRNkNpWnNBbV9DOGJuV3JIcjhIVFU3anItc28zaEJDSnNyQVA0OVpqdGdnZUp6NTlOVUNUYmZSQzMtejF1OHYyOWxjUEwybDV2ZnNLc29yTnJOT3pDWV9pb0RNSFVaUEFNUXNpekJ1NzFiVW1kb0dvUHpm0gGgAUFVX3lxTFBwNzBsc2M3U3NkTlI3QV96LWJHb3VUU0Ywd0JENXh0WmlaeXpocVE2Q2lac0FtX0M4Ym5XckhyOEhUVTdqci1zbzNoQkNKc3JBUDQ5Wmp0Z2dlSno1OU5VQ1RiZlJDMy16MXU4djI5bGNQTDJsNXZmc0tzb3JOck5PekNZX2lvRE1IVVpQQU1Rc2l6QnU3MWJVbWRvR29QemY?oc=5",
+     "source": "RushLane",
+     "published": "2026-11-17T02:03:25+00:00"
+    },
+    {
+     "title": "Bajaj Pulsar 180 Discontinued Again After Six Months of Relaunch",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX1pEaERkeHlwVmJaLVhNaDlJbXFmTDZjMXdXRmFnVzB5R0pBWXdxSVd2R3Y2NjFFd0x3eEllb0JrbFp0SHVkRGVmamZWQU9ONFFqek95RUJYWG85azB6algtR3N0SlZpQnNWTkwyNG9iOER4WHFQOER4UzF3UTlMVGdWdzfSAYQBQVVfeXFMT19aRGhEZHh5cFZiWi1YTWg5SW1xZkw2YzF3V0ZhZ1cweUdKQVl3cUlXdkd2NjYxRXdMd3hJZW9Ca2xadEh1ZERlZmpmVkFPTjRRanpPeUVCWFhvOWswempYLUdzdEpWaUJzVk5MMjRvYjhEeFhxUDhEeFMxd1E5TFRnVnc3?oc=5",
+     "source": "BikeJunction",
+     "published": "2026-11-17T05:52:00+00:00"
+    },
+    {
+     "title": "Two-Wheeler Stocks: Hero vs Bajaj Auto vs Eicher vs TVS",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVJOSFlBZ2k5QmRuMWFyVmNuc3BENkNOQkpUbFphVFFsMFB6SXpFUDJ1LWR2TVFPT3BWQXp3ODBrRmU2SmtWamRDdjBlRDBoTDRyMkg1ZGFNUFQ2QWw4ODVNdWR3ZTJGbUp6OWEzWkU0ZWsyNnpnRWxIMEpRYUgyODVFWWRDa2FzUzhnemtobmpmdTdTbkhyNGlMOF9ZT3VBY2s3OGhBZ1g0NXJCZkFqME5mZlI?oc=5",
+     "source": "Univest",
+     "published": "2026-11-17T04:59:00+00:00"
+    },
+    {
+     "title": "Bajaj Auto to host Nuvama Group investor meeting in Pune on December 8",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdW84RXdPQl9WQWRqYy04ODhRdWFmQzVLczhza2NuZUV4WjNBY2ZIQmF6UWpZbjBpWWVlMG9fVV9nX05ETmFHMTl5YnNPVkxmRVFlTkthS21JYzRrSm1YcGxYZE9XT1VCb1hpMU14d2g1bkdHelZteGJDVnU5MEg4TkM1ODJkTXVDTm5hM1FkcnJtM3RNUTlyU3JIYlpFZWQzMzA4VlVpcmFFS2NxVlI5aktvUFBUUUV4NkE?oc=5",
+     "source": "scanx.trade",
+     "published": "2026-11-16T12:12:57+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "BAJFINANCE",
+   "name": "Bajaj Finance",
+   "sector": "Financial Services",
+   "price": 1120.05,
+   "change": 0.91,
+   "vol_ratio": 0.36,
+   "score": 58,
+   "mood": "Neutral",
+   "why": "Up 0.9% on 0.4x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
+   "confidence": "Low",
+   "explained_by": "rules",
+   "factors": [
+    {
+     "key": "price",
+     "label": "Price action",
+     "detail": "+0.9% · above 20-day avg",
+     "score": 68
+    },
+    {
+     "key": "volume",
+     "label": "Volume",
+     "detail": "0.4× normal",
+     "score": 50
+    },
+    {
+     "key": "sector",
+     "label": "Sector",
+     "detail": "Financial Services +0.4%",
+     "score": 57
     },
     {
      "key": "news",
@@ -405,22 +467,22 @@
      "published": "2026-11-17T02:42:12+00:00"
     },
     {
-     "title": "NBIM, GIC, BlackRock said to invest in Bajaj Finance share sale - Bloomberg News",
-     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOG9BNkp1UkhWT19oTzhsLV9obnZSVTVQR2VCdGFKQUlxLU1xLTRUTGFKQWdvLTlVcHVSbldQR3J2ajAtTTJ0WFNPdnlmRHNYN3pxMEVDNlJ0ejRrRXVHNkRFa0JTdjA0eFNoZWZNOVlnR1FOQ2dDV3NoMmpTR0hqc0NQbjliaFlfaFY2OHZ0bkR2U0I1VmplMW9RTWxmbjRncEZJSWJhU1JLTkZvYjZGQjdOR2RoRUNCV2JRX2hBcFNHU2h4aVpQTFd5NG9TS3NIUm94U09mcTlKb3d5V29r?oc=5",
-     "source": "TradingView",
-     "published": "2026-11-17T06:10:00+00:00"
-    },
-    {
      "title": "Bajaj Finance Raises INR117 Billion Through Qualified Institutional Placement",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWXMweHNuYmF1alY1UVJwX1A1LVE0aWhKQ2VIdGtTcUFFZHRLWkR1LTdidTJkb1dZQjVucHlGY3JVYjEyVlZxbFY5N1J2d3JKbFh4OEtSQXZMY1lRUktyVUpfendOSDZINUpqTERjNGVnUnByM1BJcEVQREl2LU51OVF5X3AwQmkxN3BRbDl4MzhaaFNZaFFwZWJaVmd2aVp0WXJJVGpCVWxlX014ZHdHVUtvTDZQQzFKYjM1X3JUQjh4bTZzaFppZzFn?oc=5",
      "source": "marketscreener.com",
      "published": "2026-11-17T07:17:04+00:00"
     },
     {
-     "title": "Bajaj Finance Limited allots Rs 11,700 crore QIP at Rs 1,025",
-     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQSDh3Z3JCemwzWXRqRkJhbXFWWnYzX1dsN1lRMDlYU3U1M050SWhUUmZoWDhkbXRybm1QeWNfbC1BUHlNaE42c2VwR0JMNWkxN3dTdGFSWmlKbjZacmNvN3lzV01WMjNsQ2FzbFFleWp1c2xsdUlUSjFkYURFU3ZmdzZ4WGJpb2FvRi1XNEhHaXBjeHBaYThBa3QzblRiWXJxc1ZjM2ZvLWc5T3dTUnMySm5iY3FHbkxUVDFv?oc=5",
-     "source": "Multibagg AI",
-     "published": "2026-11-17T02:53:42+00:00"
+     "title": "NBIM, GIC, BlackRock said to invest in Bajaj Finance share sale - Bloomberg News",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOOG9BNkp1UkhWT19oTzhsLV9obnZSVTVQR2VCdGFKQUlxLU1xLTRUTGFKQWdvLTlVcHVSbldQR3J2ajAtTTJ0WFNPdnlmRHNYN3pxMEVDNlJ0ejRrRXVHNkRFa0JTdjA0eFNoZWZNOVlnR1FOQ2dDV3NoMmpTR0hqc0NQbjliaFlfaFY2OHZ0bkR2U0I1VmplMW9RTWxmbjRncEZJSWJhU1JLTkZvYjZGQjdOR2RoRUNCV2JRX2hBcFNHU2h4aVpQTFd5NG9TS3NIUm94U09mcTlKb3d5V29r?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-17T06:10:00+00:00"
+    },
+    {
+     "title": "Bajaj Finance share sale draws BlackRock, GIC and other global investors",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONUc4dDFjYUZEb254RXQwc3EwbTc0QXB0Mzc4QWo4dU1pdmRPRDRueE81VmNobzhQNERJVDA0Rk1hcHZWN28wTzI5ZzNGVDFqZkltVWstbGZqWTYycnR0ci05a29vM0VTNjd0Umo0YmJ1Q1lnRWlvQ0RDVzZObzZIYjNycVhBbTBoSjA1YnU1QjdoTmwtN21sR0pjM0ExeDA?oc=5",
+     "source": "Traders Union",
+     "published": "2026-11-17T06:10:26+00:00"
     }
    ]
   },
@@ -428,13 +490,84 @@
    "ticker": "BAJAJFINSV",
    "name": "Bajaj Finserv",
    "sector": "Financial Services",
-   "price": 1858.9,
-   "change": -0.33,
-   "vol_ratio": 0.31,
-   "score": 51,
+   "price": 1866.7,
+   "change": 0.09,
+   "vol_ratio": 0.41,
+   "score": 42,
    "mood": "Neutral",
-   "why": "Down 0.3% on 0.3x normal volume. The Financial Services group moved +0.3% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
+   "why": "Up 0.1% on 0.4x normal volume. The Financial Services group moved +0.5% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
+   "explained_by": "rules",
+   "factors": [
+    {
+     "key": "price",
+     "label": "Price action",
+     "detail": "+0.1% · above 20-day avg",
+     "score": 56
+    },
+    {
+     "key": "volume",
+     "label": "Volume",
+     "detail": "0.4× normal",
+     "score": 50
+    },
+    {
+     "key": "sector",
+     "label": "Sector",
+     "detail": "Financial Services +0.5%",
+     "score": 58
+    },
+    {
+     "key": "news",
+     "label": "News sentiment",
+     "detail": "5 headline(s)",
+     "score": 5
+    }
+   ],
+   "sources": [
+    {
+     "title": "Bajaj General Insurance Appoints Ankur Gupta as Head – Reinsurance",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNU1k1WlQ1QVRrX2ZYdGFqbWU4ejk4aVNaRkhSUHluUDNLU1N1VVFFYVR1clpaMW1ZQVFGU0sxS0J0Q0dhX0ZpREZUeUd0YXdBY2FoQ29VMGk4NzNwTm9RekpsQ2E5LWwzamt3eGVlY05QdDVjd3pNckNad0IydU5VNzVFS0FuTGFQXy1TUQ?oc=5",
+     "source": "https://hrtoday.in/",
+     "published": "2026-11-17T05:56:38+00:00"
+    },
+    {
+     "title": "Bajaj Finserv falls Monday, underperforms market",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGVYc294emNEamYweERSRllZNUJlUXFCUkdQQVlKcTNnTUhsVVpyaVM0M2pMYlhqSEpyb3VqNWFGWGtkaWNUejBKQXVKcnd5cW1CeUU2bnNVUDloWDZOUTVSSjhST3dseExtSzd1ZHk5SjkxQk9DZkFWX2RkOTVXMXR5ODJrdUVlanlFM0Q0UHFPNVZSQmF4bEdyaEN3UGtYbldYTlJ3?oc=5",
+     "source": "MarketWatch",
+     "published": "2026-11-16T10:33:00+00:00"
+    },
+    {
+     "title": "Under Rs 1962 Stocks to Buy in Nov 2026: Top 5 Picks",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZLVhBOGE4QWtvQjFyMmxaa3dYWFFib0U4MmhTQTlnS0lDalY5V1UybkJuWmNuOUxFaWl2bmJkXzJTMmFMRGhNS1ZqbHN0X0F5U2ZKNWpyWk9JM1ZvOW9OdERR?oc=5",
+     "source": "Univest",
+     "published": "2026-11-16T09:27:00+00:00"
+    },
+    {
+     "title": "Bajaj Finance closes ₹11,700 crore QIP, allots shares at ₹1,025 apiece; stock in focus",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeTlMRGRGVi1sSGstQWJncHVlZnUyR3pUWXhYc3BmXzdwbGhZOExndG1TT2w4QUxGaTVPSFFyb1djbFRrdldDU0t6WTlLOXluaUpGckdsYmxzRDZpSlpCX3ZWREx1ZlROTzRrZTFQVHRUUVcyOGhiTkpPZmN2d2NaSmVFQWVCaHZBWDhobkhlb3JEV0dVdk5nZEk4ODN4V1RaOEtZNTBLUjVzODY2eFUwOHRXWEwtbFZJYzZfaE5jQdIBxAFBVV95cUxQTkNheWs5MFYtZ1ZEazBuaS1CbjJVUDAzTGpVc1NQeGlOM0FrcW9yQ0g5MTBoQlpPRFY5YlNqUFhDVmdYOURlTDJvRUJVRm5xWFlwZy14QXdGcHRmUFpHYlU4TUhDYzVyZ0FSa29TSEMtNUhjdklDeWdNS1o5a25iZm5GQkhHZ0tKd0Y2NUc0MGRJUi1WRTRDMV95UC1TaW9SUUV5RnIzb0RfWG9iOVhRbklXbzRuejFqeVdyNVFaVXpfR2lM?oc=5",
+     "source": "CNBC TV18",
+     "published": "2026-11-17T01:20:20+00:00"
+    },
+    {
+     "title": "Bajaj Finance Opens Rs 11,700 Crore QIP at Rs 992.25 Floor",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZ1pORVp3UE1ubmRGaC1HcUVlOVYwajRfXzhUcENOT1lPRGJsMmY2UWZIcFh1RXpDblVqSFlwRW0zS0xQQXFUTnN4akk4aWxMSWxjVWg2WTNKcHdralNMQkNOODduX3hOLVd2dDJCQlZZOV9jc2IxekZmd1d2TzJVVC1kekowWHQ5ZWQ2MGRPM1NpVUoxbmdhX3ptd0tOdFFXWlNMUw?oc=5",
+     "source": "Multibagg AI",
+     "published": "2026-11-16T18:22:48+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "BEL",
+   "name": "Bharat Electronics",
+   "sector": "Capital Goods",
+   "price": 400.0,
+   "change": -0.35,
+   "vol_ratio": 0.41,
+   "score": 52,
+   "mood": "Neutral",
+   "why": "Down 0.3% on 0.4x normal volume. The Capital Goods group moved +0.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
@@ -446,54 +579,14 @@
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.3%",
-     "score": 55
-    },
-    {
-     "key": "news",
-     "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
-    }
-   ],
-   "sources": []
-  },
-  {
-   "ticker": "BEL",
-   "name": "Bharat Electronics",
-   "sector": "Capital Goods",
-   "price": 397.45,
-   "change": -0.98,
-   "vol_ratio": 0.33,
-   "score": 47,
-   "mood": "Neutral",
-   "why": "Down 1.0% on 0.3x normal volume. The Capital Goods group moved +0.4% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
-   "confidence": "Medium",
-   "explained_by": "rules",
-   "factors": [
-    {
-     "key": "price",
-     "label": "Price action",
-     "detail": "-1.0% · above 20-day avg",
-     "score": 41
-    },
-    {
-     "key": "volume",
-     "label": "Volume",
-     "detail": "0.3× normal",
-     "score": 50
-    },
-    {
-     "key": "sector",
-     "label": "Sector",
-     "detail": "Capital Goods +0.4%",
-     "score": 56
+     "detail": "Capital Goods +0.6%",
+     "score": 60
     },
     {
      "key": "news",
@@ -503,6 +596,12 @@
     }
    ],
    "sources": [
+    {
+     "title": "Sheild Your Portfolio With Defence Stocks: Four Companies To Watch Out For",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaWRySGhPZlFUWlFodjFST0pTa1U0aFZGcVRwMEZabkdnTWd4ZmZ5bEdMc3Jna1Y3cm5DN0ktaWFVNjVZV21rcEowUVA1VTZOUEMtNl9vZ0cwalFUTDRMX2FGUVJ1Ukt3bmplTFVINVA1cmc5S3UyYXFCck1CcmFZb1NpWG9vcW5vYkh2dFlQNFV4V3FMcDZVR2F5TkZ0bnJsSFRIVFowbnhOZFo4UHI3VlgxOU8yN19hRmowNDhnWVVlejBTODJXampjdHFfQ1UtX2fSAdoBQVVfeXFMTmNLVF92TW0xUG5zQmJFLVlyY2RJcXVmZmR6cWhaVTV4Q0ZyQ2N6TEFRNUxNYlRITS12WUoyWTkyTmxwX2dFdWZ1SkJRWEJqWF9TT1MyZkNDZ1U2WGZYV005a1lyajZNckt5cG1aYmU1MWpHQ2x2WXEyUlNWYnBFU3U0bVdfRmx1ZUdBYmFMZk1sOFdTVmZEdXdzSThRTVZKX2c4RnVrLXZFS0pBVjdiR0RGLUdyX1RRcHdFcXRNOEVmRm43WWV5dGdtbTBZY20xY0tOYXBYSzQyZXc?oc=5",
+     "source": "NDTV",
+     "published": "2026-11-17T07:43:59+00:00"
+    },
     {
      "title": "BEL Share Price",
      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44WFByaXRzWFpibVRlQnNwRXltYjJ0d0gzaVJ1dEVCSUJUeVFKWnpqdVNPemtrRTFoQ1ZVa2hHLUIwbkJHUWZoWXI5MmNjOXJZRXRNNmNJSXg1ejVhX201MUhiMmgwRjV4SThMaW1R?oc=5",
@@ -526,12 +625,6 @@
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOT05XWjFOUVVBcEx3ZGpoT1dyZlhUUWVfSVpGSWxHMHNaY1FFTVp3TzNIRTdoeW16OGlaN1FYbXRMLTFHbHR6cU5uMVBNZnVjejI4S1dUWW45NTRpUXpOdlQtdGdIaVc3dmhkelMwMHR3RUd5bGk5c2VFUGgwSi0wUXlzTjVacDFRVHpWUnIxcGhuX1NmdU9XaGNZaVdqVHhNaE1lZkJXMzZYXzFqVHNKTzlMUDNqX3ZFV0lJVVVzODZXbUFZQmRj0gHMAUFVX3lxTE5ZeDkyRFhoYS1ZV0VmYl9yMVd0cFQ0SFhuOEthcVA4V2VsUm4wamU2czVTa0kzYmkzbzZrRmlEN1U3cnIwU21xYWV2dVR1aC1ZT1AzZXI0VllZYUFwWnBJbDNBVUNhcGJyNzJKdEw4UzFzRHl4U3BJdDB2ZDl5QWxUT01fZG5vWkRtU21lTzU0MHl5R0U2SjdLZnNYLUJDdl93QWlsY09MYkhOTlZuU0llUWlXUksyd1lKRzlrZlVJRWpzSERUY1l5STVXSg?oc=5",
      "source": "CNBC TV18",
      "published": "2026-11-16T10:43:08+00:00"
-    },
-    {
-     "title": "SBI Defence ETF Fund of Fund opens today: 5 stocks account for over 53% of its portfolio. Should investors subscribe?",
-     "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNDlzb1YtOEtJUkJnb09ZekpFNTFaVTZDeFlQMndwT3pBTE9tQWZCWmF0a0dHTDFmc2dLb3dJN25ZbU1DLW14NTNOVTAyTUFzRnIyS1FldzJfd19yWV9rRDRRSEpNWGtJYlBBMlVoNzlkdU8yQ2JYWjBxNlRpbGxRSzhpdnhNam16VS05TWpJbkU1ZG12ZWFxb2ZHSjhsVTlndDgtcGRwYkZpWkVHR3NLVGQtYjhvcFU0SXo5bUJ2eWtZSjFpZnV4S2FHc2RYWm5McjIzWlRUTHRzcVI1ajVraDgwT191NXJBZzkzaEJ2aUhmc0prSFhfTzlZLXlsVUlQaXM2YmtiTkQ2TzV2UXfSAZMCQVVfeXFMUFZRSm1GOHZRY3F0NkZEeDAzaTdZWERrdEtZUE9hdm1ZbWoyWkgwUVdfOUtDcFczTXI0WEh6c0c2X3FCTjVybHZxT3RDc1UtSFJSVTlfSGNteThULUFaZmVYb0hRZGRmSzNpbDh5QTQwYjVoUU42RXA0YlNlaGFkeEFxRUlhaHc1ZGU5VDFnVkc0dkRBaHMwUm1JNUoyWjVyZWRFallEdVZ3b2hiQk0xcEhSS1psRDdscFhJSVBva2RPVExSUkJpNTlSeFY3eDlYZWp6RWFwSGtRZTk4UnZZb2RYWDF2ZTVwcTFxMzU4SDVObHFWd3g3T1VLejJmRDJ4ZS02LUdnamRmRGJZNnhGLTdSdUU?oc=5",
-     "source": "Livemint",
-     "published": "2026-11-16T13:00:04+00:00"
     }
    ]
   },
@@ -539,12 +632,12 @@
    "ticker": "BHARTIARTL",
    "name": "Bharti Airtel",
    "sector": "Telecommunication",
-   "price": 2155.6,
-   "change": 0.1,
-   "vol_ratio": 0.37,
+   "price": 2156.4,
+   "change": 0.13,
+   "vol_ratio": 0.43,
    "score": 65,
    "mood": "Bullish",
-   "why": "Up 0.1% on 0.4x normal volume. The Telecommunication group moved +0.4% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 0.1% on 0.4x normal volume. The Telecommunication group moved +0.6% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
@@ -552,7 +645,7 @@
      "key": "price",
      "label": "Price action",
      "detail": "+0.1% · above 20-day avg",
-     "score": 56
+     "score": 57
     },
     {
      "key": "volume",
@@ -563,8 +656,8 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Telecommunication +0.4%",
-     "score": 56
+     "detail": "Telecommunication +0.6%",
+     "score": 60
     },
     {
      "key": "news",
@@ -610,72 +703,103 @@
    "ticker": "BSE",
    "name": "BSE Ltd",
    "sector": "Financial Services",
-   "price": 3889.0,
-   "change": 0.04,
-   "vol_ratio": 1.51,
-   "score": 54,
+   "price": 3858.7,
+   "change": -0.74,
+   "vol_ratio": 1.74,
+   "score": 47,
    "mood": "Neutral",
-   "why": "Up 0.0% on 1.5x normal volume. The Financial Services group moved +0.3% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
-   "confidence": "Low",
-   "explained_by": "rules",
-   "factors": [
-    {
-     "key": "price",
-     "label": "Price action",
-     "detail": "+0.0% · above 20-day avg",
-     "score": 56
-    },
-    {
-     "key": "volume",
-     "label": "Volume",
-     "detail": "1.5× normal",
-     "score": 50
-    },
-    {
-     "key": "sector",
-     "label": "Sector",
-     "detail": "Financial Services +0.3%",
-     "score": 54
-    },
-    {
-     "key": "news",
-     "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
-    }
-   ],
-   "sources": []
-  },
-  {
-   "ticker": "CIPLA",
-   "name": "Cipla",
-   "sector": "Healthcare",
-   "price": 1389.7,
-   "change": -0.34,
-   "vol_ratio": 0.35,
-   "score": 51,
-   "mood": "Neutral",
-   "why": "Down 0.3% on 0.3x normal volume. The Healthcare group moved +0.2% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Down 0.7% on 1.7x normal volume. The Financial Services group moved +0.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.3% · above 20-day avg",
-     "score": 50
+     "detail": "-0.7% · above 20-day avg",
+     "score": 45
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "1.7× normal",
+     "score": 39
+    },
+    {
+     "key": "sector",
+     "label": "Sector",
+     "detail": "Financial Services +0.6%",
+     "score": 59
+    },
+    {
+     "key": "news",
+     "label": "News sentiment",
+     "detail": "5 headline(s)",
+     "score": 50
+    }
+   ],
+   "sources": [
+    {
+     "title": "BSE Limited (BSE.NS) stock price, news, quote and history",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5vMm53a3Ayajdfc1RCZnJHUmpndmN3cEFQeUFCYXFNWVF5WDVqNl9LU1FTSWVMM2ZTb19zRmNlTEZ2X3RfZHVYTjF1REVjNXp6Z0RKZA?oc=5",
+     "source": "Yahoo Finance Singapore",
+     "published": "2026-11-16T14:22:28+00:00"
+    },
+    {
+     "title": "Buzzing stocks: BSE, RRP Defence, ACME Solar, Dixon Tech, Lemon Tree Hotels in focus",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQ3B0VlF6NjVuNWNmYUg4TW4yV0M5RC1kWHZabzFMcmlVekJpa2wzU0p6anhpNVlGR1dKdDJGZFNZMFU2dmJ4Z3N0aks0ZTI4UTJDQTJ3QjQ5bm5qZ0YzUDNXcE5OVk1FYm1oV1JOdEN6cGd5LWZJLWxpRWp3SlhxdFUxbmpmTXdLMjVMV2V0cG5oM1JJcmc0ZGt0dTVjRnVvczRRUXlYVXVyZHBCR3g0MDgzbHRQQ01OZVBpMDhRdUlIZzdlQXpfVmY1VjZ4LTM5VkE?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-17T02:12:00+00:00"
+    },
+    {
+     "title": "Top Gainers & Losers Today, 17 November 2026 at 12:00 PM IST: Asian Paints Ltd Leads Gainers",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWpjbVF6aVhtSDllcmh6ajllQ054czA3YnNXblpBNnJERjFybmtzWGVMcTlOUFlzNTBOS1JZMFByMzMyUmlEV3pkNEFQWnVRSmJPT20tdEQyNnRkUlFOa0Qwc24wOHJFdnd0QUJNQVdHTURuejhPb01ZYjRoSGQzQQ?oc=5",
+     "source": "HDFC Sky",
+     "published": "2026-11-17T06:46:23+00:00"
+    },
+    {
+     "title": "BSE shares in focus as BANKEX becomes first Indian sectoral index futures contract approved by US CFTC",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNVWplcXpZaVdiV1BqQmgtUDRPal92REZJbmkwTkhzNFIwQ0dNNXB1Sk9YWTh3bS1GQ2xUVUY0YUY3bV9uMzVPUUhxRlN0NUx6bS1BcTRUV0xYaDlsYWI4RFNfZk9FM01FelVwNTc3cDBIZTRXY2hqVUE2ai1zZFV6OHY1WXkyck9Ud29MVnFFMWlPcGNlcGoxc1ZhNVZJZkVfSDRVQXNqbTZReDlTWWFKZGI4SEZxdllMY0FGS19rWVI2UVFTcjBWRnRPMWNsRmc0QUpFNWNmZ2N5Y2tqZUpmNlVJUy10Z3VYblZnR2lES2VuT2s?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-17T03:22:22+00:00"
+    },
+    {
+     "title": "BSE Ltd is Rated Buy by MarketsMOJO",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQnVlQlc4OXlfeHhReFhicDBGVzJ1YWxKUEZ0bGh2eW5zekFTQ3ZPSVVKZ01IdVBma1NrRnRmampsVFhWOWN5OXhtNmFIUklBclE0a2ZJRXBWaDJkR1NZQVMyRDBlM1JQXzY3VjYzWi0tdXo4dG51N1FTcDhtWHhQTDdoRk1KQkNUZHpZdHRZM1hiQ3F6UE1nSFhtMVp6QQ?oc=5",
+     "source": "MarketsMojo",
+     "published": "2026-11-17T04:10:29+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "CIPLA",
+   "name": "Cipla",
+   "sector": "Healthcare",
+   "price": 1389.0,
+   "change": -0.39,
+   "vol_ratio": 0.45,
+   "score": 51,
+   "mood": "Neutral",
+   "why": "Down 0.4% on 0.5x normal volume. The Healthcare group moved +0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
+   "explained_by": "rules",
+   "factors": [
+    {
+     "key": "price",
+     "label": "Price action",
+     "detail": "-0.4% · above 20-day avg",
+     "score": 49
+    },
+    {
+     "key": "volume",
+     "label": "Volume",
+     "detail": "0.5× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Healthcare +0.2%",
-     "score": 53
+     "detail": "Healthcare +0.4%",
+     "score": 57
     },
     {
      "key": "news",
@@ -721,32 +845,32 @@
    "ticker": "COALINDIA",
    "name": "Coal India",
    "sector": "Oil Gas & Fuels",
-   "price": 389.9,
-   "change": -1.91,
-   "vol_ratio": 2.29,
-   "score": 32,
+   "price": 390.85,
+   "change": -1.67,
+   "vol_ratio": 2.62,
+   "score": 35,
    "mood": "Bearish",
-   "why": "Down 1.9% on 2.3x normal volume. The Oil Gas & Fuels group moved -0.4% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
-   "confidence": "Low",
+   "why": "Down 1.7% on 2.6x normal volume. The Oil Gas & Fuels group moved +0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-1.9% · below 20-day avg",
-     "score": 18
+     "detail": "-1.7% · below 20-day avg",
+     "score": 22
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "2.3× normal",
-     "score": 31
+     "detail": "2.6× normal",
+     "score": 26
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Oil Gas & Fuels -0.4%",
-     "score": 43
+     "detail": "Oil Gas & Fuels +0.4%",
+     "score": 56
     },
     {
      "key": "news",
@@ -757,16 +881,16 @@
    ],
    "sources": [
     {
+     "title": "IPO calendar firms up as Crystal Crop, Coal India arm and Watrana Rentals prepare to tap markets",
+     "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNaDZ4eXlmZ2Z5dE1GNlFsZTZzUFh0MFEwTVJKSHdOZkJ3cDdub3hfazg5SWFxakRIZTFIUnNyNU1hMGo1RDNlQkZiYzJyY2tUWjFiX3FzNTZCcXVkMXBGanVvZXZES043ZEE1emlraUdMNUxVUzRLb2Vab0pVcUQwMVp1QjRBX20yRVhlOEdHNGt2QlRiRWI5VGJCcWY1YzhwX1ZwMUhfTEFhdVBnZU5lcFdkM050Y3dZY3U5R2NsWUpsZ1V3aVpjb2F6RFdVQ3NrVEg1X1JiNmxPaDdjaWJ1eXpoeXB6RWI0MGRNa3hvTHB1M3pwX1FibWtsdzRiNEtfTktFaE1VMNIBjAJBVV95cUxPSWpsNTFRdFFWbjlHTU43YXBDUnQwMzlHTXdIOC1POVl6OWtxM3J2bHBoZzR3empET3M1djJKbXBHdF80NXVHZWd1dGxxdERSQUVZYjJYVDlRaV9EZ0t2VmVPaWVVQUNTUkdGQzhmaTIzNE5aQWxIRGpoLWRqMS0yd09zN3pyeExlMTJyVXpFMWh2Z2Jmb2xaMldzU01ocnhEX2IzTE1INEllZzFRQXBGYUlZYlRVVF9DV0NHMGhXM0NaVzNER3k5UGEyYjFhQ1hnSmVrU2R2OU5nTlIwVy02eU5mRmFYWWZ0ODloNXNLZVZWemJ4OHVRUGJ1d3ZEcFF5Y1F4SFpyVmF3V1Nq?oc=5",
+     "source": "Indiatimes",
+     "published": "2026-11-17T08:08:23+00:00"
+    },
+    {
      "title": "Mahanadi Coalfields IPO review: cheap price, shrinking profits",
      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORDE3SXYzUDF5ellmdUI2VWlfTUY4bk5VbkpCR0Y3bUxyTEhXMkpuVWlqZURwcTNXdEFiWVo5VmRRZGJaYkVsNFJEckp5MndRZmNRVFJSTFFYRGtnbGxjbUh4cTVTVWx5NDZKS2xoNzVpVmVsc3RJb0VYRFlNbjRyYktubFd5SF9xU3c?oc=5",
      "source": "Value Research",
      "published": "2026-11-17T06:42:41+00:00"
-    },
-    {
-     "title": "Coal India's Mahanadi Coalfields Sets IPO Price Band, Targeting Up to $9.55 Billion Valuation",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtSlRETHgzT18zZlNPNXJRbFZDMlo4Y1ZTSFFncHJfT0hLTWhwbi16ZnRsazBvNS12VWV2bzZzTDY1eFVEN290bENETzk2OUdpaWlHZ19ZclR4amhTZVp5bTlLRUdTSW43X3RLdTdZYW9iRERsREE?oc=5",
-     "source": "BigGo Finance",
-     "published": "2026-11-17T00:25:00+00:00"
     },
     {
      "title": "Coal India’s Major Offering! Mahanadi Coalfields IPO To Open On November 19.",
@@ -775,16 +899,16 @@
      "published": "2026-11-17T06:00:38+00:00"
     },
     {
+     "title": "Coal India's Mahanadi Coalfields Sets IPO Price Band, Targeting Up to $9.55 Billion Valuation",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAtSlRETHgzT18zZlNPNXJRbFZDMlo4Y1ZTSFFncHJfT0hLTWhwbi16ZnRsazBvNS12VWV2bzZzTDY1eFVEN290bENETzk2OUdpaWlHZ19ZclR4amhTZVp5bTlLRUdTSW43X3RLdTdZYW9iRERsREE?oc=5",
+     "source": "BigGo Finance",
+     "published": "2026-11-17T00:25:00+00:00"
+    },
+    {
      "title": "MCL fixes IPO price band at ₹129-136; Coal India to raise ₹9,000 cr.",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOeUZmV1Y1al9jdXV5cld1a2Jkek03RFMzS1B1ZE9mUVFCTWtONjd6TzlUUncxVzVvNk41N3oxSGZfcFVlN3pLcU4ybUJpTGZEZHFMU29uaWxodTdJM1h5cjl2R3d3aDl3SEVVdURjOE9hUTNXcFlrTDhkd0Qxa2prbTJlcDY0X3hRNy1yVlFvalJTOUhYZERoOGladVdFdENodmZXNTJWbEJlaGtwQk9NRVpkdUtMZkhjZGNsZUxGVlV0Q3Z20gHLAUFVX3lxTE5Kb1hXX0N3X1Buc0l2enE5SFd4SWdOMlFYU0t5TzR6aXVtdUtLaklNbDJjYmt6MU9EdVR6VUdvb0tWV1NzMnVKdGVhbTVZTFJOQzhwSUVLTmhiaUZPeVRqZ09GbmZlMHltN2psLU5yUXpCSkZiSDU0RGloMmpkV0ZYanNzMmpLdUdhZkFKQllodld4ZDBidHlZVUY1dTVkOGtSY3pOUzBhdkxuYzBBajlYQTR2TEVQWFVqUzFsMjR5c214ZFdfdDk4eXMw?oc=5",
      "source": "The Hindu",
      "published": "2026-11-16T15:42:19+00:00"
-    },
-    {
-     "title": "Mahanadi Coalfields sets price band for proposed IPO",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTzNDSkJ6RlZ3R0ZIZk5uVkVON2xpR09jTVZsQll5ejkyUWhjMUcwMGpONXE3bnRZTVZQTC04OWhFLWJsMmNCd0s1QUtydVgwbFEtSm5tNC1sNXA1Z2stRFZpODNiRGV2SkdWMEQ3cTZ1cnVtaUNRS3NXYmplT29sdGhSVUN5dGgyc01YclNyZjBoa25EblE?oc=5",
-     "source": "Powerline Magazine",
-     "published": "2026-11-17T04:38:31+00:00"
     }
    ]
   },
@@ -792,32 +916,32 @@
    "ticker": "DRREDDY",
    "name": "Dr. Reddy's Laboratories",
    "sector": "Healthcare",
-   "price": 1379.7,
-   "change": -0.02,
-   "vol_ratio": 0.21,
-   "score": 52,
+   "price": 1385.9,
+   "change": 0.43,
+   "vol_ratio": 0.32,
+   "score": 55,
    "mood": "Neutral",
-   "why": "Down 0.0% on 0.2x normal volume. The Healthcare group moved +0.1% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
-   "confidence": "Medium",
+   "why": "Up 0.4% on 0.3x normal volume. The Healthcare group moved +0.2% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
+   "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.0% · above 20-day avg",
-     "score": 55
+     "detail": "+0.4% · above 20-day avg",
+     "score": 61
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.2× normal",
+     "detail": "0.3× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Healthcare +0.1%",
-     "score": 52
+     "detail": "Healthcare +0.2%",
+     "score": 54
     },
     {
      "key": "news",
@@ -863,32 +987,32 @@
    "ticker": "EICHERMOT",
    "name": "Eicher Motors",
    "sector": "Automobile",
-   "price": 7770.0,
-   "change": 1.57,
-   "vol_ratio": 0.79,
-   "score": 73,
+   "price": 7827.5,
+   "change": 2.32,
+   "vol_ratio": 1.07,
+   "score": 78,
    "mood": "Bullish",
-   "why": "Up 1.6% on 0.8x normal volume. The Automobile group moved +0.5% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 2.3% on 1.1x normal volume. The Automobile group moved +0.8% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.6% · above 20-day avg",
-     "score": 77
+     "detail": "+2.3% · above 20-day avg",
+     "score": 87
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.8× normal",
-     "score": 50
+     "detail": "1.1× normal",
+     "score": 51
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Automobile +0.5%",
-     "score": 58
+     "detail": "Automobile +0.8%",
+     "score": 62
     },
     {
      "key": "news",
@@ -923,10 +1047,10 @@
      "published": "2026-11-17T00:03:08+00:00"
     },
     {
-     "title": "Eicher Motors shares vroom like its Bullet, stock price jumps over 3%; what brokerages say post Q2; Buy or avoid? Target",
-     "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxObWNUdVBULWRmS1NMbG9qN0NrbVZSclpwencta1ZaUDFTV3NybjJXR1g2c0VtWXllVkthNzlFa1ItdFdoakFmMzEtLWRVSXN5YVJXSEVEN1NEN1BUQ2NBZG9MZGlOenRyUkVSa3MtWXh2aWVXSTBFbHFWcXEwTmo0amZtMEhhZmhoTU10YmJDaXJXQzFIblhHd2lzWmxrcGdjT1RmVE5kbExQUHJLU3Jiam1aWTNUckNqcTFqdzhFYldnc0V2c0Q2Zmw5dDR2Zk55RGx3cGRoT3VBSGRxSUhMTjc0cWpDa2dTQ1BYckIxby0yTUVTWjVDRmk0VGx2V3ZodlE?oc=5",
-     "source": "TradingView",
-     "published": "2026-11-16T08:06:08+00:00"
+     "title": "Two-Wheeler Stocks: Hero vs Bajaj Auto vs Eicher vs TVS",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOVJOSFlBZ2k5QmRuMWFyVmNuc3BENkNOQkpUbFphVFFsMFB6SXpFUDJ1LWR2TVFPT3BWQXp3ODBrRmU2SmtWamRDdjBlRDBoTDRyMkg1ZGFNUFQ2QWw4ODVNdWR3ZTJGbUp6OWEzWkU0ZWsyNnpnRWxIMEpRYUgyODVFWWRDa2FzUzhnemtobmpmdTdTbkhyNGlMOF9ZT3VBY2s3OGhBZ1g0NXJCZkFqME5mZlI?oc=5",
+     "source": "Univest",
+     "published": "2026-11-17T04:59:00+00:00"
     }
    ]
   },
@@ -934,72 +1058,103 @@
    "ticker": "ETERNAL",
    "name": "Eternal",
    "sector": "Consumer Services",
-   "price": 374.3,
-   "change": 0.86,
-   "vol_ratio": 0.73,
-   "score": 61,
-   "mood": "Bullish",
-   "why": "Up 0.9% on 0.7x normal volume. The Consumer Services group moved +0.4% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
-   "confidence": "Low",
-   "explained_by": "rules",
-   "factors": [
-    {
-     "key": "price",
-     "label": "Price action",
-     "detail": "+0.9% · above 20-day avg",
-     "score": 67
-    },
-    {
-     "key": "volume",
-     "label": "Volume",
-     "detail": "0.7× normal",
-     "score": 50
-    },
-    {
-     "key": "sector",
-     "label": "Sector",
-     "detail": "Consumer Services +0.4%",
-     "score": 57
-    },
-    {
-     "key": "news",
-     "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
-    }
-   ],
-   "sources": []
-  },
-  {
-   "ticker": "GRASIM",
-   "name": "Grasim Industries",
-   "sector": "Construction Materials",
-   "price": 3066.0,
-   "change": -0.6,
-   "vol_ratio": 0.53,
-   "score": 42,
+   "price": 374.6,
+   "change": 0.94,
+   "vol_ratio": 0.8,
+   "score": 56,
    "mood": "Neutral",
-   "why": "Down 0.6% on 0.5x normal volume. The Construction Materials group moved +2.0% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 0.9% on 0.8x normal volume. The Consumer Services group moved -0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.6% · above 20-day avg",
-     "score": 47
+     "detail": "+0.9% · above 20-day avg",
+     "score": 68
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.5× normal",
+     "detail": "0.8× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Construction Materials +2.0%",
-     "score": 80
+     "detail": "Consumer Services -0.4%",
+     "score": 43
+    },
+    {
+     "key": "news",
+     "label": "News sentiment",
+     "detail": "5 headline(s)",
+     "score": 50
+    }
+   ],
+   "sources": [
+    {
+     "title": "India’s Spiritual Heritage Remains Eternal Despite Repeated Assaults on Its Culture, Says Tripura MP Biplab Kumar Deb",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdHBOUnQxUE1MNU1iSURLYjNvNlZhMTlSVkZGV3NiZmRRNzJkak5WMVctaXpBaGxGdHBZRmZneU1wY09nUFlpaURWT1V1WkpZUlhMUmN1MGhLbDQ0VXA3ajM4NGZQYldQZjZGNUpUNms4RW9QQ09iM1FlZTV1QUVhSnBVcFVjYTk5dlhNalAzRWdqekpoUS1SdzlHQWlDRFBibDlxYUZoT1pOMEEtaU5JUmdnNnREU21ZQlhWbFhvSnNvUnZOZlBEdXhsNG1IOHV6QUpMM1F6d29GVHpyZWMxa3lQVHhDQjQ?oc=5",
+     "source": "Northeast Today",
+     "published": "2026-11-17T07:42:40+00:00"
+    },
+    {
+     "title": "Eternal (Zomato) (ETERNAL) Share Price Today (NSE), Market News",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA0TUNJaWhnNklqN0tjb2Z3X1Z6U0pWWklnZzZCMExHYzd3RGNDYi1zQVViNi1iT2pBbWE2QmpXTjNhU1ZfWGN2QjBHSlpSa2xkeHAwbTR0S05VT0dQR0laLQ?oc=5",
+     "source": "TechGraph",
+     "published": "2026-11-16T09:59:52+00:00"
+    },
+    {
+     "title": "Swiggy vs Eternal: Which stock has the stronger growth and better earnings outlook after Q2 results?",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObUFxQzc3NVlDaEM1UFdoeWh0eXBqTG56bEdtZ1B2YUY3RFpXb3pYdjVqS0hnR0piXzlhOTE0Ykc4MnpvU1RjMWcyRHRWVEVrMkxPLXFVQzlQanV5aDc1QU1WeXlTWnpQWkNWdHRKRml0ODhJUElyclZhZFZKWlhuMVpiOW5sME93eTJ6N0s5OW5WUEsweFpWVlFTNlBPMnVtZ2VHTXpTV2pYWlFRek1yUWZGM2tkZ3A4TGdrUVgwbUxRSDUzcmkteEZuNEhpLVhscG1vZU5oel81Ty1wYnoxMXVzQUhPU00xN05B?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-16T15:48:49+00:00"
+    },
+    {
+     "title": "Eternal Limits Margin Expansion Via Fee Freezes And ₹49 Deals To Counter Competition",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQblhfWDRLZ1BEY2xLSkNnbHctb3hVdXhnaVFtcERhS2RtR24yWFhxTGViUGozcXZTTmZBRWc5RjJmQUVtVWlienJDM2dDMGFTNU9fXzBkeHlNWmt3ZDBPdXpjSFhsTzF5dWJRaDFUVWV6Y1JwcmY5OXpjTncyTWZ1VG1BdEx6YU40OFlqOTZ2TnBfTnZQMTh5a3djRlFralJaTzFJT1ExZF9mNUZELVE?oc=5",
+     "source": "Sahi",
+     "published": "2026-11-17T04:10:10+00:00"
+    },
+    {
+     "title": "Eternal Rethinks Its 2030 EV Delivery Target as Riders Grow",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNanE3RXZuMDRqWllKZ0ZmRFVOWUFPMXNFdVBqcXE1dzJiYmZBbkh4c0NBMjVEcW5EQ3Z5TlJ1RENFY051MEhMN1hoVXAxNURXZExRRVdCUDI0V1BFWmlLNHZCTzBvZ09kRk1JY2w5S01HVU5qcENmaDFkdEN2aDRFMzVBcjZjREJBbFhCOW5zRE93YmNXOUNaUnFR?oc=5",
+     "source": "Elets Technomedia",
+     "published": "2026-11-16T12:01:51+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "GRASIM",
+   "name": "Grasim Industries",
+   "sector": "Construction Materials",
+   "price": 3072.3,
+   "change": -0.39,
+   "vol_ratio": 0.79,
+   "score": 43,
+   "mood": "Neutral",
+   "why": "Down 0.4% on 0.8x normal volume. The Construction Materials group moved +1.8% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
+   "explained_by": "rules",
+   "factors": [
+    {
+     "key": "price",
+     "label": "Price action",
+     "detail": "-0.4% · above 20-day avg",
+     "score": 50
+    },
+    {
+     "key": "volume",
+     "label": "Volume",
+     "detail": "0.8× normal",
+     "score": 50
+    },
+    {
+     "key": "sector",
+     "label": "Sector",
+     "detail": "Construction Materials +1.8%",
+     "score": 77
     },
     {
      "key": "news",
@@ -1028,16 +1183,16 @@
      "published": "2026-11-17T04:14:40+00:00"
     },
     {
+     "title": "Systematic Industries releases H1FY27 earnings conference call recording",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPejFyTlhkcmZ3ZkdpcVB3RVlObXJXRFg5bkUxSTI5ekVhS2xWLUxXTHRFU21YYWVkc2MwZEdqUWp0bFpyYWFFLVJrc2xyOE5WZWRnS3RLY0pPT3N4eUdGMlEzWFJUM0h6T3BjcUpKNl9SN2RNLS14UDRFeHp4MGE4M2p1SWZWNVhnVGp4MWNmVGRIY3AyWjhZbDh1dlEzeXhuY0c1WTg2UWt4OTFxVjkzSVBhSlBZQTI4WU1j?oc=5",
+     "source": "scanx.trade",
+     "published": "2026-11-16T14:01:53+00:00"
+    },
+    {
      "title": "2.1 Lakh Crore Market Cap Stocks to Buy in Nov 2026: Top 5 Picks",
      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42SHJWTkNORjRhNG9CdkRMQldMTkZnR2lLZVVxYWpPdTBPV09NRUJVbnluTFVqb2tTMDBkN0w4cWE1THpxa3lSdWIwd0RiamVobFdXMmsyaWFjclY0UjJ5VGVoYldvanlLLTZMbklQMkJuMEFsVmJxaVJ6ckdWVEU?oc=5",
      "source": "Univest",
      "published": "2026-11-16T09:12:00+00:00"
-    },
-    {
-     "title": "Lords Mark Industries posts ₹473.98 crore net profit in Q2FY27",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeDZOSlBRYjFad3BvbTlYN1F3WmctZ0pOR2dvWHlQTFpBcUI3ZktqZlp0OTkycUF6V2pmc1FqM09jSExyX2F4OGhLbmRrSmI1ZV9kNllmZk1UUGNLTzZKYlR6Y3V1NlBrOXRxTl9fLWlnZGVhNUxnQUlhZkRpclFqaWJtMk14VHpPUzc2S3BYLVRsZWZzSV9BQXlabVF1ZjF5VFdIV1g5bDhLdmtfY21GM3BxdC1TQQ?oc=5",
-     "source": "scanx.trade",
-     "published": "2026-11-17T07:23:52+00:00"
     }
    ]
   },
@@ -1045,60 +1200,20 @@
    "ticker": "HCLTECH",
    "name": "HCL Technologies",
    "sector": "Information Technology",
-   "price": 1354.6,
-   "change": -2.17,
-   "vol_ratio": 0.52,
-   "score": 29,
-   "mood": "Bearish",
-   "why": "Down 2.2% on 0.5x normal volume. The Information Technology group moved -0.6% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
-   "confidence": "Low",
-   "explained_by": "rules",
-   "factors": [
-    {
-     "key": "price",
-     "label": "Price action",
-     "detail": "-2.2% · below 20-day avg",
-     "score": 15
-    },
-    {
-     "key": "volume",
-     "label": "Volume",
-     "detail": "0.5× normal",
-     "score": 50
-    },
-    {
-     "key": "sector",
-     "label": "Sector",
-     "detail": "Information Technology -0.6%",
-     "score": 42
-    },
-    {
-     "key": "news",
-     "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
-    }
-   ],
-   "sources": []
-  },
-  {
-   "ticker": "HDFCBANK",
-   "name": "HDFC Bank",
-   "sector": "Financial Services",
-   "price": 815.0,
-   "change": -0.18,
-   "vol_ratio": 0.61,
-   "score": 52,
+   "price": 1359.7,
+   "change": -1.8,
+   "vol_ratio": 0.63,
+   "score": 48,
    "mood": "Neutral",
-   "why": "Down 0.2% on 0.6x normal volume. The Financial Services group moved +0.3% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
+   "why": "Down 1.8% on 0.6x normal volume. The Information Technology group moved -0.5% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.2% · above 20-day avg",
-     "score": 52
+     "detail": "-1.8% · below 20-day avg",
+     "score": 20
     },
     {
      "key": "volume",
@@ -1109,36 +1224,138 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.3%",
-     "score": 55
+     "detail": "Information Technology -0.5%",
+     "score": 42
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
+     "detail": "5 headline(s)",
+     "score": 95
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "Shiv Nadar",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE52TDV6VElMZVRyQXAwYzRKM1ROemctc2hKMldkRGpYMWo4d0ZfR1QyX2R2YVhxS1ZTajdoZzZpYkxENzhVUTZwWUlRcXF2UHpkM24wNA?oc=5",
+     "source": "Forbes",
+     "published": "2026-11-17T04:45:27+00:00"
+    },
+    {
+     "title": "IT weight in mutual fund portfolios rises to 7-month high of 6.8%",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeEtGXzhpYUZiVUFQUURXMVRUdXlxNTlEQlBsRHBibG1NcDB2c3RnbnpHWVhFS3dtUTdWUkpHTUJibHdrYVlQc0w0czltdmRHeWU5cTBNY2l0S2YtN0ViYUdtcE1NRS13SGxvcHJpbUI0dmFYTURoN2JHT3ZCaXlwUzVxZWV4S05ORy01V2NsLXExdVVPUTVlOGhuTWlrbTF1dVQ0eFRiLUgzYkIxOHM0dWNBbW9GWGtxZVd1TlFHbHhvb2V2UXM4ZFJuTjfSAdIBQVVfeXFMTkRJOUV1dVRFSFg2cENKTHdBYm52b2RZMEZBOVE1d1ZHQUllZkJMbFJpUXA1QXJmNm0tVHJsVmcwZHE4dnBqTDRVblJCejlKT3pUVm9ELWhWNWtLWHJteHBfcFhXaTR3LUtZUUt2UUFyMUVQbTMyRFlHaEdzTDAyLUV0VFZ6OVEyUDh5bnNWVnMza3hqMWR4RzVOVkVtdEpMZ0VOajlCLW9NTnhWeWNiWDJsTDNxd004ZjNxa1RlQzBjbUR5cTZta2Z6YmswZ3ZCMEx3?oc=5",
+     "source": "Business Standard",
+     "published": "2026-11-17T06:04:03+00:00"
+    },
+    {
+     "title": "HCL Technologies rises Monday, outperforms competitors",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ2pEWFdST1FWS2VfYVE4LW5rME9yb25mU1hQYjhpYXZfa3lNS1E0akpmMTRGSXh2YXE4eGVHUHltM2c0UW9MaVAtUUdjNXVNYy1qcDdGaTJIT09OSm9RUTRwZzVxNHVIRnlqWWI3dmJWLVpJakVFWnZVZ3dfejBIV0dNT2ZYMjJ6MFVTRE9tS2EwWUVhMmJSMTNNaWZ1OGtwdHIwc3lkY01VMkt0eUE?oc=5",
+     "source": "MarketWatch",
+     "published": "2026-11-16T10:33:00+00:00"
+    },
+    {
+     "title": "Shivam Pathak joins Bayer as Public Affairs Lead for India Crop Science",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeWdXcXVZQkx5cEFwSDVlRUFlek1UbDMxV1JRZllSTFd2VlUxLW8tcmxKZVFhYVJwTHlVQURGQ1loZWNhOThGdF9xRUFiSWJwRWY5bjZwWmlCX2tVclNVc0w5UVB3bm5IbUZrUEJ3cW1Nb01xbE1sQmhtTTJsb3ExODJPV3hRODBUOUk2MFV4bUR4X05aam9EZWIzYlVGSjVBRkhhbzUxenJQNkRrYXJ1d2tIZEdVd2FTTWxKaXhKalZ5ZzdXd01IV2NvYlZQb3B2?oc=5",
+     "source": "Exchange4Media",
+     "published": "2026-11-17T06:05:02+00:00"
+    },
+    {
+     "title": "Shadowfax Technologies board approves 2.5% increase in ESOP pool",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTXMxLXpoNzJKaERkcU92V1RPNEZTS3VLRERtNWN5NnNKeDVWdHNjbmdBQW9FQTlaUk5DTS1fMUR4V1pJRHZZSmdoOWxlOUVxRFhCZk8tajU1Y2dMSmp5S1JrRmtIa2dpYml0dENEQ25yQWVqcExhS21mdTJBcXhrNWlLVWRzY0lUTjcxVkdLdnZxbzZVLVZ1Q3lrUU0zOVRqbmVhb1hjTVFRY2lldU5VVE5SSzNSdzZ6?oc=5",
+     "source": "scanx.trade",
+     "published": "2026-11-17T06:59:39+00:00"
+    }
+   ]
   },
   {
-   "ticker": "HDFCLIFE",
-   "name": "HDFC Life Insurance",
+   "ticker": "HDFCBANK",
+   "name": "HDFC Bank",
    "sector": "Financial Services",
-   "price": 595.35,
-   "change": -1.51,
-   "vol_ratio": 0.39,
-   "score": 45,
-   "mood": "Neutral",
-   "why": "Down 1.5% on 0.4x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "price": 816.25,
+   "change": -0.03,
+   "vol_ratio": 0.7,
+   "score": 64,
+   "mood": "Bullish",
+   "why": "Down 0.0% on 0.7x normal volume. The Financial Services group moved +0.5% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-1.5% · above 20-day avg",
-     "score": 34
+     "detail": "-0.0% · above 20-day avg",
+     "score": 55
+    },
+    {
+     "key": "volume",
+     "label": "Volume",
+     "detail": "0.7× normal",
+     "score": 50
+    },
+    {
+     "key": "sector",
+     "label": "Sector",
+     "detail": "Financial Services +0.5%",
+     "score": 58
+    },
+    {
+     "key": "news",
+     "label": "News sentiment",
+     "detail": "5 headline(s)",
+     "score": 95
+    }
+   ],
+   "sources": [
+    {
+     "title": "HDFC Bank inches up as Board locks in senior leadership",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSHlvcThzd2xaNHpQeWFkRDVrYlBuN1czUFEtNnpyMFhrSnBIaWlSSkZxUFhQVHNZVTgycUpZazV0UlpLck9DZW51WXIxRHJFemM5UldzNll0R3MxejdwSzVjVTE2ZWl5WWtJbjRHYU04bWNraUdsS0UxSnltQ04yZkx5T2FTT1YzSnpjWnItd1RzT096enF1dWpWbjlvX0pvemNDWkhQSEh3cDBBM0dUelhLTGZFbW9TdVk5VmZlUDJkb2YxS2lodHYwWno0TFHSAdYBQVVfeXFMTnkyRGlvMnh6dEZHdVJOUDFodmJpUkgxYklXMElraG1kWDVmaEdCR1dWelg4OGttdl83c1N1dk1OZHAzZFVIcWxuZE5Ld00tbFFSTlMybnFyWlMwZ0JPUGNGWW5VWVM0RUxjNkhsNU82NTBBUWZXMl9ZVHpQNFV2TEhJZWEwNzJwQ3o4RHpZX3dnUUdDRE13M19rRXVDQlBvdVhDeE9sQ3JzNlhsc0dxSjN1QVJmamx1TG1pRFNCY1JPZEFuQ1g0RFBEcUNwTHhCM0lSOWI4QQ?oc=5",
+     "source": "BusinessLine",
+     "published": "2026-11-17T06:44:05+00:00"
+    },
+    {
+     "title": "Nifty Bank hits record high, tops 62,000; HDFC Bank jumps 20% from Oct low",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZlFkbEo5RE1LSUx3Qkp2dHZFZXNsYzA2Wm5jYUFLdkNOZXZDRzJvSk9JUUZsOTZEUkMyWEpIZ0NQRXpPd0NCNk95WmFEajdBZXE2amc1YmxCQXVNR09OYmFPakZxcnpiMWJiTV9lY2ltenZJV1FHd2s4S1M5ZWtnLXl5NGd3TUVzTnBoQXcwWEVSVFZDZGp6VENlcEhBbVRjY0dZY3JJb1k5ZzlDTURBamhWM3RtdVBzdlV3aEJPSHdySU1JeDZIeHJ2NExSM0xKZ0NQZNIB2gFBVV95cUxQVEZKYlYzdlVaWG1NQWFaNG8tYmhaa2NaSlJZcU9mc2ZlWW1uRzdlMUtaRndRc2VoVW9rQWp4NUwyRDZKM0VVUEZLdjV0Z25jWDM5aFk1Y3JpWmNSU093WHV6SEl3UjFDbmhJUk9pTF90dFJycFhtdkVKT0M0aktIMS04dmdQT0pfMnJUczhERWZEMERwOEhaczg1Z3M2YXRCOHRWREx3cFN3TmRMcjNhVVJfNlhEN1dkSUw0eER2cV9wMXpRMThlY0Jsbnk0dVM0N1JKZVpRTmdmZw?oc=5",
+     "source": "Business Standard",
+     "published": "2026-11-17T05:09:46+00:00"
+    },
+    {
+     "title": "HDFC Bank inches up as Board locks in senior leadership",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmZvS3JHQWtEU19WLVlQWjJ3dUU2ZU5Kd21uNFg5dnFIazZWdi1icmRBcldYNlY4azA0RGttOGdXeDRzUDZMSjZLdWFMbmFkWEh0Y2Z1akF4eXBvWVUtV0R3ckhJZkc1QVhaRk4wQmxnd1R1YmxTWnRLZ2NmQ0VLQno0LWlmRVViMmZNeThGb3RvbEpJRzVyVU43cElCb1JKd0NuZ2ZocmE3SnVvVzhqbnpn?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-17T07:08:00+00:00"
+    },
+    {
+     "title": "HDFC Bank Limited (HDB) Stock Price, News, Quote & History",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OR1M3THRtTERvWDhiSGhfemR6Q0xDSUQwMVFpZlNFMWh6LU1FV1RnZGlONW82UTFHVkw3bGtfVkZDRWMtSHVtYzB3QmdXSzJI?oc=5",
+     "source": "Yahoo! Finance Canada",
+     "published": "2026-11-16T16:25:08+00:00"
+    },
+    {
+     "title": "Why are foreign investors lapping up bank stocks?",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEZCbTRWUTFQZ2d2WmdoNVBqNUREM2locEJEMlJlUVNneDU0LThFOFlicnRyVXl2TTk0SWpjRlVpaXAxM0ZXNDN5UWc4ZVhkMXFuVEE1cnBmUmQ0TDNLTUx5YnQ1dXVoYTlPTEVtbjVPcDVQeGlJeXBZd1ZpWmsyXzFEMDhkRWlIVkJEQjdCdzJKSzFabFEzNU1mcU9RWURWRjlVeE5pTDYxdkc3RkHSAbMBQVVfeXFMTzQxZVdPWDlvMjIwbURrWW9WNkdSTjZaeHdSSkd1Sk50WkNjSE9wTE1GUlBQZ0tJbDFCLTV2c01YUlJhZ2doUGxpbFhXcC05UnVyR2xNblhUdTY4RjR1bVg2LS01d0dNQnM3YlJrdE11NnNUREhNMU0xczR4bE1SQ1lZT2NrdmlZR0ZodC0zY2paUmxZMEFJUk91UFNMVlZRT3h6dDBoakh5SFJfMmlwWnI2Rms?oc=5",
+     "source": "bfsi.economictimes.indiatimes.com",
+     "published": "2026-11-17T00:32:00+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "HDFCLIFE",
+   "name": "HDFC Life Insurance",
+   "sector": "Financial Services",
+   "price": 594.55,
+   "change": -1.65,
+   "vol_ratio": 0.44,
+   "score": 44,
+   "mood": "Neutral",
+   "why": "Down 1.6% on 0.4x normal volume. The Financial Services group moved +0.7% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
+   "explained_by": "rules",
+   "factors": [
+    {
+     "key": "price",
+     "label": "Price action",
+     "detail": "-1.6% · above 20-day avg",
+     "score": 32
     },
     {
      "key": "volume",
@@ -1149,8 +1366,8 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.4%",
-     "score": 57
+     "detail": "Financial Services +0.7%",
+     "score": 60
     },
     {
      "key": "news",
@@ -1196,13 +1413,13 @@
    "ticker": "HINDALCO",
    "name": "Hindalco Industries",
    "sector": "Metals & Mining",
-   "price": 927.6,
-   "change": -1.7,
-   "vol_ratio": 0.75,
-   "score": 40,
-   "mood": "Bearish",
-   "why": "Down 1.7% on 0.7x normal volume. The Metals & Mining group moved +0.3% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
-   "confidence": "Low",
+   "price": 927.25,
+   "change": -1.73,
+   "vol_ratio": 0.87,
+   "score": 55,
+   "mood": "Neutral",
+   "why": "Down 1.7% on 0.9x normal volume. The Metals & Mining group moved +0.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
@@ -1214,114 +1431,207 @@
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.7× normal",
+     "detail": "0.9× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Metals & Mining +0.3%",
-     "score": 54
+     "detail": "Metals & Mining +0.6%",
+     "score": 58
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
+     "detail": "5 headline(s)",
+     "score": 95
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "Novelis cuts exposure to China with $265 mn sale",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQREhFbGkycG1UUVJGQnVPWlZtM3hienRET1BKbFhoTm92WW1lZkpqZnozMzdsSW5SYVkzMTFvOXFzNWU2T3FuNFhEMHpqZHFCY25sZ19nT3pyZ3BVc2tYU2wzU0xISGZXR1hUMF9xdmo5YVB3UVFWLTltSUUtYmI3X1ZZb2gxWXJpQWpjVzk3Tm9sNzRYQ2pITlhlRTlIa1Q4Z1RHb0xTTGYyLVBKU3YxR2lIR3kxcnBmZG91SEhXUWVGTEppOTlnTNIBwwFBVV95cUxNcC1VUUtyU3ZCdmUxMXI3NUtmek1LWm5HU3Nrbko0SV9UUlZpbzM5Z3BuUmpJbjltcnJMb052SnlNZXhSNlF0T04zYUU1SExjZkFuTm5UaUFBNk5NQmZfSURfcnNtdHBvV3NBcmFVOV9SWUdOdDR6blQ0eTFndllaZTVZQTZtV2pqdjhhbzRRSVhkUTRReHp2ODA1REwwVDJyNUxvbTBKdEpLQ3ptY1owLU1mTEFIeWRrTVNVblpsMGFnZmc?oc=5",
+     "source": "ET Manufacturing",
+     "published": "2026-11-16T22:44:14+00:00"
+    },
+    {
+     "title": "Hindalco considers tripling copper recycling capacity",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTVZVQzB0RTJqbUhCc2E3aXNwalZTVUlmRmdMTDBXaG9ZU0otVlNZRUlwZXliVjNjYm1vdGtUVWFJYi1HS1VsZzF6by1kbV9EQTNwWjRBSjRDVEpaLVBhejRFYjdUVFMzRDFRZW9FeXFVZW9DaXhKcDVaNXZmSV80cTRn?oc=5",
+     "source": "Mining.com.au",
+     "published": "2026-11-16T20:21:57+00:00"
+    },
+    {
+     "title": "Amit Srivastava Appointed Chief Executive Officer – SSD & ASEAN Business at Minda Corporation Limited",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNS0xwYTNSaWNudlkxc01uR2pkTUxCRENPems5dUxvNDFudDFBQkNxcUJZTi1FTl91ZzRGNTlHWFk0UUUxSl9neHpSbDBPUWVISXVMMFNEb0tXS05NaTVfZGhBaS1wbnZIQzBTSHRiVTVzNkl1MzRSUlllNk5zdEo0eDlrekxpSmRvYXVxb1R1aXBWLU4tUm14ckxuTlZrMWlfMWhNMGRsM2E0MVBBcktpa2hKT3VGTFdP?oc=5",
+     "source": "https://hrtoday.in/",
+     "published": "2026-11-16T20:33:22+00:00"
+    },
+    {
+     "title": "Hindalco's Novelis To Sell Two China Subsidiaries For $265 Million",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOal9FU0FPSXIxSmFzdXAyekswMzJMZ3diV1Q3bmZmODluQUtUelVWY3Zzd0xXUlpkS0IyTkhXekFwSXVBTlhGWnBqLVQxNnkyOVFKQVgwV1gyd2k4UnAwRUI4NEo3NUlyQ0U5SGNzRy1JTHdEWlNhbEJkX2p6QVVwNXFsXzJQSXJFLWhRMzRydk1pTHlGeVFncWMyaUN0Nm9KUUNzVEFDYzVzX2xaeGQ2aElCMUZMbWRrbV9VME05bw?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-16T09:00:49+00:00"
+    },
+    {
+     "title": "Sensex, Nifty rise over 0.5%; Tata Motors PV slumps 8.7% as JLR cuts FY27 margin outlook",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUtNY3cwenpuaXF2TjBqeWhDVUJhcjhQTEc2Vzd3bXlKbTJDOGM4U0ZvY3UzOXNJZDZOYnJkaDR2cnZqMm5vX0hucXZSMDE5SE1TWmEtN0QtOFhxM0R0djQ3T29HekUyX3lTa0RkNWp5UXhROWFwTUM1QXBtbFUyNEx3ZUJaTlNXSnRfa3Q3M0VkREQxbEJQbzNFUFVMdElhdHBsOHAyMllWbFJSWDVZMWI1R3dmMm5obUZ5VXQ4NWk4eVNx0gHSAUFVX3lxTE1CTTlIQk1uT1RqMnRxanFZWHJZb0pfWFAzX3ZLUV9iUzJvb3NxMEtiNUh2TWgxZnNxUUZOM3ROaVFQQllhX0VaWkRzekNWa3M0WnBMTnZIZkp1Y3JLbDBDc2g0dEs0R0gyOEFiY0NaVkpvR0Vqa2YxVUROejBYY3hYMHg2dlJLaDFZWHk3QUlGZEZ4SjYzNjVINEEyQUg3b3R0WGpkLXZpd21jTWxDTjd1N05hQXM0VTlRU19JQUF0RWlPUVBvdGVURUQ5MVFBa2FQUQ?oc=5",
+     "source": "Fortune India",
+     "published": "2026-11-16T11:34:16+00:00"
+    }
+   ]
   },
   {
    "ticker": "HINDUNILVR",
    "name": "Hindustan Unilever",
    "sector": "FMCG",
-   "price": 2010.2,
-   "change": 0.49,
-   "vol_ratio": 0.33,
-   "score": 55,
+   "price": 2012.6,
+   "change": 0.61,
+   "vol_ratio": 0.41,
+   "score": 54,
    "mood": "Neutral",
-   "why": "Up 0.5% on 0.3x normal volume. The FMCG group moved -0.5% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
-   "confidence": "Low",
+   "why": "Up 0.6% on 0.4x normal volume. The FMCG group moved -0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.5% · above 20-day avg",
-     "score": 62
+     "detail": "+0.6% · above 20-day avg",
+     "score": 64
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "FMCG -0.5%",
-     "score": 42
+     "detail": "FMCG -0.4%",
+     "score": 43
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
+     "detail": "5 headline(s)",
      "score": 50
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "EPL banks on M&A, Indovida merger to quadruple revenue in five years",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOa0ZLUUNsZy1IQlB2UHdDYmVxWjIxNjFITnE0X0sxaDIyOEhuZ1ZfV0FHZXkybzV4YmZsSXduUllNNk9vQXZaOWk5bXhPbUlVR0I0cGlTWkQxQ1lzRzFJcGhTUXp3NkdQOUMwajJwbmIyeDBaVlVtWUhOelJRN1NIVThrcFhhamhfckRvYXQ3VWViTG9udWVMVjliNElldGlENEtFOTMtS3FtcWJ6UWJVVnRmbVVQeVN1T3N5Q3ZTN1Njdw?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-17T06:40:00+00:00"
+    },
+    {
+     "title": "Kwality Wall’s pivots to dairy ice cream and quick commerce post-HUL demerger",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOemRCU2U4QVg5NU92V0sxMzZZQVZzRkNUSUZyZDJSSlVzcFpwVHIwbmVHWmFxZ2hQNWJrdHZYMkM0MXowRXlueUdpMDFlcVZOU2RUTTBlQkc1SkVqdmVabTZRN0NYemtlWmJuU3BpS1F3MUJ3TGJUcloxNnBFdm1ZbFhMSFVDb0tWRVN0bzJKZGRzT2ppQldzTHRJWWhwTGJWaVhYOW55MVhVdURSb1ZlRw?oc=5",
+     "source": "Adgully",
+     "published": "2026-11-17T05:37:00+00:00"
+    },
+    {
+     "title": "CarDekho Group appoints Sudhir Pai as CEO – Auto Classifieds and Group Strategy Head",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWUxMTkZseUlJcllCUzgtZUUzdnNhUjFmbVRZOTZVWEpOYktRNmN1N2V5cGhjdzYzX19wVHg2R0xIWEhqdGdOcEhXNl9yVFdzdktKZHV4TXhvUFZnTGEycURlc3BXRXRqNGg2WVFwN2w5Nk16aTVPLUgydGh5YWZlaU5SMlU1UTFRcUZRTlZPMnJuUTB4ZkdPWFdrWTZaRGc1cnZlcXRYTDY1ckJwYVc3NGRDNmdHUDRWTzhfN1VnOWdlOUNtb0hRdjAwbU1rSWZIb1pkMjJuaGt5YkpndWdB0gHkAUFVX3lxTE5fQUdfb1RmdVQ0bC1LM09TUGhKTFZGZWNvbTN3MU0wSl9oSWRLX21qMVVnX0o5X2lIMnAzUmNzUDh1c0JKS2JDMEVkaV82MGxiVXdIOTJZRVFtTmFCUUt6R3otZVdHOHNUMHhlZXU5dG5ySUlhS3FUQndJV0VxMWUybW1IcWI5bGxjZ0dHTkpGUG1LRHpUdk1jMHo2TnNBNFBQTVJkaUhBVEVHaE9oZXB1SGNCWHZDTmF6N0hqMmpNVkhvUXRHYnZBeGNrNFJpbzBSVmxkS1l0NGpvOFRIRFEtbjFMVw?oc=5",
+     "source": "ETHRWorld.com",
+     "published": "2026-11-17T07:19:34+00:00"
+    },
+    {
+     "title": "After HUL split, Kwality Wall's bets on milk-based ice cream, q-comm and wider distribution",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQYkpMdExEOFR6MjRBY05pcHFWcGFxQThPVzA3ZGRnNDQ2NzhPNU5wZkkwaHN0Ymx6TmNXWTBBQlJwZTdkMjlQMlVLbThoNW5RSUFwcndXX2tQNXV1emIyY21RUmdwU0FFSE1obnFBbkdYeFJCSGxGRHdMLUNqSWtnbWVDbUlEOEVSMG5XWnJIbVNPRlhQOXB6bi1mTlJrOFNlQTNzRU5vTk00bzZ3OUJfM2lwMUt2eE4wTzVHdGhBMXJ5ZW5vbDN3aF9jWnQ5d0ZlT1RMVV9Wd2dMa0ZSVGc4S3k2WnI3ejdX0gHoAUFVX3lxTFBiSkx0TEQ4VHoyNEFjTmlwcVZwYXFBOE9XMDdkZGc0NDY3OE81TnBmSTBoc3RibHpOY1dZMEFCUnBlN2QyOVAyVUttOGg1blFJQXByd1dfa1A1dXV6YjJjbVFSZ3BTQUVITWhucUFuR1h4UkJIbEZEd0wtQ2pJa2dtZUNtSUQ4RVIwbldackhtU09GWFA5cHpuLWZOUms4U2VBM3NFTm9OTTRvNnc5Ql8zaXAxS3Z4TjBPNUd0aEExcnllbm9sM3doX2NadDl3RmVPVExVX1Z3Z0xrRlJUZzhLeTZacjd6N1c?oc=5",
+     "source": "BMI",
+     "published": "2026-11-17T03:57:39+00:00"
+    },
+    {
+     "title": "CarDekho names Sudhir Pai as CEO – Auto Classifieds & Group Strategy Head",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPUFNwWGNpOWlZckdTMVh4QndpdV9IVlVlQlNWRWxEaHJXREtSei1XRndjQkdabTU3T0IwT3ZScHpoWjE0RWlxUTlZQTNpSEtFcHJfVUlHRFRmNUloaWp6eEczYnVvQjJOWFByQ2I4TGJxbTdxM2FzaW9mdnlHY1l3eHZieFFtUXQzTVVVWFJmb0pZTmREeXp3X1dfbkxpSkcxMUdSN3RkRFl0XzJXOFZ0WnJ0a0p3OHlnWTVVT3FMcGd4NkNCYUM2NzhLQ2EyZw?oc=5",
+     "source": "Exchange4Media",
+     "published": "2026-11-17T06:19:57+00:00"
+    }
+   ]
   },
   {
    "ticker": "ICICIBANK",
    "name": "ICICI Bank",
    "sector": "Financial Services",
-   "price": 1601.1,
-   "change": 1.02,
-   "vol_ratio": 0.5,
-   "score": 61,
+   "price": 1610.7,
+   "change": 1.62,
+   "vol_ratio": 0.61,
+   "score": 62,
    "mood": "Bullish",
-   "why": "Up 1.0% on 0.5x normal volume. The Financial Services group moved +0.2% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
+   "why": "Up 1.6% on 0.6x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.0% · above 20-day avg",
-     "score": 69
+     "detail": "+1.6% · above 20-day avg",
+     "score": 78
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.5× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.2%",
-     "score": 53
+     "detail": "Financial Services +0.4%",
+     "score": 56
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
+     "detail": "5 headline(s)",
      "score": 50
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "NIFTY Bank hits record high of 61,875.05; ICICI Bank, SBI, PNB top gainers",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUDdyRmxaUkExTk90RUJBZUNicG95cTdIY3dXZEVTTVJ2MWFXZkwxeU8tc3loMUdDVC1GQlJRSlMxQmZOS3ljbS1vYTIzaTNnZDdYRmxpNkN1TzFDY0ZhcENpTlRZYVlJZkRLdS15MTFRcU51WC1Jd2hrUnpaOEtpa3hxdlZVcXdKaXlBRTRuUDFnRnRKWUU3TVZLTXRmT2pWNnFCWVlScHpEREU4S2dHYlhSSjZhZi1QQXBNaVBBcVZnel94Q3B2eFBn?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-17T03:54:53+00:00"
+    },
+    {
+     "title": "ICICI Bank Limited (IBN) stock price, news, quote and history",
+     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YNk1PczRZNVVwTC1Db0R2ckYtMllKMVNKMGhRNEI4Uk9EVlB1Z2hfeHVmVmQzamlSWFNTcVJEMV9Cb1A2dnFwSHh1ZnJMYUND?oc=5",
+     "source": "Yahoo Finance Singapore",
+     "published": "2026-11-16T10:10:45+00:00"
+    },
+    {
+     "title": "Top stock picks: Analysts recommend ICICI Bank, Reliance, CDSL, Indian Hotels and Force Motors",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZHNZTGpQX2hSX0JqeXdOX29lR29sYllRVDR4NkhQb1dxSFc4dzlndEZtMXRVbkRqWjJVX3BCV2gxWkNKeUZfZk1PcF9Gd0NZcEhxNldEcEJXd0plQlBrRXNVUC1URndaU19pZ3pYX1RCb3prdk1mNjgxRXp4X1ROVURXRFIzVlk1bmw2aThzWTF3Z3liMUtMX2hCNjZQWFctdjg4NzktQ3dKeTkzU3llWEM5VEJqclBYREpCdHRFRlhWcWlZTWw4T2lRc9IB0AFBVV95cUxNSS1QN3Bpd0NPRGw4RFZ3bGU4SDRjYmZmbmVpOElCaDlmc0o0NGlBV0cyaVlRSjIwdmV4QXI3VmtmeTZqcTd6TmxsTGRZVGtRd3pQSXdoeHl4aVFlMnZHNmg3eHVCQnBsN0xlaTFUZ1Zqa2ZKNndzTDhBam8tMXF0dHhULWJWekI2bG5EMG10RWd4VFRiUldhaVJVeTlpeTl6Ymc5MXVoVUR4cFJGU1NmaEZpUnhvbFpIRVJFUWZxRW1xVFhxX0hqYzlfcHN0WGJT?oc=5",
+     "source": "CNBC TV18",
+     "published": "2026-11-17T07:25:32+00:00"
+    },
+    {
+     "title": "Why are foreign investors lapping up bank stocks?",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdEZCbTRWUTFQZ2d2WmdoNVBqNUREM2locEJEMlJlUVNneDU0LThFOFlicnRyVXl2TTk0SWpjRlVpaXAxM0ZXNDN5UWc4ZVhkMXFuVEE1cnBmUmQ0TDNLTUx5YnQ1dXVoYTlPTEVtbjVPcDVQeGlJeXBZd1ZpWmsyXzFEMDhkRWlIVkJEQjdCdzJKSzFabFEzNU1mcU9RWURWRjlVeE5pTDYxdkc3RkHSAbMBQVVfeXFMTzQxZVdPWDlvMjIwbURrWW9WNkdSTjZaeHdSSkd1Sk50WkNjSE9wTE1GUlBQZ0tJbDFCLTV2c01YUlJhZ2doUGxpbFhXcC05UnVyR2xNblhUdTY4RjR1bVg2LS01d0dNQnM3YlJrdE11NnNUREhNMU0xczR4bE1SQ1lZT2NrdmlZR0ZodC0zY2paUmxZMEFJUk91UFNMVlZRT3h6dDBoakh5SFJfMmlwWnI2Rms?oc=5",
+     "source": "bfsi.economictimes.indiatimes.com",
+     "published": "2026-11-17T00:32:00+00:00"
+    },
+    {
+     "title": "ICICI Bank slips Monday, underperforms competitors",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPM0ZtVkxTbFFmWFhlWGtPQ0xDTVBLd2dwNWFfY2Z3ZjBfTFRnUkRoU2dMcGhrUXBmN3pEc2hFdXlIcVBObXVmTHN4U25NWVJlZTFZWHNFWmFJckxNTXQ1UjFNb1h5NTlPSl9VQ09MazhubldSLW9CZXUyMHRDbGxHYzZKYmFTdWM4NFhvVzVHNEpuX0RVXzZmTWExUklpeUs0Rl9nYmhIUkQ?oc=5",
+     "source": "MarketWatch",
+     "published": "2026-11-16T10:32:00+00:00"
+    }
+   ]
   },
   {
    "ticker": "INDIGO",
    "name": "InterGlobe Aviation",
    "sector": "Services",
-   "price": 5649.8,
-   "change": 1.91,
-   "vol_ratio": 0.48,
-   "score": 67,
+   "price": 5648.0,
+   "change": 1.88,
+   "vol_ratio": 0.55,
+   "score": 65,
    "mood": "Bullish",
-   "why": "Up 1.9% on 0.5x normal volume. The Services group moved +1.1% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 1.9% on 0.5x normal volume. The Services group moved +1.2% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
@@ -1329,7 +1639,7 @@
      "key": "price",
      "label": "Price action",
      "detail": "+1.9% · above 20-day avg",
-     "score": 82
+     "score": 81
     },
     {
      "key": "volume",
@@ -1340,14 +1650,14 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Services +1.1%",
+     "detail": "Services +1.2%",
      "score": 67
     },
     {
      "key": "news",
      "label": "News sentiment",
      "detail": "5 headline(s)",
-     "score": 56
+     "score": 50
     }
    ],
    "sources": [
@@ -1376,10 +1686,10 @@
      "published": "2026-11-16T10:55:03+00:00"
     },
     {
-     "title": "Sensex, Nifty rise as foreign inflows and softer crude support markets",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDBPUi1DLWtiN3FHaDJSUUE5eC1yUGFhcTNiWjgyMnN0bExMMjlZUGFab0hqblNsTWFlUXRfRllpdThBcDBGdGlOeWo5bmFFWjlFWm5HZVlqSWNIVFBTcnpOV2F4clpmS3diMFdZWFVCQjVKeHE0YWZhcnM0X3RwamRVOHBmMFp0ZkN5MmhkWElFaWtTang2YjUxX2FrQ09RTVFLQXR3Z1ExWHdaYXB6M3laeW04eU5WTXkwU2hIWkxLQdIBwgFBVV95cUxQbDBPUi1DLWtiN3FHaDJSUUE5eC1yUGFhcTNiWjgyMnN0bExMMjlZUGFab0hqblNsTWFlUXRfRllpdThBcDBGdGlOeWo5bmFFWjlFWm5HZVlqSWNIVFBTcnpOV2F4clpmS3diMFdZWFVCQjVKeHE0YWZhcnM0X3RwamRVOHBmMFp0ZkN5MmhkWElFaWtTang2YjUxX2FrQ09RTVFLQXR3Z1ExWHdaYXB6M3laeW04eU5WTXkwU2hIWkxLQQ?oc=5",
-     "source": "National Herald",
-     "published": "2026-11-17T05:15:36+00:00"
+     "title": "Vijay Nair joins IndiGo as Head of Brand Marketing",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeklnR3F4d18wdnlHT3QzSWxIYlBxbG5yWmgyeTBFMExvSDRTRXN5aDVjTkd0YXlnWTY3YWVFMnN4WW1JVG5nSlBuWlUzcll4ZURzR01uU09VblRta2NOeWRhS2VMa2U0WVRuUU1uLU9mZGktYWE5cGtKT2pPUkFKTkJLcWNSdw?oc=5",
+     "source": "MediaNews4U",
+     "published": "2026-11-17T08:42:51+00:00"
     }
    ]
   },
@@ -1387,20 +1697,20 @@
    "ticker": "INFY",
    "name": "Infosys",
    "sector": "Information Technology",
-   "price": 1127.4,
-   "change": -1.55,
-   "vol_ratio": 0.28,
-   "score": 49,
+   "price": 1128.6,
+   "change": -1.44,
+   "vol_ratio": 0.33,
+   "score": 50,
    "mood": "Neutral",
-   "why": "Down 1.5% on 0.3x normal volume. The Information Technology group moved -0.8% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Down 1.4% on 0.3x normal volume. The Information Technology group moved -0.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-1.5% · below 20-day avg",
-     "score": 23
+     "detail": "-1.4% · below 20-day avg",
+     "score": 25
     },
     {
      "key": "volume",
@@ -1411,8 +1721,8 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Information Technology -0.8%",
-     "score": 39
+     "detail": "Information Technology -0.6%",
+     "score": 40
     },
     {
      "key": "news",
@@ -1436,7 +1746,7 @@
     },
     {
      "title": "Infosys rises Monday, outperforms competitors",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMW13c096TWVoQ0FId0hjR2JWSU5NbUk4Y054TDJIOFpkR1Z6LWF4U3loQVVScXlxRFlmTnpBeW1kZHI2MW1ocDEyZkluZEQxdEdydllWU2psRVowX1l5Tm1ta2JMNUJjdV81R2ZOZG1DSkFYdVYtaFdGcXBxbWswa215Vkh5T3NfRlBOWWh4N2wxdmJ4aFpoSk9nZVdSb2NkOEpySEVQa2Iya0lKYmsyMktpNFdNdUxYY0E?oc=5",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQazl0OThvblJBRmxUM0ZkNTdUZzNYU3lXVnN1MjB3WGxMVEtyS1BXbjAtbWFkNGs1ei1FZHgwSV9lQ0E2REh4NWdidnBwRTREeWJ3VWkwNUZEdGZob2dnVzFPX1JjdTVEZ2hrMDdNTk5qRmF3YzhtRkE2ZVFjcUcyVk9HMF9Lb0JyOHhGR24xMFZXaERjdk9LWkdZbjZ4cVRVSHc?oc=5",
      "source": "MarketWatch",
      "published": "2026-11-16T10:30:00+00:00"
     },
@@ -1458,103 +1768,72 @@
    "ticker": "ITC",
    "name": "ITC",
    "sector": "FMCG",
-   "price": 293.75,
-   "change": -0.46,
-   "vol_ratio": 0.51,
-   "score": 49,
+   "price": 294.35,
+   "change": -0.25,
+   "vol_ratio": 0.59,
+   "score": 50,
    "mood": "Neutral",
-   "why": "Down 0.5% on 0.5x normal volume. The FMCG group moved -0.2% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Down 0.3% on 0.6x normal volume. The FMCG group moved -0.2% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.5% · above 20-day avg",
-     "score": 49
+     "detail": "-0.3% · above 20-day avg",
+     "score": 51
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.5× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
      "detail": "FMCG -0.2%",
-     "score": 47
+     "score": 48
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "5 headline(s)",
+     "detail": "None today",
      "score": 50
     }
    ],
-   "sources": [
-    {
-     "title": "ITC Share Price: ITC stock reclaims 200-DMA after a year; is it a rebound or fresh uptrend?",
-     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSWZWaEMyaHhWZG1DNDRKd2FPaHdiX3FfdGpPLUNBWk1tbjRkY3pfdDIybFI5WWcxbmRvUFh6VEp6Y29PRV9aZE9abG1CRGdEREJUS3Z1V3ZpRnJCSXZhUU5XdDhjNjhNNHNRUnZYemVyWTU1N01fcElLaVRhbU5RbVdpQTdybGY4VzF3d05lUUpZMVppWmk5YTN2SmRrWUdzaTNjb0MtR0tSR05HSE9zUm90MVZvR0FsUmZ0TnBxZU1UY0hGSEtwZC10VG1wTmVBeW9LU01NQnViQmpmb205VnYxaWpDcGhENlhMcUNrVzR4d05fbE5HYkp3?oc=5",
-     "source": "Business Standard",
-     "published": "2026-11-17T05:39:35+00:00"
-    },
-    {
-     "title": "ITC sees biggest addition to mutual fund portfolios in October 2026; Swiggy records sharpest value erosion: Full list",
-     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNNE10dVAtb2g5SEpBQnNlQTdUaTNTaUEwRlktbVFzQV83UW4tWHdzekZlblpKZ1JLZkViZlNxSTE0RUJkbExxR1V6WXpQZzRCWXQxX0hCSkhDaG90T0lGVm0walcwdEx1NWx6SXhTaXI4d3B2SzNYbEUyNTgtM2lrTGkweUNqM1d0UDNoSWkxWk1DZDRDWUVRXzVER0c3dnNBY0VOUFp6bzlwRFRJQTNmQ29zYlZ1RXpvQnVKc0RBbl9feVdWTnEtS0lrQnBRdjNCRmYyNHNiRTAxbHhOYUliZkk0OS05ajZJTXB2UjdheUd3WmJpOTdrU2tRcGN6Ry1pSjRPaVlxQ09zTlR4WllzLdIBlgJBVV95cUxQMFY2V211SXhYZDY1Z1NsRmJSaEJ2eWVYd0VqTEcwNXRlRklsTnRPT3NVX0hKNVN1WGhqZTNrUUdjS2dSd2xJdGVqZ0dpcTVweVE5TUc2bVJZZ0lDdHJ6OUt6Q3ZhbE15djRoYzZ5Tmlic1RzYUVFUzVVWjgwOWJFY29GQUtKTGpHOVp3eU5CS01yLUVWY1g0aFE5MDd5WjB1U1JUVnp3cTVsaDNoUXltWnMzbVpvTTBObmF1U1JPbFZLTmNoNGFIN3d0YTRGNjdDTFFJV0VYbDh2SW5aR3ZDZTBhM3lkS3JVRmQtTXRkbS1nREpfV3c3Nk0zQmRrS3BTYlVBRXZVYURjQVFMYjlGc0dNWFZxQQ?oc=5",
-     "source": "Livemint",
-     "published": "2026-11-17T03:59:50+00:00"
-    },
-    {
-     "title": "ITC shares are on course for their best monthly run in over two years; Is the stock now a buy? - CNBC TV18",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMzJjMHlhOTBjVUo2c2I5U3gwYzZXR05GMkpkZHptNHJZbmZLalhTVWFSTG1Fa09wU0FNcTVvcW9PYVJHTTQzUGsxbTZ3UXlldVNKRnphSXZVejd2eGxJQTR4ZGZSam81TnlvUG1QUGVna0dwWHJzMldjVWFNWHpDYldRTFlBWEJpTG00WmJMWVcxdXpYdWdKNk5QQUQ4Yl9YQXprWEk4YjFzWjN1VjhINVNWNGRBdk0xc0Y0bUlONA?oc=5",
-     "source": "LinkedIn",
-     "published": "2026-11-17T06:21:06+00:00"
-    },
-    {
-     "title": "ITC Share Price",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IMkRMcVVlTDVzbjFob3JsSlJPSWdHbFpvZjJyLTlwQnY4ejlneWdlUk01d1VMbnE2ejBSeWNvcXZuMnZWbklIeVM4UU5hcmMwendocGU1UmE1UQ?oc=5",
-     "source": "Upstox",
-     "published": "2026-11-16T17:31:47+00:00"
-    },
-    {
-     "title": "Input Tax Credit Benefits on Car Purchase in 2026: Check Your ITC Eligibility",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQQlRDSHhNUFJ4WDdmVTFBQ3lUNS1yektHYUxOR3ItT2xaY3hDR3VOb2hmNHRqSVJKT29XS25BVThGaS1XWFU4N2w1aVBBSGh5VjJzMS01V1A1aGZWRDlqQVZRWVFJMi1IcXl0cGZQT201ZlNpbHQ4dFpLQVpoQTBwX3hsdzFISmRva1F5cXNIUC1nb1lHbkJBVEJZeE5DalRBWDZvOG1lU19jVl9TSXNiZmI1bnJjZHZjcnd2TlREOW0?oc=5",
-     "source": "CAclubindia",
-     "published": "2026-11-17T05:02:39+00:00"
-    }
-   ]
+   "sources": []
   },
   {
    "ticker": "JIOFIN",
    "name": "Jio Financial Services",
    "sector": "Financial Services",
-   "price": 226.29,
-   "change": 0.13,
-   "vol_ratio": 0.44,
-   "score": 65,
+   "price": 228.16,
+   "change": 0.96,
+   "vol_ratio": 0.56,
+   "score": 70,
    "mood": "Bullish",
-   "why": "Up 0.1% on 0.4x normal volume. The Financial Services group moved +0.3% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 1.0% on 0.6x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.1% · above 20-day avg",
-     "score": 57
+     "detail": "+1.0% · above 20-day avg",
+     "score": 68
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.3%",
-     "score": 54
+     "detail": "Financial Services +0.4%",
+     "score": 57
     },
     {
      "key": "news",
@@ -1564,6 +1843,18 @@
     }
    ],
    "sources": [
+    {
+     "title": "Weekly Recap: Jio Credit stake deal and potential Senate investigation",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQmpiNjMyUjRRU0xzNEFHakhkM05hbWRhSlpLVXJScFBhbi10WkU0LTF1UXJHczhKaGVHY1MyXzJVcUlYNDhPZTFqZU5PbW5xVGptUHdQMWx4NHZKbnY4UnNmRnJJSGVUWmtxZno5RlpMVXR1a1lSUFB6T29vS2o1dGE5ZkJlQTZ6eHpLWGlIYXdER2lYLVpLMmkzeUx6UmR5TndJd3RxaHhQcGxlcWs3YmNVY2RKendidExuX0NSM1RZQWxOYVZGeE1LYw?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-16T11:00:00+00:00"
+    },
+    {
+     "title": "Sensex rises 750 pts, Nifty near 25,500: Buying in bank shares among key reasons behind market gain",
+     "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOQ1dJUjcyeU5haUUyVFFXejhqeUFtWVVTS2VnVFlXOVRSNUt4ZlZrSlRGYVpFdzhUUnE1YjRTS1pNU3dCWDhlYUNmaEtMazNLUjh0WFlmWnBCclZPQnBFU1dBaHdLMUVkZzRoQ1o3YllEMmx1UXNQRnFHN3dhdXlaWXdSZVB1djAxU2toSElIb1hGUDN0aVprdEQwNjU2UDRma0FOby1DV2t4c3VrZ1FrT1ExUFRranZ2MlhmWEhuTDdva3hEbmNlZ3hDWWpMVlRJaE02N0dzTFRPcFRJWmt2b1UtelRfeUZLUG9rc29sZ1RMeDTSAfgBQVVfeXFMT1JFUk5xUThGYThDc3ZMVk5Uckw5YWh1aE5wZk9YYnFiTl9fTWYza1hsSUxmUTVnZWR4WDg5S2NwNTA1ckFDZFB6WWwxR240VkNHTDFGLU4yRjRmSTh3Q1Q4anUyT3JVdHFLQTdlQ2YzVUd1bWRyb2g5TGRmRTJDLXVhcmRrT0VQakFQN1BqOGhDNE9GUm5aLUtyMjA1RHY3dEZoQk11NlJDQU9xc2V6aGtWRGpDV3NuZVYwRUxOWi1Fdm5CYXRFM2dnejhBbkM4b19SWUk3VFNrSDlQSWtPR0RZdDA3a0JkbmstUnN6SVBkeTVSWGpLbFA?oc=5",
+     "source": "Moneycontrol.com",
+     "published": "2026-11-17T04:23:42+00:00"
+    },
     {
      "title": "RBI seeks Supreme Court review of Yes Bank AT-1 bond write-down",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNT3BwRGlHNFpwSndfSTlBdGg2MG91cWktTjRTRWdaMG12ZXZ3Rks2UncyS1BobXJCQWtGT1dlSkZ5ZVhWWEFUbWd0eEFhSTBPZjYtc0JxWndhN3R1YXFDOV9VRnpEd3JoUzM0VVJHM244S2M2bF9NQ0d3cVZQMGFESnZQU1BGQXVTYW5uN2pXTlkwSWZGS1FwQWRJWXhXR3Jmd2g4NFJqNWpMc3ZDRHV2WVMyU2dnUEduN3NF?oc=5",
@@ -1581,18 +1872,6 @@
      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOS2hwVlVLLTg4YXhCZFlMZDJRRWlWUHJ6eEF6VHFjQVBqRFZORTU0RFBWVEN5aFBqZ1M2S2R4UkJnVVByLWdLQ001VWphdFl2MkZETUhhYXl6SWpfOEFTMFNxS1ZKSkYybmFYWXlPa3BuV1VMRzJzVGpFX2MwZnRUcVpQRHZmeVRMSXA2ZTFHTnFlcFlmbVo2c191UVZ4QjU1X2xjYWh3RTlSZEZxejdyVUZPUGJwbk9rYlh0YVdXakh5TDFtWHBweUdIZTRkeXBpcU1aX1UyYTA?oc=5",
      "source": "Trade Brains",
      "published": "2026-11-17T06:30:37+00:00"
-    },
-    {
-     "title": "SBI Funds Management Ltd Share Price Today,, SBIFUNDS Share Price NSE, BSE",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYTZGNzdGdjdxbTJVa3pwV0VpQlViVG1aWkR6TnExY3Z0NFE1cFlQTWR3Nld5UVJaVThaOUtOcDlXa3JqSUdhWDhtRnNFNEl1X2c5aGN0RHBIQU1idDEzMjVReGl5c2JjQ1FrRHV3OFM4bHMtRlBMTGw2WW05WWFRamxhR2NWQ1U5a2wzdWV6dmJRUQ?oc=5",
-     "source": "Business Today",
-     "published": "2026-11-16T13:29:06+00:00"
-    },
-    {
-     "title": "Q2 Earnings Beat Estimates: Nifty PAT growth hits 17-quarter high, 119 firms see upgrades—Key takeaways for investors",
-     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPcFNXNkZNRnRYX0JQV1ZDTW5NOTJTbFhfcmJDT1c0QUJmeVBBMmxtQWFnN0VzUFZzMWVmU3dBNDd4T1l6SDF6NWJxNFV6eUthVG5vUGZOUGdLTVVxZTZUQnI4VTNoMzRiMmRaWEFlQ29UYUpIdm1jc3VabGZ0LTNlUWpGQzBjMzdINldJZzVKNF9KaDJXQUJQWVc1R3JRaEZOaFhHVm9ZUTZOSHF6UlY1OW1UMkFLU2xRTmpTUzNHRVd5R3Y1dFJITmtFVUlHM1BBTXh0cUF2djBRVVAzS2ZhejBOamlvTExjcjR3QjFR?oc=5",
-     "source": "Zee Business",
-     "published": "2026-11-16T11:35:27+00:00"
     }
    ]
   },
@@ -1600,32 +1879,32 @@
    "ticker": "JSWSTEEL",
    "name": "JSW Steel",
    "sector": "Metals & Mining",
-   "price": 1330.8,
-   "change": -0.28,
-   "vol_ratio": 0.42,
-   "score": 50,
+   "price": 1331.5,
+   "change": -0.23,
+   "vol_ratio": 0.51,
+   "score": 51,
    "mood": "Neutral",
-   "why": "Down 0.3% on 0.4x normal volume. The Metals & Mining group moved -0.2% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Down 0.2% on 0.5x normal volume. The Metals & Mining group moved +0.1% and NIFTY 50 +0.6%. No clear trigger found in today's news.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.3% · above 20-day avg",
-     "score": 51
+     "detail": "-0.2% · above 20-day avg",
+     "score": 52
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.5× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Metals & Mining -0.2%",
-     "score": 47
+     "detail": "Metals & Mining +0.1%",
+     "score": 51
     },
     {
      "key": "news",
@@ -1640,72 +1919,103 @@
    "ticker": "KOTAKBANK",
    "name": "Kotak Mahindra Bank",
    "sector": "Financial Services",
-   "price": 497.95,
-   "change": 0.76,
-   "vol_ratio": 0.32,
-   "score": 59,
+   "price": 498.8,
+   "change": 0.93,
+   "vol_ratio": 0.42,
+   "score": 58,
    "mood": "Neutral",
-   "why": "Up 0.8% on 0.3x normal volume. The Financial Services group moved +0.2% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 0.9% on 0.4x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.8% · above 20-day avg",
-     "score": 66
+     "detail": "+0.9% · above 20-day avg",
+     "score": 68
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.2%",
-     "score": 53
+     "detail": "Financial Services +0.4%",
+     "score": 57
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
+     "detail": "5 headline(s)",
      "score": 50
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "Kotak Mahindra Bank Ropes In Nikita Fernandes As VP – Marketing",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ0ZtWjFhY0xNYms2OFlhY3JvLVlieHpZeGk0LVpPOUhxOG9WaXlMMkx2eFZHSzFQR1V2bVlvU2lyc1BNZWFvWS01UVZyVHl3SkkxWjdTMEdYeElIYVJNZHhiVGpiVjExNmEwZTZDb0d2N1NFTzJIbkN4ZlJxcUdyOHhYQTNZNkJYLTNydklFdm9lT2tzZDd6aW5nYk9iWkFkY2tUcGxDLUM0QTdZaGc?oc=5",
+     "source": "BW Marketing World",
+     "published": "2026-11-16T21:57:46+00:00"
+    },
+    {
+     "title": "Nikita Fernandes joins Kotak Mahindra Bank",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qT0NCMEZjdGZVSjI1RmhVQ2tOeGtTX2JSaURaRDE4RjAwZ3ZMcGJYMElORzlKTWYybmRxUW9aMlFVaURjY1pLc0FVdW1CVlNFWFozM1RLb2taYWR1ajZ0STJUN0kzek5wM3VSX0pKdHVQX3Bw?oc=5",
+     "source": "MediaBrief",
+     "published": "2026-11-17T04:04:57+00:00"
+    },
+    {
+     "title": "Kotak Mahindra Bank Ropes In Nikita Fernandes As VP – Marketing",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPMWRnQ2ZMM2taUzZ4TDljNmI0b0R5bXdGbm5kd3M4ZWtDSlFqMGRvcXdkYXBpU2VMaDJSRXJXdGxYQXotX09KbGoyLVZ6bWpkZUJGMldNTE55bXZaLVpLSnZIYlVqVkRTelNNRWVLZi1zTjg2RlZOeWZjbGZUanJnRnF5OFJyMGhidU40X3pKZDZuc3Rka2xMZ0VVcnRSenZCWXRDWWNXM3B0Zk9oajdrSFBaY01sczZzNDd6NW4zcl9zTzRNY0RZX244azBicGxURnRr?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-16T13:02:26+00:00"
+    },
+    {
+     "title": "Broad-Based Technical Strength Lifts Kotak Mahindra Bank Ltd to 52-Week High of Rs 498.15",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTjlRQmRSdWdldXNIeXZQR1ZFV3NRdjhXQ2ZMekh6Zjh4YXlYQjJHVlYzRUsycG5BUHI0RGxqZ1RUVThIb2huVlBkclNMZzF2RktQZU1rRDc4TDZ0ZllBWURXZlktdXA2RFB6T1A1Z1Q3eXdZRTFkZlZJVnc1OUFYeVZBcTdzVnJVME5fWDA1WjVfb2NZQ21CaWNoRzVOZjZTMDIyZDc4RW5Rb2N6eTR2QUF2Tng?oc=5",
+     "source": "MarketsMojo",
+     "published": "2026-11-17T07:04:13+00:00"
+    },
+    {
+     "title": "Nikita Fernandes joins Kotak Mahindra Bank as Vice President, Marketing",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdVBMX2VyNnFpVU5pLXhheURFQ25nX1A2SG9HMFN3bzNNakxfVUFQVzdFWnlCZG01Z0h4VWRUNW4ySno2bUNLQS1hblgyNzhmMWVuM1dIQnp6ODcwV3BOS21QUnVUdng3TnNhb2RLc1JxNHlPVk1NTm9KZUtvMXYzbW5Gb21zYnVoaFIzZVlwSEhBdUgxaXdvcE95Tk5yX0VqNmxlWTBPQlZPbTZhRkRmUTlIZDl6LVoyck1TRE1PRlBfeVVs?oc=5",
+     "source": "IMPACT Magazine",
+     "published": "2026-11-16T11:14:57+00:00"
+    }
+   ]
   },
   {
    "ticker": "LT",
    "name": "Larsen & Toubro",
    "sector": "Construction",
-   "price": 4195.8,
-   "change": 1.35,
-   "vol_ratio": 0.52,
-   "score": 72,
+   "price": 4199.5,
+   "change": 1.44,
+   "vol_ratio": 0.6,
+   "score": 73,
    "mood": "Bullish",
-   "why": "Up 1.3% on 0.5x normal volume. The Construction group moved +0.4% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 1.4% on 0.6x normal volume. The Construction group moved +0.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.3% · above 20-day avg",
-     "score": 74
+     "detail": "+1.4% · above 20-day avg",
+     "score": 75
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.5× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Construction +0.4%",
-     "score": 56
+     "detail": "Construction +0.6%",
+     "score": 60
     },
     {
      "key": "news",
@@ -1728,6 +2038,12 @@
      "published": "2026-11-17T01:44:31+00:00"
     },
     {
+     "title": "Tata Projects Appoints Anjan Mohapatro as Head of Business Development, East",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd3BmUkVqVldmNmZGR0F6WEs5dTRkcjhfbGlxN1JtYUNHcjNqbVVScFlpX2V3b0U3N0hVZzZucXloLWxnQ3FQSVZ4ZUFBNUF0eVlRUGpJRGVlODVjUm1MX0dSUmU0T1lDNXd2V0gwOEJwd3ZCbXRqZUd0Z1c4bS1ZRElGal9oRzJRdzZzSWRVdXhIODJaelJMNzZOanBEaGV4aHY3UXRtUmdVOWh2TDlOMTBzOWpmU0U1eC1jVF9FRTlfUzVVYWc?oc=5",
+     "source": "Realty Plus Magazine",
+     "published": "2026-11-17T07:30:07+00:00"
+    },
+    {
      "title": "L&T Sets June 5 for 81st AGM; Final Dividend ₹38",
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ01hakktODlKa0pKbFdUSnpjWkZBNXVIM2hOTUZyd2s0MG52aEdaeG9wbnFrMTI1OW5jTVpyWUZxdEhxek1PRnFwS3FrTnhqVU5EdmZfTDZSOGVQNXIteG5LNlFSYUJKLWhRZGJGdzBqX1ZYOWtmb0NPZzZtaUpEUWtKa0RseWFQbHBlOXpRUVRCbEFkYVp1cm5Qa3FIcFI1UTdLQU9Hb1NOWVFnQ3UxUWRCS0JCcmRqbVBKLVVSTkZNS0Z6T0xid3piUzVPR0pvblBCbTlTSEJxR19KdDJndzdyVUI?oc=5",
      "source": "scanx.trade",
@@ -1738,12 +2054,6 @@
      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPS0hPSi1jaWtudUhlTE44R1EwdlVfSjFaUEQ3eVpPZDBQUGJhd3M1cmJJejQ3SEVBYVNpSURZOXFUcXQ0aEw2Mko0SUh1cjNHdlFfYkVyaTQxLXdNOGdRZFB5ckowdjRmUWJtMTBEc25EUUtkNU1zVHJOcGZVd1VPU0c4Vm1SSTNY?oc=5",
      "source": "https://hrtoday.in/",
      "published": "2026-11-16T23:46:04+00:00"
-    },
-    {
-     "title": "KEC International",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qTzM0NUx1Y3ctZWVrTWxSTWRwNEM0X2x6NzM0QWdOLXZfdUdrRkNvUllXRzBzalVBN0NiNTVNSkRJQ3M1ZlRKaUdkWjBMT3BRRUxsQVdhamRTMDVSc18xdFhqc1N2ZEdFbDA2bTZwbU0?oc=5",
-     "source": "Construction Week India",
-     "published": "2026-11-16T13:55:06+00:00"
     }
    ]
   },
@@ -1751,32 +2061,32 @@
    "ticker": "M&M",
    "name": "Mahindra & Mahindra",
    "sector": "Automobile",
-   "price": 3406.6,
-   "change": 2.02,
-   "vol_ratio": 0.44,
-   "score": 64,
+   "price": 3430.5,
+   "change": 2.74,
+   "vol_ratio": 0.58,
+   "score": 69,
    "mood": "Bullish",
-   "why": "Up 2.0% on 0.4x normal volume. The Automobile group moved +0.4% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 2.7% on 0.6x normal volume. The Automobile group moved +0.7% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+2.0% · above 20-day avg",
-     "score": 83
+     "detail": "+2.7% · above 20-day avg",
+     "score": 93
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Automobile +0.4%",
-     "score": 56
+     "detail": "Automobile +0.7%",
+     "score": 60
     },
     {
      "key": "news",
@@ -1805,16 +2115,16 @@
      "published": "2026-11-17T07:30:01+00:00"
     },
     {
-     "title": "SML Mahindra to raise up to ₹1,450 crore through rights issue",
-     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZnBsY3R3cGFXc2F0V0VGZzNfOEdKaERzRUdWVmw4TkVsTF9fdWVIbi1wUEQ0WGxIWXBJS1p6ZTNwZU1VdTM1UjB5dk5qZmxqUW5jVmhrVy1nT2paaHZxZ1kyaXdkc1J4MnRBUkFBR2NOakZmbkltQlYtYVVCZWhiT3JrZnpuM1BIQ0dlejFPWGFCYXNJZXgtRUpYaXVOeVFkelY0QS1BT1hpTFYwaE5LZkNVUXRwWmxLTWo4WUVMYlFFMHRoRU0xQVBsWHpNWEN30gHWAUFVX3lxTE5ZQlpiT0FRNlptMWdqV1Q5MHpWTGZndDlsdmFVMmpQMEY5d1NMV0hzV0lUcElHZk50dGt5Q290ZnI4aEVBUkYxRHl5bk5pT2wtN3lxbG5yTUZXc0VDMkV2WVUwMDVWVENodlZ1SUZPY0I2OGs1WjVZS0JvcHdfN3oxWlN0ZTMzRzNzVnVVYXQwSlBnQnF4N2VPeEhndC02S3dRS2k2LVlMZ3F4UHJRY3BCVTdJTnhnMW5WQnZDUXpzVUwxQkVocjU0Z3F6Z1diUDF4NHRYMEE?oc=5",
-     "source": "ET Auto",
-     "published": "2026-11-17T02:33:47+00:00"
+     "title": "Mahindra XUV 3XO ZNG Secures 5-Star Bharat NCAP Safety Rating",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbGluX3FKc2FWMWhENVdBeU9CM2czaC1jRkxCbTdpb2lpZmlGcnRaOGplV1ZGREtQUFA5Rk1BRFptRFRxYWpZTWFDYWdVVW5ZLTMyVWs4MkpkOTZYSDRHeExmcURPYmpiMzVLV0FTY1RadUZHYzNaZFhudlUyQWlPWF9COFl5dFZlVWJ4QWc3R2JVNkx5Z0kyd1IxY2F3TXlaQlgwdFhwZjRhVVoxcmxv?oc=5",
+     "source": "Telugu Times",
+     "published": "2026-11-17T08:32:57+00:00"
     },
     {
-     "title": "Mahindra Thar Roxx 4x4 Prices Out; Begins From ₹18.79 Lakh",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdkczOHRTLXFBeXMzN0NUd1hhTGhGbUhCNHo5aWZwTVpSXzJzWER1LTJ5U0FJSmVBWU9Rc2JKZFJRMzVlTHVIazV4MmFqay1PdjFiSGNHZ1F0RUtvdTZVSmsxbGQ1WXR2bkRlYVBpMTdzaGlRaDhuTUlFSmxJWFN5NnAwV2ZxZ0k0Vjh4Rg?oc=5",
-     "source": "ACKO Drive",
-     "published": "2026-11-16T22:02:48+00:00"
+     "title": "Mahindra XEV 9S secures 5-star BNCAP rating",
+     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB0ckdfckFDdXgyX3U1akwzMHdaaHVCNGVDdXZHMEtjemFoZGhXS2VscjVrclZJNTRTUGVRdGhpODJuMEp5QkdZRl9KN211NDlnT240NzhRSXpOc1d5UEJTNlBQay0wLWV6aTVFZjlkcDh5Mnh6Nng3TWhscmlMUdIBgwFBVV95cUxOdWM3NEY4UTdITnE1c1pSVG9kWl83MTNkR3RUakhvS2lIQzJzUUlwVWFXbGRULVV3dnBlWTVyS3VIakhaeUxhUDZEUWNzWmEyVjRJUGF0dTBkZmJjNmVfaUU4ZF9qNTNhSW1NZUlheEpSVE1lWjRseXRHZ0NzY2xZRU9IMA?oc=5",
+     "source": "Team-BHP",
+     "published": "2026-11-17T08:11:34+00:00"
     }
    ]
   },
@@ -1822,32 +2132,32 @@
    "ticker": "MARUTI",
    "name": "Maruti Suzuki",
    "sector": "Automobile",
-   "price": 12666.0,
-   "change": 0.76,
-   "vol_ratio": 0.42,
+   "price": 12648.0,
+   "change": 0.61,
+   "vol_ratio": 0.6,
    "score": 58,
    "mood": "Neutral",
-   "why": "Up 0.8% on 0.4x normal volume. The Automobile group moved +0.7% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Up 0.6% on 0.6x normal volume. The Automobile group moved +1.2% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.8% · above 20-day avg",
-     "score": 66
+     "detail": "+0.6% · above 20-day avg",
+     "score": 64
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Automobile +0.7%",
-     "score": 61
+     "detail": "Automobile +1.2%",
+     "score": 68
     },
     {
      "key": "news",
@@ -1861,7 +2171,7 @@
      "title": "Maruti Suzuki Brezza Sales Cross 15 Lakh Units Milestone, Brezza Facelift Garners 1 Lakh Bookings",
      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQb2Zpb2hTMG5hcG9TT0U0Y0d6U25NUFlnaE1kamZLZExzVUlmckY5dTEzVmdaa3gweTBpMzhMWlNnYWVVZXp5U2xiRkxEbURpR2JiNWd2ZEdMTGx4d0pXVmo1cklRSDBldWNPcmxWTjNjZlk5SmlwV2h1cElidFBfdFgyUldibTdCWW5iX1pGQS14YW1NZVZLSm9qdjlZM1pSV0w1TnFPdE9hMHBLLWxUMmtSTzZIVVhQM1IwWm1PQk1ydw?oc=5",
      "source": "ACKO Drive",
-     "published": "2026-11-16T19:03:03+00:00"
+     "published": "2026-11-17T02:42:07+00:00"
     },
     {
      "title": "Built for Those Who Collect Moments, Not Just Miles: The Maruti Suzuki Victoris Aurum Edition",
@@ -1893,32 +2203,32 @@
    "ticker": "MAXHEALTH",
    "name": "Max Healthcare",
    "sector": "Healthcare",
-   "price": 1017.45,
-   "change": 0.75,
-   "vol_ratio": 1.03,
-   "score": 67,
+   "price": 1021.25,
+   "change": 1.12,
+   "vol_ratio": 1.11,
+   "score": 70,
    "mood": "Bullish",
-   "why": "Up 0.7% on 1.0x normal volume. The Healthcare group moved -0.1% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
-   "confidence": "Medium",
+   "why": "Up 1.1% on 1.1x normal volume. The Healthcare group moved +0.1% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.7% · above 20-day avg",
-     "score": 65
+     "detail": "+1.1% · above 20-day avg",
+     "score": 71
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "1.0× normal",
-     "score": 50
+     "detail": "1.1× normal",
+     "score": 52
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Healthcare -0.1%",
-     "score": 49
+     "detail": "Healthcare +0.1%",
+     "score": 51
     },
     {
      "key": "news",
@@ -1933,12 +2243,6 @@
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVXN6MFVnS0U3UjQ2OXV1dERucUxnSUF2d3JCR19UcVR1UTRieFZvb1ZxMXFXYXVVNHc4MjNQZTdfX2dVZUhjN2JKRzJtTjFOZmJUelU5TUdFZWR6VWh1dDFqeHowQ0FmeGx3MXJnOHVVZjhxeUN0Y3BXQTZuaGVqQ3c5THB2NWtla25INnlLdkZLSjNqNEVacEh1THNwTnB1cXNnX1NacGJGekRYbXY1SEl1Vlc3TFVLV2FMd2dFRWxnMjU4?oc=5",
      "source": "Moneycontrol.com",
      "published": "2026-11-17T06:22:29+00:00"
-    },
-    {
-     "title": "Hospital stocks in focus: Max Healthcare, Aster DM, Fortis surge up to 7%",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPNnhZWmgzUVE2OVRNRGgyRmpPSFlZNnJRWjlkZi1udFBxT0xjbUtGTHR1NlNSaUl6QkJwWGZJZGxGRkF4MXNmbnRyenJ2bEd2d25RbHY1eVVfU0VSWmRGZnpudVpFa0l6a1RubWEybWNvZGVKVEZDMkd3czhyNUtXa0xSSzJubEcwVTVBMXhrLURxZ2JkdTNCZm5ObEVZZ0tiam5ZVlNoc2htMldUNXFsYjNGZ2x5WjNGV3hMLTBqXzcyOHNKSVdaaUhJaGRHbzJyVXfSAdcBQVVfeXFMUHAyOFJORzVwZ3kxc3g4MVVlZ3hxYXZ5SmJ0TjNJU1JFT0VuVnVfd2FBTkphYmFjVWE3VGdzVDJTZlFvYTYxeDlZV1ZITXZvdmF0TTlsMXFsYy1hWExCNjVPb3E4bWRVWWYzR2E4YXBGMnBOaW9qYjVWaERKWGhMdVNVSGNMS25LZmxndnNaZUdKWm5rVHVjUlVGaElDaEVJSjZySDdBN2VTX0ZnMGM5aWNaVkpFV2R5bXVQekZnVTlPT0J4Wkh5c0RsRW5KZGluWkUtSHVDS2s?oc=5",
-     "source": "Business Standard",
-     "published": "2026-11-16T07:53:15+00:00"
     },
     {
      "title": "Max Healthcare, Fortis Lead Hospital Stock Recovery After Regulatory Concerns",
@@ -1957,6 +2261,12 @@
      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQS3plc2VuWlo3OExHV2lsQmhFNXJLNnhNMnhSRnY5WVhXeXNDRW9xTVp2Mkw4TWtFcGRMZXBxYlJ5elVXa3Q2dUI4c2dDY0RXUk10eGVyYkV1Tk5BVkw1SGpxZlR1MHotUG1kZG5TU09ET0ZicERZT29nUXRQeVNyWnVDTjhKM0FUZHJEU3RKM2trWVBxbktUZmFRMndIMjFhS3dnTVRpZHlUdGNBWElzVTg3V0dVUTJRb1dHX1R1aHpCNHlVcFdLUGhxN2VxS0VWQThaelVuQnRmTEJXZ3g3SGZNajFNdDNtZXNPclFjY2psN2NLa3huOWc4VQ?oc=5",
      "source": "Upstox",
      "published": "2026-11-16T10:20:25+00:00"
+    },
+    {
+     "title": "Top Gainers & Losers Today, 16 November 2026 at 3:30 PM IST: Max Healthcare Institute Ltd Leads Gainers",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPamxQcnVTTXhVdHZseTdNQUFoa1o2YUp6Nmc2UXdsZEVkUUdrY19PUFh4YmlzeDFDeG5rNUlGNEFXTFBnYndRYjZNallRVkVTakMyX3A5cEI3bUFoNUxPVThUc3dnRFVjNmJmU2Y1SlBPSFdYMmFrVmFjOFN3MlNjb3FQNA?oc=5",
+     "source": "HDFC Sky",
+     "published": "2026-11-16T10:38:55+00:00"
     }
    ]
   },
@@ -1964,20 +2274,20 @@
    "ticker": "NESTLEIND",
    "name": "Nestle India",
    "sector": "FMCG",
-   "price": 1285.5,
-   "change": -0.89,
-   "vol_ratio": 0.26,
-   "score": 58,
-   "mood": "Neutral",
-   "why": "Down 0.9% on 0.3x normal volume. The FMCG group moved -0.1% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "price": 1290.7,
+   "change": -0.49,
+   "vol_ratio": 0.34,
+   "score": 60,
+   "mood": "Bullish",
+   "why": "Down 0.5% on 0.3x normal volume. The FMCG group moved -0.1% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.9% · above 20-day avg",
-     "score": 43
+     "detail": "-0.5% · above 20-day avg",
+     "score": 48
     },
     {
      "key": "volume",
@@ -2035,32 +2345,32 @@
    "ticker": "NTPC",
    "name": "NTPC",
    "sector": "Power",
-   "price": 319.55,
-   "change": -0.53,
-   "vol_ratio": 0.36,
-   "score": 45,
+   "price": 321.0,
+   "change": -0.08,
+   "vol_ratio": 0.51,
+   "score": 48,
    "mood": "Neutral",
-   "why": "Down 0.5% on 0.4x normal volume. The Power group moved -1.7% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Down 0.1% on 0.5x normal volume. The Power group moved -1.7% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.5% · above 20-day avg",
-     "score": 48
+     "detail": "-0.1% · above 20-day avg",
+     "score": 54
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.5× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
      "detail": "Power -1.7%",
-     "score": 24
+     "score": 25
     },
     {
      "key": "news",
@@ -2070,6 +2380,12 @@
     }
    ],
    "sources": [
+    {
+     "title": "NTPC Share Price Today, NTPC Stock Price Live NSE/BSE Updates",
+     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAxR1RMOTRQMUlacm5UVXB6czZlc3RwV0JVUHBYa1UyT3I5Q1hWVENBemlhZk1CV29URW9veDIxSjBBS0R6VmVJVnhtUng1OEFmQ0tRZ2t2OUx2MTY4YzJ4Q1V4ZlNYZ0RxaEF2aXV5UVBCcG5yMnN3Q3M1aWk?oc=5",
+     "source": "The Economic Times",
+     "published": "2026-11-17T03:56:31+00:00"
+    },
     {
      "title": "NTPC Green awards 600 MW BESS EPC contract to Pace Digitek",
      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVzVRQjRjdTRXeXppeEdfcVctbGljVDd3SENBNEkxVTU2SmY4dDRTUlhsMng1djZIMVA1Uy1RRk9iTV83SnlyUXl2enlmeDdIVy12U3NlSzNuM1pEXzJ2X1hieG9BY2lGanN2TUFjQ1pUdnZpMWQ5UllGdzBfb28zdGIxMmtkbjNNd1VnMllsMktwM09NZmpVbk40RVMtTHM?oc=5",
@@ -2086,19 +2402,13 @@
      "title": "RRB Station Master Recruitment 2026 Out, Apply Online Started for 1265 Vacancies",
      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT2lXaFFWb1oxdHRwZGRZQUhhXzg2YTc1aUdwSGhHSENVd0w3VWd3eFJUSks2ejVDMkFXYmNFc0hkTTZfR0JlOUVmNUZjS1NiTFlxT0Zva3loR2kzckZBOEJ0M1pkRDREbTFuUUhhSm9xSEUxYnBqYmJHQTluc19SOFkxUQ?oc=5",
      "source": "Adda247",
-     "published": "2026-11-17T06:55:13+00:00"
+     "published": "2026-11-17T06:45:02+00:00"
     },
     {
      "title": "Pace Digitek Wins INR 2,691 Crore NTPC Green Energy BESS Order for 600 MW/1,800 MWh Project",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZndtZlFJaDlQbXlTbVE1cXB2NFlmV2l1eURtejVYOXNXZUNUTDNzMFp0OXF4eUx2SGRGeTcyYnRzYUxNbjZlZEtNSndXUE5kOENtc3RnYll5LS1tM3FUVjVOQWxGRkZoV0o0YWV4czhoMHNxTUJPdG5EZEttV3VGMHZHdGlxMnk3aDJoUFhmOXZJR1hkRU5ETnU5WmpDT2pMZWc3ZlV4MGIxNjBmd3Roa2liWHpMUDJ2VzVOOU80YWp3Qlda?oc=5",
      "source": "SolarQuarter",
      "published": "2026-11-17T05:40:14+00:00"
-    },
-    {
-     "title": "Gtv Engineering wins Rs 3.64 crore work order from Ntpc for gear unit parts",
-     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVWNMU3ZDVTBHbFh5MEFJQ2JLRVJMMkd1X3o3bTVqQlQyY2FFUk1rZlZqNVBONGdNeFZpRHVMd2pYOHJtUTQ2U0gtYWJzem1Da0VwaTZCOEJLMlpuZ19UMUFvU1hlNWhjZVBCc2d0ZUtoZElHcDQ1ZDZBMUVrZ3J1bFFjOEcyc28zVjZscVZGakpTRVAtUTNqVldkSU1teXN2eVFEZjlhRV9pU0xoSUE5cGgyMVlZdkF0ZVFOQTVVN08?oc=5",
-     "source": "scanx.trade",
-     "published": "2026-11-17T01:32:27+00:00"
     }
    ]
   },
@@ -2106,32 +2416,32 @@
    "ticker": "ONGC",
    "name": "ONGC",
    "sector": "Oil Gas & Fuels",
-   "price": 223.95,
-   "change": -1.34,
-   "vol_ratio": 0.44,
-   "score": 39,
-   "mood": "Bearish",
-   "why": "Down 1.3% on 0.4x normal volume. The Oil Gas & Fuels group moved -0.7% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
-   "confidence": "Low",
+   "price": 224.64,
+   "change": -1.04,
+   "vol_ratio": 0.55,
+   "score": 42,
+   "mood": "Neutral",
+   "why": "Down 1.0% on 0.5x normal volume. The Oil Gas & Fuels group moved +0.1% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-1.3% · below 20-day avg",
-     "score": 26
+     "detail": "-1.0% · below 20-day avg",
+     "score": 31
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.4× normal",
+     "detail": "0.5× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Oil Gas & Fuels -0.7%",
-     "score": 39
+     "detail": "Oil Gas & Fuels +0.1%",
+     "score": 51
     },
     {
      "key": "news",
@@ -2142,10 +2452,16 @@
    ],
    "sources": [
     {
-     "title": "Gas leak at ONGC well triggers evacuation as well-control operation begins",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNko0Sk8tMWlDZ3ZfRzhlSjVkejlDRVZvdzIyamxSeVJWTDBlWGFzdjVyOURHaVZKajBaTnhQTlF4bmhBTUFrTURYaE1xM0FMSk1DQnBVNVJGQWpCNC1ONGZzTzRlTi1RRk13NWFaUzZROHNoNEdlX0NuYWxnV0FUYVp1Z1lfbzZISk1VTDEtV3R2ZmhBQVZ6clViZjlpeTVtLTVhQXR1VmVCMXZxUDN6eS1XMVU0aFlYYW5ZbmhjVW5Sdw?oc=5",
-     "source": "Upstream Online",
-     "published": "2026-11-17T07:06:59+00:00"
+     "title": "India's ONGC initiates well-control ops after gas leak at Andhra Pradesh well",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNkNyUnFrRktYSjBfREVkOTU5WEIwQi1mVXlWTDF0bnNobkFKTkdrTjZ2TmVsbEdBS0F4cXdadng5WkdNV1phb1pZb2V1NTBTSTRDZXlUdmJONk1USGJQR3FCVmJ5S19scHBvTDJ2NFRBcWJJcTcxM2NXN0tGWjg2S0dudFpsMlIteTlmaDRCNGpXLWFmdUlWNFIyY0VsalpVU0JEYl9pam5xZC1Jd1ZYQXkyYWN5YkZJNDZjWWtBOWkyQ2c?oc=5",
+     "source": "Reuters",
+     "published": "2026-11-17T07:14:00+00:00"
+    },
+    {
+     "title": "ONGC activates emergency plan after gas leak at Andhra Pradesh well",
+     "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXNWSExDWGxWcE1CdTB1U09TQjVjRDkwN0w4ZDloZWpwanlBbzluUENfZnM5a3dfUk13Y0F2SlZLSHRhM3RwQ0ZjMWJxTkVaR1RxMUhJMkdPZllJYjZDS3NZRkkxTWlUbUMyVDBKdm5yc2hYN0FDMXBkSGQ3S0lvNUVtd1RBa01RWG9hQVBGd1J6Y3BRb2RUaFp3OFBqR0FjWGZaenloSTVBLUREUGVFdGNYRVpTWUZ2V3NlQUN6MHh1Z2dET0JDaG5wVVphOHRtdV9HR9IB2gFBVV95cUxPaHI0X3QwOFZDQVpDT01GS0IzY0VEZm4weGZmWHItSU91RVQ4TUQzUndoNWlRN3lwZ25QQ3UwVnlfRDFWZkNOdWpDQzlOc3RxTGkxUHdlOXBQMnh3RUZCSFZkbUM3UlZCV0d6RVdXQ3pBUFVabFlfb1otaE5waUhjMWFiaFpUTnBnWUEyckJuY0J3NXFvVVV3UEtDdEFYOXhRQkNteDJsVVNwUXlKb3VxRTctNGxZVm5zOG93UTRNaVU2S0FIWEtQMURLX1FLVElqaW82Zm5JRGYxQQ?oc=5",
+     "source": "ET EnergyWorld",
+     "published": "2026-11-17T08:03:34+00:00"
     },
     {
      "title": "Gas leak at ONGC well in Andhra’s Konaseema; residents within 1 km alerted, road closed",
@@ -2154,22 +2470,16 @@
      "published": "2026-11-17T06:27:02+00:00"
     },
     {
-     "title": "ONGC gas leak triggers evacuations in Andhra's Konaseema",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNc2xlMWZIM2VhcmU3UUpZYnlLZEtvZzRoR2NhMjg4TVhybjNSLXlENHRKRjZYbEZIdktNSFBFbDMyaXRZcDl2VE5uS1ozY1RUazdwaUtMaDh1YzhITEFZck5Nc0ZlbkJ5Y2diQTFCLXZ0cVlRdl9zSGVwQzZfeEZobGxaVWZPdkFrWFdMWmZCcVJWZjlqVHQtY3doQWNTMzZzRXBCczJOQ1p1ck1Vb25INUFpRUNoZTNWMTREUkxlMNIBzAFBVV95cUxNd3JRQi1QOVV6b2x5eE11RVRyZnlCMXhIY19YWnBCelVHNlNQTXdsUDBSWHdoUkZ0WFlCamlmcFNEbTMycEUtcl91U0U1TkNmMjlCUEpjUUtXWTl4TUI2czBsVU5Pc3lLNHRlYmplTVdhNnN3eERnbTdaUGh6SmlaQi1VNmRHVUtjXzFpZDJtUnViRkhRYUNKdlN4bkVrZ0cxTnhQb0N4WXNEcUlRWk9xWTVpcmhmWTF4a19XLU93ajdTMGN1RDZGZVpPQU4?oc=5",
-     "source": "The New Indian Express",
-     "published": "2026-11-17T05:34:53+00:00"
+     "title": "Gas leak at ONGC well triggers evacuation as well-control operation begins",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNko0Sk8tMWlDZ3ZfRzhlSjVkejlDRVZvdzIyamxSeVJWTDBlWGFzdjVyOURHaVZKajBaTnhQTlF4bmhBTUFrTURYaE1xM0FMSk1DQnBVNVJGQWpCNC1ONGZzTzRlTi1RRk13NWFaUzZROHNoNEdlX0NuYWxnV0FUYVp1Z1lfbzZISk1VTDEtV3R2ZmhBQVZ6clViZjlpeTVtLTVhQXR1VmVCMXZxUDN6eS1XMVU0aFlYYW5ZbmhjVW5Sdw?oc=5",
+     "source": "Upstream Online",
+     "published": "2026-11-17T07:06:59+00:00"
     },
     {
      "title": "Gas leak at ONGC's Konaseema plant in Andhra Pradesh; 800 people evacuated",
      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS1UwcXA3bjdQaWV6R3pZblhFaEhOcGJZN0lPbEhpNEd5SWhSWFpNaEh3UFpwTEZiT0sweVNoQUxnQTY4NG5VWW8tNjN0R2lHVWhMa2NkVUdCR3JtZERKVWt5V2JIYTdESXZPLU5yN2hSX3JWSTdHYTdOY1BsalpaRy12QkdaZ2JvSklvOTlUWHRac0pQYmN4Q09EaEF5dTdRaHFub1B1NkhwbWRUNXJ1RzZtNWp1U3hnbTJiSHlUX1pyYmUwVHphQ1ZWc2pQbVBkczJkVtIB2gFBVV95cUxPUWdrWS05VkN0OVhRODd5TngzbC1rTG9ZUGszUG1nYnBKU2k2X0Q3TDU4ZjBtYUppWmN4NW5Dalp2bDdiOW5UdmVvZGFodHJ5eENoVFJBVkx4eG1mc0Z3T1VJbVZQdWQtSTYtWDMzQ1RhYjliSFRFaUt1OGQtN3NCclhBZFl4WmtNTXBIa1dVMDg3S2puN3NUa3BRS2wtQUlnWWoxdU1fYWlvSDN4MWpNdDRrY09vd0Y1V2xsZXFpMzh4OTE1MW1oOV9iTk9kSFJXVk5tRzljMGlMZw?oc=5",
      "source": "Business Standard",
      "published": "2026-11-17T07:05:00+00:00"
-    },
-    {
-     "title": "Hundreds evacuated after ONGC gas leak in Andhra Pradesh’s Konaseema",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSGN0WTBZMURWa2MzVEpuNHhfV25NNUI2UFkzX1htcVZEZFM5cUhOU3FXYkVmX1djV0NuMG91aDdFNk1QRGgxRkJWNW1XTXcwZUR5Z2xCMk54N1MxRDY0S2pFeURwbTNCT1ZfbHFKcWFXQTUzaEp4anhVQklRMTFoTVZDdkZaTVNIWk1QNEpuY2dHUdIBlwFBVV95cUxNU3hjMnUwSXM4aTRxc2hDeGM3VllQZDNUMXVwb1B4Zy1oYV81SHFGRmN5N2N1c1ZYSGZlZk1QVUV5LXhNaFZoeko4RjRRcktzLVZuZmN2OWkyU0FNQjJjdDl0UXdpUjMwdGxoM1RXZkpXRDRWYlVHY3hvTHlLN28tWjEwWlliTzFGQjRTUlNPZVZkSUktRE1J?oc=5",
-     "source": "The Week",
-     "published": "2026-11-17T07:36:04+00:00"
     }
    ]
   },
@@ -2177,12 +2487,12 @@
    "ticker": "POWERGRID",
    "name": "Power Grid Corporation",
    "sector": "Power",
-   "price": 257.7,
-   "change": -1.72,
-   "vol_ratio": 0.62,
-   "score": 38,
-   "mood": "Bearish",
-   "why": "Down 1.7% on 0.6x normal volume. The Power group moved -0.5% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
+   "price": 257.75,
+   "change": -1.7,
+   "vol_ratio": 0.77,
+   "score": 42,
+   "mood": "Neutral",
+   "why": "Down 1.7% on 0.8x normal volume. The Power group moved -0.1% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
@@ -2195,42 +2505,144 @@
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.6× normal",
+     "detail": "0.8× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Power -0.5%",
-     "score": 42
+     "detail": "Power -0.1%",
+     "score": 49
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
+     "detail": "5 headline(s)",
      "score": 50
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "BHEL Secures Rs. 6-9 bn Order from Power Grid",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNbzl4SkpRblA0MzUtOEY0cEhjNW5uMy1wb1EzX3VOOU5rRHRuUDBrRzJDVTJLR2NVV1BudGpYb192UV95aGNEOU9zX2NrUmZxOG04Uk1PcW01V2JzbUJfd1YyRXBsNGJDNW9pcGREYjFERGdNZ3lKS0dKNlVCSFZyeEROUExSR1AtdHNJWHF0VllLZmdUV3BvV3R0aXBGQWtBd1Rvdi1oYXZ6QVlnUUV5T1hCaV96cU1NNGdDR2xMX0Y4azVPelA3ZzQtVjI2YWc?oc=5",
+     "source": "Construction World",
+     "published": "2026-11-17T06:11:15+00:00"
+    },
+    {
+     "title": "Power Grid (POWERGRID) Share Price Today (NSE), Market News",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9heW9zdXBfTDhHZWpNNVE1Sl9PWXdJRGxlZHlhQVNQWlZ2YUtiOU1QVEpWVmRkdTNQQ3AtQU1PUnNoT0hQRjBsaV9YQXNWT3lXdDd3Z2NnQ2NRRW0zSkVlV19hdw?oc=5",
+     "source": "TechGraph",
+     "published": "2026-11-16T09:58:46+00:00"
+    },
+    {
+     "title": "Power Grid approves ₹220 crore investment for 400 kV transmission line reconductoring project",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNU0dSUF83Y1pnUC1OYWNRNld4T01Dd3ExTjc5NlNDVkxNT1pIY1dacndtNUtfU3E4Wk9la3JDWUFLbmpTVDF2QWFkdEFDWTZwbUY5akxxWTZoQ0JlRnZKdC1VQndlb0c3YWxPWk9pXzBLQXRvRS1Oc19ZUjhUNHB2ejBkOHMtVW1YYmFaTFFKZjc0QU82LXlEMmtQdy1fOE50bkRuNGkzdFNLTEtaeXE1U0MtS3V2V3kxVEdpajhrRksyb0VfRUVieTFJTmx6TkFBTGIxcWNFbFJ6TE02YlgxMWtBZno0bGljMzZib09yUnhzWVV3RndOYUZpRDFWOUxX0gGGAkFVX3lxTE9CeXFIeUs2NXZXSFBvbmR2UEZub19yODJjV3FvVzJIX1VUcGs5emJvT2o0QTM2My1FNFo4azZuai1BUmVQUWZjRDRaamFtWE4xaGlnekpGRXExNm9uejltVHJjRnByNjBZbjl4RWMxY19DbVpnY2VyS1YyX2swWDlQZWNYU0psd1BRYWRmMXFUNlF6SGF3MHFkQ3hJemxVcEJTRk41Sm9Kdldic09aTF82NlVLSTRBX3JESnRYbk9aTnJRaVl6QkZnaG1xN25HZHdkMHE0QVFKSk44cC1sak5qV0lZU0dRb0F3XzNEX29Hd295RmtCeS1Ocl81VmphN08ybzgyb3c?oc=5",
+     "source": "CNBC TV18",
+     "published": "2026-11-16T18:05:28+00:00"
+    },
+    {
+     "title": "STL Networks wins Rs 555 crore work order from Power Grid Corporation of India Limited",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYi1xRzlOS19uN1NDcmpLT1Q0dTlEUE5pR3FzbEVrbzlxYzB3al92d3QyT1lvazRLZGRjMUpwcmIzQm9mVmQtN2ZsOGhzU2I3Y1pTZXJVUWdrNXBUVXdILU53SnNlSmJPTHotNnZ1bk52S0ZPeDFRMDJUemZ3UHNnSER2ZGJxY1VPZ3dCUU9XOGJURWFzYmVqX1VVd3B3blViME9SVi1wUWZkNUJTWEktaXVVM2ZlZUFuWlllWWJB?oc=5",
+     "source": "scanx.trade",
+     "published": "2026-11-16T14:52:40+00:00"
+    },
+    {
+     "title": "News by CNBC TV18 on TradingView, 2026-11-16 — cnbctv:b3b56de60094b:0",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RVjEzdGZ0c3FnZEpReXJ4S0d0UVZweXhNbVVmVmVTamZkc09oRmZrc01JRjNoN3pPcnQyazN2TVVSNGJ5WUZPa2szbUNkLVJZblNDbFlyMGhDQWVSTVk4M0dTa0J2M0E?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-16T18:05:28+00:00"
+    }
+   ]
   },
   {
    "ticker": "RELIANCE",
    "name": "Reliance Industries",
    "sector": "Oil Gas & Fuels",
-   "price": 1351.1,
-   "change": 0.47,
-   "vol_ratio": 0.35,
-   "score": 51,
-   "mood": "Neutral",
-   "why": "Up 0.5% on 0.3x normal volume. The Oil Gas & Fuels group moved -1.6% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
-   "confidence": "Low",
+   "price": 1369.0,
+   "change": 1.8,
+   "vol_ratio": 0.51,
+   "score": 70,
+   "mood": "Bullish",
+   "why": "Up 1.8% on 0.5x normal volume. The Oil Gas & Fuels group moved -1.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.5% · above 20-day avg",
-     "score": 62
+     "detail": "+1.8% · above 20-day avg",
+     "score": 80
+    },
+    {
+     "key": "volume",
+     "label": "Volume",
+     "detail": "0.5× normal",
+     "score": 50
+    },
+    {
+     "key": "sector",
+     "label": "Sector",
+     "detail": "Oil Gas & Fuels -1.4%",
+     "score": 30
+    },
+    {
+     "key": "news",
+     "label": "News sentiment",
+     "detail": "5 headline(s)",
+     "score": 95
+    }
+   ],
+   "sources": [
+    {
+     "title": "Reliance Industries Plans Rs. 430 bn Andhra Coal Gasification Project",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNkRHa21hYzh1OFNYUHRmcmF4NVNlUzI2dXFqZzUxNXV0T3hQd3otX0k5bjJPRFBKRmlSVVdGSFFwOGxVQWhocURjVDNyRHdTZ0lHanpWN2FJeUVZbDN0R1lobVNaTXhCb1h5VzZmblRkUC03NDVOd3VLUzNWRE15TEViREx2OUVCWFNvckU3ckJVUDRpVlBGMGV1bV9PRUFOSms5ci1vQm0wYVJUUk1hNmUtVkZSTFpHUDM0bXZSRmtFTk9xdU1OVUZUbUpGYnI2dzh0dFRkQVlYRXZadDQ0NQ?oc=5",
+     "source": "Construction World",
+     "published": "2026-11-17T06:33:45+00:00"
+    },
+    {
+     "title": "Reliance Industries refining margins boosted by strong diesel cracks",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVFNYQUlWYXR4SE95Yk1UNUwtbmdTc0VHcG10bFhza1JrZmxac05YSVRZR0JWWVFaSjZXSHUyV3JIRXFZSGxrYUt3M0lOWmZENkFHSFRiVks2T3lyRTQ1TGVSa1RCRDBZdFlCMDkzN1ppSm10d0dPSjRWMW11TEEwRVI2Z1AwaDFRd25iT0hIRDdFMWJfZFlWYVBKZlBtc2hyY01PNmpocG9oZGZsWTVtRlpfcnNRblR1Sk9wQUV0aw?oc=5",
+     "source": "scanx.trade",
+     "published": "2026-11-17T04:27:09+00:00"
+    },
+    {
+     "title": "Reliance Industries rises Monday, outperforms competitors",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVDNEVkJOeFhMVy1IQ0ctVnAtTmRFTFJ2MnRJcF9XQUVKdEhGZUxPREhBd0JQanFNNlhBa3l2ZGpFTllfc05RYW5UUzBqRXNvQTRBazBoT0JMS2pwYUdpc0VNTFJ3RFNKSlBEbkFNTzF0QW9telp5WGtHX2haV0tETEhibkx4Tk1BcDNBb0xUcDlIZEVzYmhtWFVVS2J1Zkl4QVk5Q1hTX2hybTczWGFocWNwRjR0ZVdfdURpdm1zUW56UmFmMlFlNEFOVWIwemM?oc=5",
+     "source": "MarketWatch",
+     "published": "2026-11-16T10:30:00+00:00"
+    },
+    {
+     "title": "Everest Industries appoints Dr. Amit Mahajan as head of research and development",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcGRDbFI0R3pfTm1pc2g2RHZMa01OR29mUEZLUTU0MTRYUkVEMGZoZVZDTkp6Q3RRTFBSQ09PUnBTZGFxSzhld3JFeE5GSVVQZnpIdF82Um5JemdZeTN4X1NVMktSVlpVaEFka3pDcXhaSFdMeVdkWWVqdEI4VERCMG1iQUMtU1RsZEpsdFJiMWY5bllKcnNtWVphRE5DY2h5NWlDSnY0U1pxVi1VbkRjaDRvTDRCU3NTc3FUMXc3ZjJtVHFB?oc=5",
+     "source": "scanx.trade",
+     "published": "2026-11-17T04:39:17+00:00"
+    },
+    {
+     "title": "Reliance Industries Share Price Prediction for Tomorrow (17 Nov 2026): Stock Edges Up 0.38% Near Its High",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZTdsTnZfaEt1NEM5UlltT3U1dF9HbzJLR21VSHVKY1pUaTJvRUZFbndPNkxURXpnUng1cHI2T2I5aHhpRDduX2xCS1BmOE10X2VYMm55elJhaTRaREc2SU4wRkNxQjBKazFnbDR4QXpFaEpIOWlvZjFtU09YZVhYdzVNVGVQZkhuZFhiRzE1MA?oc=5",
+     "source": "Univest",
+     "published": "2026-11-16T10:44:00+00:00"
+    }
+   ]
+  },
+  {
+   "ticker": "SBILIFE",
+   "name": "SBI Life Insurance",
+   "sector": "Financial Services",
+   "price": 1808.7,
+   "change": -1.04,
+   "vol_ratio": 0.28,
+   "score": 59,
+   "mood": "Neutral",
+   "why": "Down 1.0% on 0.3x normal volume. The Financial Services group moved +0.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
+   "explained_by": "rules",
+   "factors": [
+    {
+     "key": "price",
+     "label": "Price action",
+     "detail": "-1.0% · above 20-day avg",
+     "score": 40
     },
     {
      "key": "volume",
@@ -2241,41 +2653,72 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Oil Gas & Fuels -1.6%",
-     "score": 26
+     "detail": "Financial Services +0.6%",
+     "score": 59
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
+     "detail": "5 headline(s)",
+     "score": 95
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "SBI Life Insurance Company Ltd is Rated Hold",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVFNZdU15R3BBM0dpWmFNMEloZk5HMVRDZm8tSk1zQ3FRVERDZFgxdi0xYUo2TGQ0RFl3ZEdmVDBKc2ZwNnU4ME9jUm9XaE5maXZpNDh0b1hLeHVVN25oSVhYSzU2djNJY3JCYUc0NXZWckMyRldqRFZ0MVlWZWN1TndESHZvenlRYjlFNUlacHJjZG9XbGJJRUdIU3hCT0xVT3VqV3ItZWJPZw?oc=5",
+     "source": "MarketsMojo",
+     "published": "2026-11-17T06:13:25+00:00"
+    },
+    {
+     "title": "Why did stock market end mixed today? Sensex gains 512 points, Nifty Bank hits record high",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVklBVFRJM1BzRmFhQUkyR1J2SjJnVVVHMnpSdG1HZFl0MDk1ZVZZWVhzNERzMFBBTDAzdjVJSF81WHViLWxPVWY2bUhZdU9GSV9CSXQzYmVXVnFkR1ZLZlhaalRSNS1SOHhpZ2dOUEhYWkhEX09hRFZLbnlGamEyUkFZTV9iWFJaVHdiV3gzU1VOdjBPX0tySHNPb1pjdXZFUEhZS2MwOTA3UzdGcXpXYTBHbUhHWGJUUll3cllVUnNXVmhaMXBFWXQ5RV9JZ9IB0wFBVV95cUxQZWRXNFEyekRzRmhKcE9Mb29vNEp6ZDFhNmZ5RjJVYUpoZmJhMW5pN2R0SDJnTzd1Ujg2NXprdUJWNEprYlRETlZ6TnhQVmpodkpYQjBHejBIck91dF8xRGI4eFI5c1MyQUFja29ycEE5aVhEV3RfdG1hODcydVBDcWJKV0VFZDdVYUdoaWtkVm1yaVBzQWZ0ZDhBYlRjWkVaeVlfamRyWWhtZWVyTFZUaFllU3BfdTlmRjhuVGd0eGs2RlRxWDFBM0dlRHpSbVdlbnJR?oc=5",
+     "source": "CNBC TV18",
+     "published": "2026-11-16T10:08:04+00:00"
+    },
+    {
+     "title": "Explained - Why Laurus Labs share price fell 10% on Monday",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVmNFY0xIYmpicVRoX1J6MmVKM2JYT0dPUXJuT0s5SjUwVHEyUDRyZ2w4dnZrOFI0anpIZkV2ZTRPeFdfX0Z2T3kwQUd6VzZOczFxM241NkJiN0Q2dm5LNUk0SWlZbFVNSDJRY3J3MXFEQ3h6dTBHaDI4R2Vxdm5HVzhDOHVlR05WTnNVRWktbkVsN3F5aFJfczJYMzBOVnBqcU5nbVIxS3pTTGpiSFZIQ1ZqTFF4Z3JScVpkMVBJVWhUeERHUGUxSFpLT0RDNmFuaE9nLWVSX3Y1bG9USF9sYtIB5gFBVV95cUxQdzZKYXZkYVF6U0xla0hlNlhZdkJyV0lfc29DV2toVGJWOHJtbWRrbjUwal9NbWgydlNUU2RnaUpDU3lQY1FHVXNCdHBNUmtnNXd5MEhIWWlGYkhldDQwaVBHd05ZdmRsZFFWMHdMc2IzaGlrMmhGZGZaT0lBZElNUy1Ia1Q4NmhUXzdPWHFNamZPS3cxVXRHQlMwbVluR2Q1LTlvdVNSdlBad25TMFFvZ0cxSzFxOHRSTHBESnB6RTZ4amgzQW5heVJiMkdoRzVZY0NueF9haFBPMnFtTW9yNlNXd3FrZw?oc=5",
+     "source": "CNBC TV18",
+     "published": "2026-11-16T09:24:11+00:00"
+    },
+    {
+     "title": "Altiva Equity Long-Short Reg Gr NAV, Mutual Fund Returns & Scheme History",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ILTdranVjSHZLV0JIeDQ3OF9mczk1UGpickNpTUYxdU5fWF82TWxmVFI5RTVwUkFKNzliRU5yTUpiYnRibHBFSW5tQWV1Mk13aFBwcVhZSjBBc1RZbk1kYzZ0QnZMQk1vMmlVT0ZNS0pVQQ?oc=5",
+     "source": "HDFC Sky",
+     "published": "2026-11-16T16:33:16+00:00"
+    },
+    {
+     "title": "ITAT Remands Addition to AO After Assessee Claims Fixed Deposits Were Made from Inherited Funds",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcS1DMTdhY3NhN2w3OFBFYzdhOVJRVEJLb21Nalp6dVhzOEtBUnhiOXF5T3pkLUMxcGNvRFdMNUg2d2FHa0g5d25Bb093RTl4TmNRdk1KdHNycG81cFg1aHkwZk5XaHNMS0xkcFNndTI2YUo3Y2Z2Zm9ya0U2a1ZQS1ZjYURUZ0ttdFZUdUwzRzFfV1hoWWxocDFZZnAxMFFiSnQ2cnJpV3pqdTRPamlWRkcyc1ItWXVYNXpUbS1LcmFJYWVqOFBv?oc=5",
+     "source": "StudyCafe",
+     "published": "2026-11-17T08:42:41+00:00"
+    }
+   ]
   },
   {
-   "ticker": "SBILIFE",
-   "name": "SBI Life Insurance",
+   "ticker": "SBIN",
+   "name": "State Bank of India",
    "sector": "Financial Services",
-   "price": 1813.9,
-   "change": -0.76,
-   "vol_ratio": 0.23,
-   "score": 48,
-   "mood": "Neutral",
-   "why": "Down 0.8% on 0.2x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.4%. No clear trigger found in today's news.",
+   "price": 1108.05,
+   "change": 1.61,
+   "vol_ratio": 0.86,
+   "score": 73,
+   "mood": "Bullish",
+   "why": "Up 1.6% on 0.9x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.8% · above 20-day avg",
-     "score": 44
+     "detail": "+1.6% · above 20-day avg",
+     "score": 78
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.2× normal",
+     "detail": "0.9× normal",
      "score": 50
     },
     {
@@ -2287,48 +2730,79 @@
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
+     "detail": "5 headline(s)",
+     "score": 95
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "SBI has told the stock exchanges about its data breach, but not the customers whose data was leaked",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNS3Y2VklzMWtmVlpncTdxNTZQTlZlYUstQW9QX2c4aDV2ZVkzSld6WnlGWEppTHEwVEhWX2duY1NrelJfSlNES2czd2V6emZEc21lRmlfQmU4bzMwRmNKOGtNLXJndVJTQ2llUzZBbHJsbUhOdmRsMHB0UTIzRzZfcUxROU5HLUdOUHZqeVVwbDVBMUFkLXhGM1M0MjhKWUdSSjNtYVQxNF9GQVhmdGRYbFpJS3kwNGl0Nlcwb3RNMHpITXhl?oc=5",
+     "source": "Internet Freedom Foundation",
+     "published": "2026-11-17T03:41:15+00:00"
+    },
+    {
+     "title": "Bank Nifty surges to record high of 62,300 for first time ever; Canara Bank, PNB, SBI jump up to 5%",
+     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSF9rRk1oQ2p5LXc0SE96Mk9QSXFQS1I2QzBCbGFPTEh1YWZoeVQ1Q1ZGMkl0S0xmRnVKQ0dRSi1ETW9Cal96WkpzQzk1dF9KSlVmS1l6MDVhX0pCOG5CY0ZxYzRzZHd6alAzck14U1ZPZ1diRGtfQ0NFUldkMXVXWDdOQThCSDNWQWZ5TUExeG1aVXBxRktqbjBVSFZHb0tEaW9uRlpSTk9Uc29NUmo1eHB5dU0waktpZlBPTjBmUHFlM2ItZGp2NVNrX2hyRllSNTZrNktvZF9aOU4yZW8zX2hSelhJSDRBYnFrVUVqRQ?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-17T04:59:00+00:00"
+    },
+    {
+     "title": "Sensex zooms 800 pts intraday, Nifty tops 25,500: 5 factors behind bull run",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPd01GZFF0VHctSXZXS2N0VkExNVo2cFdyN294WUc3N0lLcmRjRGJiQVlyXzhydEU5aVFBT2pxMklrZWpsOTNaLW9RWUtvYkdBZG84OGo2dlo3NktFYzBudjdxZkNibDctcFVCTXVjVnA5WkhmelNaek5ETG1KSFQ3OVhVWkl5WjMwX1E3ZFdaX0s2ZWE0Sm1qa0F3RVl6TjhKSnBwV0hiZDduQVRpRnlPc2xGYVRUVHByTUI3X0h6THhpQVBCendOQ3hVemt4c0FsajJ4Z2o4Y9IB3AFBVV95cUxPYlJmT0dJaFVHS0hfV3E0c0lMTFBvZzhzMmEwbEVNRS1ZNllrOGtTOWp3a3pqQ3lDaW51bFRrVEt5ckhhNG85YXlCNkJGYWRDMGFqVGNsNEZkMVotOFBrV0hELVJ4T2RMTmFYcjcxQVdqXzVNWHR4VE1tNVRlWG1KS2k1b3E1R1FtRkEtNFdIdHJaOTBlOWpsMVhYMzhwYmJreDlBSVRldkhiRGhORmYyMXM3V3h4eFBnZm5uZWQtWmE0ZDFicmpBQWtvTm5NU3g1dVZIZjFuRTkzQXRE?oc=5",
+     "source": "Business Standard",
+     "published": "2026-11-17T07:34:05+00:00"
+    },
+    {
+     "title": "State Bank of India (NSE: SBIN): SBI Completes 9.90 Per Cent Stake Acquisition in IFSC Company",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMVlCMjVIRTlqS2xERmtCM1dic0lvSzVmemRlX211dXJKclIyUHoyS1NjUWt0ZWY1b3lTNmlidXF1dG0zUEJWeTZFdTY3YUJVN25kNFBxMXNOcUd4OXljLVZ5U2tqTVVsWjFwcTNTYXVIc1R5dDJRbEZkS05rdjRsUG1uSUlwdDJ2czFmaDBBU1lxS0NUek0ta3JMaThtWURMbzFEWmZNazhTUUJ2UHp0WUdhcy1YUFNkazFKR1VRZHJPQlJaOGhZcHN2XzV4QQ?oc=5",
+     "source": "Kalkine India",
+     "published": "2026-11-17T07:55:00+00:00"
+    },
+    {
+     "title": "NIFTY Bank hits record high of 61,875.05; ICICI Bank, SBI, PNB top gainers",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUDdyRmxaUkExTk90RUJBZUNicG95cTdIY3dXZEVTTVJ2MWFXZkwxeU8tc3loMUdDVC1GQlJRSlMxQmZOS3ljbS1vYTIzaTNnZDdYRmxpNkN1TzFDY0ZhcENpTlRZYVlJZkRLdS15MTFRcU51WC1Jd2hrUnpaOEtpa3hxdlZVcXdKaXlBRTRuUDFnRnRKWUU3TVZLTXRmT2pWNnFCWVlScHpEREU4S2dHYlhSSjZhZi1QQXBNaVBBcVZnel94Q3B2eFBn?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-17T03:54:53+00:00"
+    }
+   ]
   },
   {
    "ticker": "SHRIRAMFIN",
    "name": "Shriram Finance",
    "sector": "Financial Services",
-   "price": 990.0,
-   "change": 1.19,
-   "vol_ratio": 0.35,
-   "score": 70,
-   "mood": "Bullish",
-   "why": "Up 1.2% on 0.3x normal volume. The Financial Services group moved +0.2% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "price": 987.2,
+   "change": 0.9,
+   "vol_ratio": 0.4,
+   "score": 58,
+   "mood": "Neutral",
+   "why": "Up 0.9% on 0.4x normal volume. The Financial Services group moved +0.4% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.2% · above 20-day avg",
-     "score": 72
+     "detail": "+0.9% · above 20-day avg",
+     "score": 68
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Financial Services +0.2%",
-     "score": 53
+     "detail": "Financial Services +0.4%",
+     "score": 57
     },
     {
      "key": "news",
      "label": "News sentiment",
      "detail": "5 headline(s)",
-     "score": 95
+     "score": 50
     }
    ],
    "sources": [
@@ -2337,12 +2811,6 @@
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14aFg2TEt3QlZ4R3VmemRyNGU1dU1GNEZickhEZEp6cGNJTEhPWXY3elRpSzVUZUVtaFA0RWNNZjB2SnI1QmZQV3kxVjZkbGlNcUpMSndGYXhPR2F2WFBLcmJQbktVcHNNcE8zRndmZDBzalk?oc=5",
      "source": "Moneylife",
      "published": "2026-11-17T06:25:59+00:00"
-    },
-    {
-     "title": "Record foreign inflows fuel Indian stocks' November surge",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYjRGMFN3SE5Vdklnd2tiZHp6NUdkNWpNU3pDRHNyZXczNnRKWVMyNnJTVGhBYWwzOWltcC1xMHZrd09Vc0htZlRoNVNLSjFMWmJRUWlkdWZka1NwdTY0Nmlid3dncHF3ZUhEVDlRRHFmWVRUWXBhb0ttVlpZQ0ZXZjJzYUJKeTU2RFRYSER6TGZqOExoZFpfTWhDckRXS3NHNHctNXNWQQ?oc=5",
-     "source": "Reuters",
-     "published": "2026-11-16T07:49:00+00:00"
     },
     {
      "title": "Sundaram Finance Names Mohan Parthasarathy L&D Head",
@@ -2361,6 +2829,12 @@
      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdVJDcl9wdHpmLW90YnByc1d3bHNpcGhUTzhTenpXUEFPMmVfOS1yaDNPT3hyTHVxckF5UVdabHdTSzhDS21KUE5wUnZwdkdyRmRhRzZBRzJaMkRxbUJvSnB0MUlFLWl6WGtkMlBJTXNsMG4wcG55bWV1VjZ3S1djMGNoOHRPNlE0NHZMTG5qS0RsUWpUYkE?oc=5",
      "source": "Traders Union",
      "published": "2026-11-16T14:23:34+00:00"
+    },
+    {
+     "title": "SBI FUNDS MANAGEMENT LTD Share Price",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iR3N0X3ZRWmNrR0l0TFpyRkl1R1JfamY0Y1VkdnBsQmxIRWtjNWxPWlhhVElkY01BdlhmNnZNcktvRWdZMmtReWNVTTFmOVotUXp0QkxyTTBjN2gyWTdTVWh1bmtyMU9oMF9OYlpIZUg?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-16T23:22:57+00:00"
     }
    ]
   },
@@ -2368,32 +2842,32 @@
    "ticker": "SUNPHARMA",
    "name": "Sun Pharmaceutical",
    "sector": "Healthcare",
-   "price": 1879.7,
-   "change": -0.02,
-   "vol_ratio": 0.28,
+   "price": 1878.1,
+   "change": -0.1,
+   "vol_ratio": 0.4,
    "score": 52,
    "mood": "Neutral",
-   "why": "Down 0.0% on 0.3x normal volume. The Healthcare group moved +0.1% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Down 0.1% on 0.4x normal volume. The Healthcare group moved +0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.0% · above 20-day avg",
-     "score": 55
+     "detail": "-0.1% · above 20-day avg",
+     "score": 54
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Healthcare +0.1%",
-     "score": 52
+     "detail": "Healthcare +0.4%",
+     "score": 56
     },
     {
      "key": "news",
@@ -2422,16 +2896,16 @@
      "published": "2026-11-16T10:19:58+00:00"
     },
     {
-     "title": "Sun Pharma seeks $4 bln loan to refinance Organon deal- ET By Investing.com",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSTZOMWpVcDVnUzNUekdWVkc3dk5yRWNCcGxUNjBrZEdQd0M4VWpkTVA2eGEzYU1ycWhsRHBVVEs2SmJmaU1fc1FkcHMwWTdsbHRLd2VjT0tvX3lHSUF0YTBrWHZWdGVRV0xTVm1XUFl0b1JxSHVHTTFWZ28wdmZJWXUtTlpJN3RZenBpZF9CZnNnZXlnQ0FaM2FSMUpaclFQYnRjWjh0ODFXanVDNmpPaTJ6QkZHTDF2?oc=5",
-     "source": "Investing.com South Africa",
-     "published": "2026-11-16T08:22:35+00:00"
-    },
-    {
      "title": "Altiva Equity Long-Short Reg Gr NAV, Mutual Fund Returns & Scheme History",
      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ILTdranVjSHZLV0JIeDQ3OF9mczk1UGpickNpTUYxdU5fWF82TWxmVFI5RTVwUkFKNzliRU5yTUpiYnRibHBFSW5tQWV1Mk13aFBwcVhZSjBBc1RZbk1kYzZ0QnZMQk1vMmlVT0ZNS0pVQQ?oc=5",
      "source": "HDFC Sky",
      "published": "2026-11-16T16:33:16+00:00"
+    },
+    {
+     "title": "Under Rs 1962 Stocks to Buy in Nov 2026: Top 5 Picks",
+     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZLVhBOGE4QWtvQjFyMmxaa3dYWFFib0U4MmhTQTlnS0lDalY5V1UybkJuWmNuOUxFaWl2bmJkXzJTMmFMRGhNS1ZqbHN0X0F5U2ZKNWpyWk9JM1ZvOW9OdERR?oc=5",
+     "source": "Univest",
+     "published": "2026-11-16T09:27:00+00:00"
     }
    ]
   },
@@ -2439,53 +2913,84 @@
    "ticker": "TATACONSUM",
    "name": "Tata Consumer Products",
    "sector": "FMCG",
-   "price": 1114.1,
-   "change": -0.3,
-   "vol_ratio": 0.31,
-   "score": 50,
+   "price": 1110.9,
+   "change": -0.59,
+   "vol_ratio": 0.38,
+   "score": 52,
    "mood": "Neutral",
-   "why": "Down 0.3% on 0.3x normal volume. The FMCG group moved -0.3% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "why": "Down 0.6% on 0.4x normal volume. The FMCG group moved -0.0% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.3% · above 20-day avg",
-     "score": 51
+     "detail": "-0.6% · above 20-day avg",
+     "score": 47
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "FMCG -0.3%",
-     "score": 46
+     "detail": "FMCG -0.0%",
+     "score": 49
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
-     "score": 50
+     "detail": "5 headline(s)",
+     "score": 65
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "Top gainers and losers, Nov 16: Max Health soars 7%, Tata Consumer surges 4%, TMPV tumbles 9%; check list",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaWF5MmViWmxGRVpOX2hWWjZpWjdxYVNhMkZBSlRWbXFpUTdFM0dwU0tRRkktLUMwUXlpenBud0RqTWhUT3plV2hhUzFSR3dOc2F4M1hiYWZlOGhTaFZjSnUtcU0tUDRTNUxXS1ZPWTVUcTNnN2Vac3Z0Qkc2N3ZQZVdZeExmXzBqSGxmYnlUVnlVaTlpOElMVDUxQVdQVGlEUmVrR1E2eDhtVl9yblZVZUVxU3VoZ3BEZDhicXg1U244UHh3aWdMemxBdGlYXzRnMmhQZl85Nm1yVDZ2MjR5SUFWZHl3SXZuLXBjLQ?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-16T11:03:03+00:00"
+    },
+    {
+     "title": "Tata Consumer Products TATACONSUM ESOP Share Allotment Nov 2026",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcnRnUFUyTWVBQTNKMEVDN2pydC1Tb192aGR5UHEwajRUQ3kxb1owUG9ULTh0NldQVWlaWjlJUjh2b1p1b2xXZ2tGTmNwamk2ZVpwbThmSHQxbWNoWkdyWnZoMTZyaTR2eHJDUFVxbUNBSl9KZ2dsTTBpOUlIUHJzaHFoQlVkWGxTQzk3MWRJWm55X2dhb0M3Sk9FV04yVE5DVXlPOGY5bWxRNTBRRG1vcVpxYkFpRGNldnA1bXYxU1pGNkwxUTZjTWFaTURJTXJCNkZoMGkxR1owckc5eTYwRA?oc=5",
+     "source": "Kalkine India",
+     "published": "2026-11-16T14:10:00+00:00"
+    },
+    {
+     "title": "Sensex, Nifty rise over 0.5%; Tata Motors PV slumps 8.7% as JLR cuts FY27 margin outlook",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObUtNY3cwenpuaXF2TjBqeWhDVUJhcjhQTEc2Vzd3bXlKbTJDOGM4U0ZvY3UzOXNJZDZOYnJkaDR2cnZqMm5vX0hucXZSMDE5SE1TWmEtN0QtOFhxM0R0djQ3T29HekUyX3lTa0RkNWp5UXhROWFwTUM1QXBtbFUyNEx3ZUJaTlNXSnRfa3Q3M0VkREQxbEJQbzNFUFVMdElhdHBsOHAyMllWbFJSWDVZMWI1R3dmMm5obUZ5VXQ4NWk4eVNx0gHSAUFVX3lxTE1CTTlIQk1uT1RqMnRxanFZWHJZb0pfWFAzX3ZLUV9iUzJvb3NxMEtiNUh2TWgxZnNxUUZOM3ROaVFQQllhX0VaWkRzekNWa3M0WnBMTnZIZkp1Y3JLbDBDc2g0dEs0R0gyOEFiY0NaVkpvR0Vqa2YxVUROejBYY3hYMHg2dlJLaDFZWHk3QUlGZEZ4SjYzNjVINEEyQUg3b3R0WGpkLXZpd21jTWxDTjd1N05hQXM0VTlRU19JQUF0RWlPUVBvdGVURUQ5MVFBa2FQUQ?oc=5",
+     "source": "Fortune India",
+     "published": "2026-11-16T11:34:16+00:00"
+    },
+    {
+     "title": "Sensex Gains 510 Points as Banking and Consumer Stocks Lift Indian Markets",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWGRLWUtGWVVyMW1pVkwyVU9YaXR1a28yZ1JTcXAwTDNxcVAwb1c1X3NFMExTSVk5enhwdkZIb05hYlZ0eFktLU5hMmRBYk8wS0dDQjVxZlkxM3VqY01VcDZORDIxaThPcWdpaDNaYmdqdXV1dkt4YUNtYzh2SkhkWTE5LUVKejIwaTUtRWxXX1ptZml4X0dKTHJxVGNLQ0VDdDFkRmZR?oc=5",
+     "source": "INDIA New England News",
+     "published": "2026-11-16T18:26:45+00:00"
+    },
+    {
+     "title": "Stocks to Watch Today: Tata Motors PV, Max Healthcare, ITC",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE91cEwtbG5IRkg1eXktNklyQzJxd0ZLdE9LYnJtZld4ZUxySVB1bWZtWDlWRDF5RTVtX2VBVWp0Q2d2OC10QW5IRzVFaDZJektaczBVc0l6WjJaTXBSWE5SYw?oc=5",
+     "source": "Univest",
+     "published": "2026-11-16T21:20:42+00:00"
+    }
+   ]
   },
   {
    "ticker": "TATASTEEL",
    "name": "Tata Steel",
    "sector": "Metals & Mining",
-   "price": 181.9,
-   "change": -0.2,
-   "vol_ratio": 0.53,
+   "price": 181.91,
+   "change": -0.19,
+   "vol_ratio": 0.64,
    "score": 51,
    "mood": "Neutral",
-   "why": "Down 0.2% on 0.5x normal volume. The Metals & Mining group moved -0.2% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
-   "confidence": "Low",
+   "why": "Down 0.2% on 0.6x normal volume. The Metals & Mining group moved +0.0% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
@@ -2497,41 +3002,72 @@
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.5× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Metals & Mining -0.2%",
-     "score": 46
+     "detail": "Metals & Mining +0.0%",
+     "score": 51
     },
     {
      "key": "news",
      "label": "News sentiment",
-     "detail": "None today",
+     "detail": "5 headline(s)",
      "score": 50
     }
    ],
-   "sources": []
+   "sources": [
+    {
+     "title": "Tata Steel eyes 50 MT capacity, to direct 75% capex to India: TV Narendran",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeVNFUmRRMmtGR2sxSjNQWTI5My1kQ2ZzTUx1M3lrUjdtdHU5QkowMnB2Vll4Tlc0eEo4SUJ6T3l0N1VGOFJWSXdLTVFoUVlzU1ZEOUZoTzlPazRxbHU2ZmJBaXY4VzAyaHlBQUxEczliRGFFeWU4RU41bVlkX1RmNEZWLWc5cTd5QjVaTWZ1Z1dZZ0J5LS1GdTFNXzVoUFdhZ0R5aE8wV1VEd2R2UTNQaFV0ZEROeUx6SU1PcW00UVpFb0tEbi0xaTFQSGtBN2hmTWZMNTVSc9IB3AFBVV95cUxNaXZZc0lDUEJmakE1Ni1zQkRYRVczeW82MDcxQU04VllvT3FpUTJpOHp6cGlrM25XdllxZG4xQ052aURBZVJtbkdHdDNDRzMwbVIxUk0yeW5WcjdEUFllZEMwdkpUUGwzSDNMUXd1cTUwbFpZb1h0RzhTSXo4UHFUSE5CcG5naWRadEthTGhLcFZzcEsxTW5aSE9uUGpEUVYwa3VPVGlSLVhiOTc4Y0JuaDlWUGhIcVVQSExncHo3WDRPRC04TERnZUwwd3psYnYtYTJ5VFU2Mmx0T0xx?oc=5",
+     "source": "Business Standard",
+     "published": "2026-11-17T07:23:59+00:00"
+    },
+    {
+     "title": "Tata Steel targets 50 MT capacity in India, seeks UK support and Dutch funds for green transition",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbnVjYVFfRkZKTUFNNi1PempNelZzWUx4ckNaSFVsVlE4YU0yUU1GbFJDb0xLOE5TVGVha1JycV9ENU91ZVhQX1RSdGVrcWRsNkhjTi1wNm1KSGlpRXA1VDNuSW1CbDBwS2FxemF2YVRWR01uZXY5c1JXdUpseDVWRzdMb1I1dGUxNWw5WFBWcFRoNEtjUHF2QVlEeVVtalFia2FyemZFNDJieUs2bWRFdlJDbGFHd1laaG15Y3RsZ0swcXJ1ZGgyUno4YlRoYlk2b2ZmUUZQNNIB3AFBVV95cUxOcWZoSkNSaEQ4cnFEZFctWGtpX1hLeVlzVVBGcTVSemZaVzUwcTVnbF9VN1VVbS16SGhLaHlCby1JczVibWlEVHY3V0w0TlNIY1JBRHRuQnQtMTVWSUlqUms0ZUFUNGMycmdQOFVvSEJ3b3Boc2RfWjFabmxRSzk2YnhyNjA5dXY2OWdNREpzd3hWVzFKWUJXdXBvSzRadl80ZjF0a1hFb1gzbUN4OWtnQnZyXzFwVUpHQS02QWREVFR2Uml5MGtnQjZGejZjS2t6MDhDUFEyWURXMGJM?oc=5",
+     "source": "Telegraph India",
+     "published": "2026-11-17T06:53:42+00:00"
+    },
+    {
+     "title": "Tata Steel seeks UK govt help over steel glut, Dutch funding for green transition: CEO Narendran",
+     "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcU5GNDNPcUJSREMyaVFRRDhlb1hJQVZMMlB3UTBJMjIxUF9BY2RDX0M3X215aUJ1WERCSUl5ZGU0VHB5aXNKel9UaEF6NnBQTlJiRldMQ3RydnVCY0VDZzFGNjdaT2dMVXE3NlhuRFZtcjF2X05NOW1SN3lERXZLTng0MmRSbFJuX2Z4dXpaNS1XZ0wzbFUyNFJOTnN6ZjROcXVqeVoxREJCS1FOeEoyM0RRSTgwX1NZWVBuR3dVRmx3MFl3UFdwSDFRd091S1FXMWxyOUhfTFkyZURIS2tabkxJaWVoRlJ1cWJj0gHrAUFVX3lxTE9xTkY0M09xQlJEQzJpUVFEOGVvWElBVkwyUHdRMEkyMjFQX0FjZENfQzdfbXlpQnVYREJJSXlkZTRUcHlpc0p6X1RoQXo2cFBOUmJGV0xDdHJ2dUJjRUNnMUY2N1pPZ0xVcTc2WG5EVm1yMXZfTk05bVI3eURFdktOeDQyZFJsUm5fZnh1elo1LVdnTDNsVTI0Uk5Oc3pmNE5xdWp5WjFEQkJLUU54SjIzRFFJODBfU1lZUG5Hd1VGbHcwWXdQV3BIMVF3T3VLUVcxbHI5SF9MWTJlREhLa1puTElpZWhGUnVxYmM?oc=5",
+     "source": "Moneycontrol.com",
+     "published": "2026-11-17T06:15:21+00:00"
+    },
+    {
+     "title": "JSW Steel, Tata Steel shares in focus as EU imposes 9.5% duty on Indian steel",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYXlIR1hVYmgwSjZqdkNOTGo0ZmszNFJTSjdrcFlwdDVCeV9BLThZVDJHQWNkZEQ0VmN6TU1ZOWxybUYzTUVqdU9IZDBiT2xvRkFVR2ZtbE1QTjliUUhERGhIRkRqRUZSVXVaX3RKLWdsMV9vMmp0NU51M3BpV3ctdGNTdEpmNUZGVmYtMEMzUXhxMlVQY0M1QkZZTkJJNFQwcFFfM1pjYkYtd2Q2eDMxUVoyVGxXVmN0UmkzZ202Sno1UDFCR1Z6TDMzMmJNRTg?oc=5",
+     "source": "Upstox",
+     "published": "2026-11-17T02:16:24+00:00"
+    },
+    {
+     "title": "[Tata Steel Targets March 2027 for NINL Merger, Plans ₹40,000 Crore Odisha Expansion]",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNamVpdEM4NVhta0FrZHNHUTBaNXhrVEdRdXlyQmtZS2Ewam0tdkQ4YVNhenZ5T1o5LW1RZ0F2cDFFeGxCVXRoYkJoM190OGlqS0ladXluRGNmLXZCRW4wcGhSSkN2RVByUnN3RWhCVTJvd01EVGUycGswazJEX3JkRXphak85WDlzUUpyZlVHT244NVQzNlNrX2NKZDFCOTQzSE10MWhseHRoMFRSaHZXX3pqSmt0eEhYdS1Wcm8tQ21XRHhtLUc5dUVfU3FfTmQ5S3lsdGJMOGFsMVBhejB5RFd0aWFSamhVbWhMRmpUTE1SRkk5Rndz?oc=5",
+     "source": "Shanghai Metals Market",
+     "published": "2026-11-17T02:20:00+00:00"
+    }
+   ]
   },
   {
    "ticker": "TCS",
    "name": "Tata Consultancy Services",
    "sector": "Information Technology",
-   "price": 2414.6,
-   "change": 0.4,
-   "vol_ratio": 0.38,
+   "price": 2415.9,
+   "change": 0.45,
+   "vol_ratio": 0.44,
    "score": 36,
    "mood": "Bearish",
-   "why": "Up 0.4% on 0.4x normal volume. The Information Technology group moved -1.4% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 0.5% on 0.4x normal volume. The Information Technology group moved -1.3% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.4% · below 20-day avg",
+     "detail": "+0.5% · below 20-day avg",
      "score": 51
     },
     {
@@ -2543,8 +3079,8 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Information Technology -1.4%",
-     "score": 29
+     "detail": "Information Technology -1.3%",
+     "score": 31
     },
     {
      "key": "news",
@@ -2590,20 +3126,20 @@
    "ticker": "TECHM",
    "name": "Tech Mahindra",
    "sector": "Information Technology",
-   "price": 1755.1,
-   "change": -0.5,
-   "vol_ratio": 0.26,
-   "score": 31,
-   "mood": "Bearish",
-   "why": "Down 0.5% on 0.3x normal volume. The Information Technology group moved -1.1% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
+   "price": 1753.8,
+   "change": -0.58,
+   "vol_ratio": 0.3,
+   "score": 43,
+   "mood": "Neutral",
+   "why": "Down 0.6% on 0.3x normal volume. The Information Technology group moved -0.9% and NIFTY 50 +0.6%. The move was largely in line with its sector.",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "-0.5% · below 20-day avg",
-     "score": 38
+     "detail": "-0.6% · below 20-day avg",
+     "score": 37
     },
     {
      "key": "volume",
@@ -2614,14 +3150,14 @@
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Information Technology -1.1%",
-     "score": 33
+     "detail": "Information Technology -0.9%",
+     "score": 36
     },
     {
      "key": "news",
      "label": "News sentiment",
      "detail": "5 headline(s)",
-     "score": 5
+     "score": 50
     }
    ],
    "sources": [
@@ -2650,10 +3186,10 @@
      "published": "2026-11-17T04:33:16+00:00"
     },
     {
-     "title": "Indian IT firms maintain cash collection discipline despite cautious client spending",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNWWZNeHBGOGk1MDM1RnVPSHk2TUQtclZ1dFFVRkFadUFfcnhvVUJDSlI1RHNxNktEZFFRVVBidkZOUjJOR1o1MmI3UnVrQ0YydEl6Z3hUQnZ2OWFvV2prbFhrQW0wOGJvM0MtWm5EalpLNDNGUkJmWnYwaVV6elZCYmRQQkZpTG9sUFlZLVhLYzA1eHA3eVloN0ZkRmtMS2xuMkNVeERxNVR3MTBQZTVrS1cxZW1HSVQwczk1NFdsX2tuMjVTamVpdlI0Z1VqbS01OGdyaFZ6aVRnR09pcG90Zmg0RFhxWnU0UUdjUNIB7AFBVV95cUxNWWZNeHBGOGk1MDM1RnVPSHk2TUQtclZ1dFFVRkFadUFfcnhvVUJDSlI1RHNxNktEZFFRVVBidkZOUjJOR1o1MmI3UnVrQ0YydEl6Z3hUQnZ2OWFvV2prbFhrQW0wOGJvM0MtWm5EalpLNDNGUkJmWnYwaVV6elZCYmRQQkZpTG9sUFlZLVhLYzA1eHA3eVloN0ZkRmtMS2xuMkNVeERxNVR3MTBQZTVrS1cxZW1HSVQwczk1NFdsX2tuMjVTamVpdlI0Z1VqbS01OGdyaFZ6aVRnR09pcG90Zmg0RFhxWnU0UUdjUA?oc=5",
-     "source": "BusinessLine",
-     "published": "2026-11-16T14:56:52+00:00"
+     "title": "Sensex, Nifty rise as foreign inflows and softer crude support markets",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbDBPUi1DLWtiN3FHaDJSUUE5eC1yUGFhcTNiWjgyMnN0bExMMjlZUGFab0hqblNsTWFlUXRfRllpdThBcDBGdGlOeWo5bmFFWjlFWm5HZVlqSWNIVFBTcnpOV2F4clpmS3diMFdZWFVCQjVKeHE0YWZhcnM0X3RwamRVOHBmMFp0ZkN5MmhkWElFaWtTang2YjUxX2FrQ09RTVFLQXR3Z1ExWHdaYXB6M3laeW04eU5WTXkwU2hIWkxLQdIBwgFBVV95cUxQbDBPUi1DLWtiN3FHaDJSUUE5eC1yUGFhcTNiWjgyMnN0bExMMjlZUGFab0hqblNsTWFlUXRfRllpdThBcDBGdGlOeWo5bmFFWjlFWm5HZVlqSWNIVFBTcnpOV2F4clpmS3diMFdZWFVCQjVKeHE0YWZhcnM0X3RwamRVOHBmMFp0ZkN5MmhkWElFaWtTang2YjUxX2FrQ09RTVFLQXR3Z1ExWHdaYXB6M3laeW04eU5WTXkwU2hIWkxLQQ?oc=5",
+     "source": "National Herald",
+     "published": "2026-11-17T05:15:36+00:00"
     }
    ]
   },
@@ -2661,20 +3197,20 @@
    "ticker": "TITAN",
    "name": "Titan Company",
    "sector": "Consumer Durables",
-   "price": 4903.3,
-   "change": 1.21,
-   "vol_ratio": 0.26,
-   "score": 54,
+   "price": 4906.6,
+   "change": 1.27,
+   "vol_ratio": 0.31,
+   "score": 55,
    "mood": "Neutral",
-   "why": "Up 1.2% on 0.3x normal volume. The Consumer Durables group moved +3.6% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 1.3% on 0.3x normal volume. The Consumer Durables group moved +3.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Low",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+1.2% · above 20-day avg",
-     "score": 72
+     "detail": "+1.3% · above 20-day avg",
+     "score": 73
     },
     {
      "key": "volume",
@@ -2700,13 +3236,7 @@
      "title": "Titan Company Share Price",
      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBLaEdJb1pERXM5Z3lpRHpvd0FueUNpN2V0VGsxc2p6bkhJVmpaaEFHUklFc1dOSUJiMkVBd1RkcmVXQW03aThSdktIMjgwaGtPUGRrWGJDMVN6c0tldTlSc09USm1sRjR0dFE1Ng?oc=5",
      "source": "Upstox",
-     "published": "2026-11-16T13:15:51+00:00"
-    },
-    {
-     "title": "Titan Company (TITAN) Share Price Today (NSE), Market News",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtUnczTmVTV1gwZmlhQ1QyNjczRjZTM3g5NzdRVDhOMTFDWTlOd2M1WHdrNGhhQUhFdVNPQ1dSak9VQWRvZWVVLWpIcjJtcjBoeDFUUHdmajAzTm1WUnc?oc=5",
-     "source": "TechGraph",
-     "published": "2026-11-16T09:58:45+00:00"
+     "published": "2026-11-17T08:14:10+00:00"
     },
     {
      "title": "Titan’s Fastrack Smart drops the display with its new Flex fitness band",
@@ -2715,16 +3245,22 @@
      "published": "2026-11-17T07:23:00+00:00"
     },
     {
-     "title": "Tata Investment, Tata Chemicals, Tata Motors share surged up to 9% today; here's why",
-     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQTBJdHBnTUdlZzR4a3lFZjVERVVMVE9naHA2RnowR29MZGlLMTlta3hlaFJtekZHd0pnTUVzY3VUZFY1V21sOURBcW9SRlY3eDFFM0JKQUtuZ2ZIVnhYQzdGRkFHd3lGSnktZnJjWnBrSkVCM3FrVUpwTkRFR0xrektMM0trdi1reUlsWXRZMTROQ1lTSzl4VXFxU2tjOHBobjRjUDNyWC1vdmtad3FZMC1UMElQdnRxV3J0elJNbnppdGNudWxmdnNJZmZ3NWFuSzdXNGNLaXJubGNHRHlOU2k5YURxQdIB5gFBVV95cUxNQTBJdHBnTUdlZzR4a3lFZjVERVVMVE9naHA2RnowR29MZGlLMTlta3hlaFJtekZHd0pnTUVzY3VUZFY1V21sOURBcW9SRlY3eDFFM0JKQUtuZ2ZIVnhYQzdGRkFHd3lGSnktZnJjWnBrSkVCM3FrVUpwTkRFR0xrektMM0trdi1reUlsWXRZMTROQ1lTSzl4VXFxU2tjOHBobjRjUDNyWC1vdmtad3FZMC1UMElQdnRxV3J0elJNbnppdGNudWxmdnNJZmZ3NWFuSzdXNGNLaXJubGNHRHlOU2k5YURxQQ?oc=5",
-     "source": "Business Today",
-     "published": "2026-11-17T04:40:51+00:00"
+     "title": "Titan Company (TITAN) Share Price Today (NSE), Market News",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtUnczTmVTV1gwZmlhQ1QyNjczRjZTM3g5NzdRVDhOMTFDWTlOd2M1WHdrNGhhQUhFdVNPQ1dSak9VQWRvZWVVLWpIcjJtcjBoeDFUUHdmajAzTm1WUnc?oc=5",
+     "source": "TechGraph",
+     "published": "2026-11-16T09:58:45+00:00"
     },
     {
-     "title": "Fastrack Smart launches screenless fitness band Flex",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObG0zOGpBNVdPemdzM2tnT1lKal9acnd0TVMwQncyTEhWLVNxOWQwNnFnTlFqXy03aXMtSlVjQUItSzExajFvREpjaTBYUlByVDVSWEdnWmI4ZGtBUmZDVHBpTWlGcERMMl8xNVVtTE1NWEM5U3J2RGQzS3NDSTZydmV3?oc=5",
-     "source": "MediaBrief",
-     "published": "2026-11-17T05:13:07+00:00"
+     "title": "Titan Eye+ partners with Marvel as the Official Eyewear Partner for the Unrivaled Run",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZjRnZVpOdU12VXBIcnlyX2RqUk5GMDlaVnZncVd0ejY1ZXBYSHUtS0hkM2FySy1wWjVkMXhhVHNqS244SUVoaUd1dG1YMU9Rb1JfREpheUkyXzRxR2ZjSlJfNndkazd6a2swMzhRTjZqYmhIa0cyNGZONk1fUlR6cE1nRmNmSlB5bGl5UEJtYTh6OXBJbl9YbTFxMkdPRlhidE02WGZMYllieWlkUDViR2pDUmdIc3VUNUFrSnQ3czhzTnJFVF9kUXZUZVlnbW1C?oc=5",
+     "source": "ANI News",
+     "published": "2026-11-17T08:29:00+00:00"
+    },
+    {
+     "title": "Tanishq celebrates cultural connections in global Diwali campaign via TBWA\\Lintas",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT244UUtXZF9rM0hZQV96djk0YVpGLVRSTjJCLXUyMGxWWjNfZlhVbzB3UFMwYXVTY3hOWFAyQktiN3B6M3dnOTF5UzdaY2phNm9icU9VWTB6NjZHWlVXeHhiZ2dxcWNxeUVMMDNtbERmVDcydGlyLTJibFp0b0EySlcwcUg0YWIxVkU4eDhmQjNRWDhSMmY3QWwyRVdCaFEzS0l5TFNsXzZQREsw?oc=5",
+     "source": "marketech apac",
+     "published": "2026-11-17T08:25:52+00:00"
     }
    ]
   },
@@ -2732,12 +3268,12 @@
    "ticker": "TMPV",
    "name": "Tata Motors Passenger Vehicles",
    "sector": "Automobile",
-   "price": 259.7,
-   "change": -1.03,
-   "vol_ratio": 1.29,
-   "score": 55,
+   "price": 259.9,
+   "change": -0.95,
+   "vol_ratio": 1.46,
+   "score": 45,
    "mood": "Neutral",
-   "why": "Down 1.0% on 1.3x normal volume. The Automobile group moved +1.2% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Down 1.0% on 1.5x normal volume. The Automobile group moved +1.6% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
@@ -2745,25 +3281,25 @@
      "key": "price",
      "label": "Price action",
      "detail": "-1.0% · below 20-day avg",
-     "score": 31
+     "score": 32
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "1.3× normal",
-     "score": 46
+     "detail": "1.5× normal",
+     "score": 43
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Automobile +1.2%",
-     "score": 68
+     "detail": "Automobile +1.6%",
+     "score": 74
     },
     {
      "key": "news",
      "label": "News sentiment",
      "detail": "5 headline(s)",
-     "score": 95
+     "score": 50
     }
    ],
    "sources": [
@@ -2792,10 +3328,10 @@
      "published": "2026-11-17T06:50:00+00:00"
     },
     {
-     "title": "Tata Motors PV: Q2 pain may extend on geopolitical, cost headwinds",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNeUtDLVFLVUZBcDd3OVVNSmxIcGxmYVNkSEVVYWtxU3UyTkVrR01CakpJZXZGZEVCXzVLUUZmZVFsZGdWSGI5TE9KeW1TczhvS1pydFlqWXRYZy1kVGFONHk5cjl5OXItSEdYWXVRYW1yUEsyVDdocXFMR0RQTTZtQi1FOUhBTG03NzgzTlo5eHhHZGl5V2FNM0tsOEU2MGhMQmstOEtkTW12OEVROE81U2dSbEV2Mk5WaE95blFqY2NzMkplU3BQNlNoSmxGaldGUEHSAdcBQVVfeXFMTTFJT0N5M2pUaFlzTDZrYjNnQ3ZYT28tMTN2NVFDN3JEY2d4RGVwY09ReDVaZ1NXMmt2NEl5ZXBXc1R4eFczM3lwR2JCT3FZc2o3eTNybTJPX2VNeXRpVlNqRUN4dzJFYXloTkpfOUNHU3c4anVUSllfRUZLUFRab0ZkMmZWRzZId01NMWZIRXZkYVJ1N2tMcTNhOXdSZ3dJWWlTWk5pX1lzMk54dkZUQXNYT1ltS09YM2xpQUhGZGNTSTlBLUlhNGR6OF9SclB6TUQ2R0Y1Vk0?oc=5",
-     "source": "Business Standard",
-     "published": "2026-11-16T10:22:25+00:00"
+     "title": "Tata Motors PV Shares Plunge After JLR Cuts Outlook",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaXUwWkdfVjRoRVlra0plbkl6cHVYb1BsbXF4NWp4cXowdEhERGlDcktzdWFDNDZfS1k5R0U3RDNmLUgyOUFORHlRMU8xM1o1OVdKRFdUZm5oOG0tYm5WNlJKN2ZkQ25WaVVKYUtlamYtVVNmRkwtWlQyRXQ4MlBfODhVdktIRGxMcFlLUHNFLWU1QQ?oc=5",
+     "source": "Briefs Finance",
+     "published": "2026-11-16T20:45:00+00:00"
     }
    ]
   },
@@ -2803,32 +3339,32 @@
    "ticker": "TRENT",
    "name": "Trent",
    "sector": "Consumer Services",
-   "price": 3218.1,
-   "change": 0.45,
-   "vol_ratio": 0.46,
-   "score": 56,
+   "price": 3189.6,
+   "change": -0.44,
+   "vol_ratio": 0.55,
+   "score": 52,
    "mood": "Neutral",
-   "why": "Up 0.4% on 0.5x normal volume. The Consumer Services group moved +0.9% and NIFTY 50 +0.4%. The move was largely in line with its sector.",
-   "confidence": "Low",
+   "why": "Down 0.4% on 0.6x normal volume. The Consumer Services group moved +0.9% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+0.4% · above 20-day avg",
-     "score": 61
+     "detail": "-0.4% · above 20-day avg",
+     "score": 49
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.5× normal",
+     "detail": "0.6× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
      "detail": "Consumer Services +0.9%",
-     "score": 63
+     "score": 64
     },
     {
      "key": "news",
@@ -2863,10 +3399,10 @@
      "published": "2026-11-16T09:59:34+00:00"
     },
     {
-     "title": "Trent Boult Auction Price & Team - The Hundred Men 2026",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBkZWppdUowclRZYzVpNzhsSlU4OWwxNzk3OWQxVnJCejNGTFZxS2RKd0JtMWF5bUkxMFA1Ny0yamE0UGJ2U3h4eXJ3X0JZaTlqNlMtdDFvT212X1pGRG80MkRlbnYzeGNmSHQ1ZS1FMmU1SWJ5Qlk0dnJB?oc=5",
+     "title": "Trent Boult Auction Price & Team - IPL 2017",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1jV1NzdGpDWDVZOWFhVGV5YkRNRHdGOW9IemZGU2pQZ3ZFXzJ4TTZPQm5sbTBiQ1ZBRm01cGxjbzllWUpuNEhHd2Y4andSRUhoSVhNaEVGUHMzZzYxYUNNdl9DTTh5N2lGQU9jQXVHdl9KUGRqeHVMSg?oc=5",
      "source": "Cricbuzz",
-     "published": "2026-11-16T16:23:30+00:00"
+     "published": "2026-11-17T02:13:14+00:00"
     }
    ]
   },
@@ -2874,38 +3410,38 @@
    "ticker": "ULTRACEMCO",
    "name": "UltraTech Cement",
    "sector": "Construction Materials",
-   "price": 12341.0,
-   "change": 1.99,
-   "vol_ratio": 0.31,
-   "score": 64,
+   "price": 12319.0,
+   "change": 1.81,
+   "vol_ratio": 0.35,
+   "score": 61,
    "mood": "Bullish",
-   "why": "Up 2.0% on 0.3x normal volume. The Construction Materials group moved -0.6% and NIFTY 50 +0.4%. Possible triggers are in the headlines below (matched automatically, not verified).",
+   "why": "Up 1.8% on 0.4x normal volume. The Construction Materials group moved -0.4% and NIFTY 50 +0.6%. Possible triggers are in the headlines below (matched automatically, not verified).",
    "confidence": "Medium",
    "explained_by": "rules",
    "factors": [
     {
      "key": "price",
      "label": "Price action",
-     "detail": "+2.0% · above 20-day avg",
-     "score": 83
+     "detail": "+1.8% · above 20-day avg",
+     "score": 80
     },
     {
      "key": "volume",
      "label": "Volume",
-     "detail": "0.3× normal",
+     "detail": "0.4× normal",
      "score": 50
     },
     {
      "key": "sector",
      "label": "Sector",
-     "detail": "Construction Materials -0.6%",
-     "score": 41
+     "detail": "Construction Materials -0.4%",
+     "score": 44
     },
     {
      "key": "news",
      "label": "News sentiment",
      "detail": "5 headline(s)",
-     "score": 59
+     "score": 50
     }
    ],
    "sources": [
@@ -2928,16 +3464,16 @@
      "published": "2026-11-17T04:48:48+00:00"
     },
     {
+     "title": "Raja Venkatraman recommends three stocks for 17 November",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNb2YxZWs5VmduOElqOHdQU0QyX0E5RWlWa2h2OUVQSHRadF9McUFjeVIxeWhxOUdYeTlEQ0ZxczRsNGxLN0xqSTJvakIwaGZ2b2JTNmZNbXRKcXgtTGJLRFV4ZnFpTHFrckUwN2VHX2QzeHpEeHR6U0pxYVpDc2NOOW84bHFLVTNXY284UkN4a1hMRy0zdFRIVHRLeW40TnZURXJzaHhXRjlmMXRTb3VIbmpXcw?oc=5",
+     "source": "TradingView",
+     "published": "2026-11-17T03:32:00+00:00"
+    },
+    {
      "title": "Stock markets end higher on foreign fund inflows, lower crude oil; Sensex up 512 points",
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNN3ZXWFhJWnpWNF9jdFd3NGZpZG96T0cxQkZWbzhiWFhQNkVaUXFVWU5mY2hpOXJnam1GQy1YQ2tlSVJRX0xiTWJONmJBTTlIMXNod3JHODJlZjlZMWxuckZuRkcyN3NYMkkyYllySlBEQlZFdWxXVDlFOWY0SnQzRjNITTBEbDNseElXRVpfMkdUa20wcmlqQU9felB4UVBpa1RHQkQ4SS1heENNQ05NZ0FqUF9MRHM2WTlQZDd2VzRkNWxrVFAyUEJGYU5tX1d5LXMtUlVpbG9LbjR1RzF4MklVdTdHU1VJ0gHoAUFVX3lxTE03dldYWElaelY0X2N0V3c0Zmlkb3pPRzFCRlZvOGJYWFA2RVpRcVVZTmZjaGk5cmdqbUZDLVhDa2VJUlFfTGJNYk42YkFNOUgxc2h3ckc4MmVmOVkxbG5yRm5GRzI3c1gySTJiWXJKUERCVkV1bFdUOUU5ZjRKdDNGM0hNMERsM2x4SVdFWl8yR1RrbTByaWpBT196UHhRUGlrVEdCRDhJLWF4Q01DTk1nQWpQX0xEczZZOVBkN3ZXNGQ1bGtUUDJQQkZhTm1fV3ktcy1SVWlsb0tuNHVHMXgySVV1N0dTVUk?oc=5",
      "source": "The Hindu",
      "published": "2026-11-16T11:11:06+00:00"
-    },
-    {
-     "title": "Indian Equities Rise: Sensex Up 512 Points, Nifty Nears 25,300 Amidst FII Inflows",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMmMyeDBUTU5OLWRnX2hKNThraEloRWxtbkROamhTMWRydEhMN3lyU0tYN2VQbDllZG80NnJQWW5DMlBQVlZBSFFlN1Q2Rzc2aUc0c1ZGRUg5VDhBTWFFanVsbE5BbmxkQnNIa3U4VHBuTkJlU1JEUFFERU5qcWhJU2RCV1RVUEIySXFucDhmd2Y3NHl3NFRjMjdYOF9ZV1lCcExoRGE4UTVJczl2WDlZSlN4blNnakNBZC1ETXVNa0dDLVFSd3JZY3ZR0gHMAUFVX3lxTE1lQmgwcExsMHdnODRvdENFRjBxdFIxTmdwcTN2UU94bTl2YUpCTmtzRmJETXZBVEtyT1lGM1IzUXRpYUI0TllBRE5sSkJtTGJIWHFpd1lqMU5hZnVPUTdlUVY1X2dzUjNjeWtUZTh4SnpDZGlDa0hDSFRnRFNSNHZER3AxS1VMaVl2R2YzOEEtcmxwaUxlZVFxempFenBwdzQ5a2p3TWEyYnQ2LTRMSTJKVGI5MFpzS0J2N29uLTY3THp6d0pGXzVHcWFTVw?oc=5",
-     "source": "Rediff",
-     "published": "2026-11-16T11:32:38+00:00"
     }
    ]
   }
