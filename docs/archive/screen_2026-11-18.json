@@ -1,6 +1,6 @@
 {
  "date": "2026-11-18",
- "generated_at": "18 Nov 2026 15:12 IST",
+ "generated_at": "18 Nov 2026 18:08 IST",
  "demo": false,
  "thresholds": {
   "profit": "≥ +50% vs same quarter last year",
@@ -17,8 +17,8 @@
    "name": "Billionbrains Garage Ventures (Groww)",
    "sector": "Financial Services",
    "source": "Watchlist",
-   "price": 223.71,
-   "pe": 52.3,
+   "price": 223.52,
+   "pe": 52.2,
    "criteria": [
     {
      "key": "profit",
@@ -47,7 +47,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹138,927 cr",
+     "value": "₹138,827 cr",
      "ok": false
     },
     {
@@ -67,8 +67,8 @@
    "name": "Cupid Ltd",
    "sector": "FMCG",
    "source": "Watchlist",
-   "price": 362.4,
-   "pe": 290.0,
+   "price": 363.2,
+   "pe": 290.6,
    "criteria": [
     {
      "key": "profit",
@@ -97,13 +97,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹48,744 cr",
+     "value": "₹48,838 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+217% 6m",
+     "value": "+218% 6m",
      "ok": true
     }
    ],
@@ -111,8 +111,8 @@
    "known": 6,
    "flagged": true,
    "risks": [
-    "Very high P/E (290)",
-    "Already up 217% in 6 months"
+    "Very high P/E (291)",
+    "Already up 218% in 6 months"
    ]
   },
   {
@@ -150,7 +150,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹290,468 cr",
+     "value": "₹290,229 cr",
      "ok": false
     },
     {
@@ -170,8 +170,8 @@
    "name": "Eternal",
    "sector": "Consumer Services",
    "source": "NIFTY 50",
-   "price": 365.85,
-   "pe": 690.0,
+   "price": 366.0,
+   "pe": 690.6,
    "criteria": [
     {
      "key": "profit",
@@ -200,7 +200,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹336,911 cr",
+     "value": "₹337,188 cr",
      "ok": false
     },
     {
@@ -214,7 +214,7 @@
    "known": 6,
    "flagged": false,
    "risks": [
-    "Very high P/E (690)"
+    "Very high P/E (691)"
    ]
   },
   {
@@ -222,7 +222,7 @@
    "name": "Shipping Corporation of India",
    "sector": "Services",
    "source": "Watchlist",
-   "price": 256.4,
+   "price": 256.41,
    "pe": 6.0,
    "criteria": [
     {
@@ -252,7 +252,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹11,941 cr",
+     "value": "₹11,944 cr",
      "ok": false
     },
     {
@@ -322,7 +322,7 @@
    "name": "Eicher Motors",
    "sector": "Automobile",
    "source": "NIFTY 50",
-   "price": 7702.5,
+   "price": 7700.0,
    "pe": 35.4,
    "criteria": [
     {
@@ -352,7 +352,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹211,415 cr",
+     "value": "₹211,402 cr",
      "ok": false
     },
     {
@@ -372,7 +372,7 @@
    "name": "Federal Bank",
    "sector": "Financial Services",
    "source": "Watchlist",
-   "price": 359.5,
+   "price": 360.35,
    "pe": 17.6,
    "criteria": [
     {
@@ -402,13 +402,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹88,835 cr",
+     "value": "₹89,033 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+25% 6m",
+     "value": "+26% 6m",
      "ok": true
     }
    ],
@@ -422,8 +422,8 @@
    "name": "HCL Technologies",
    "sector": "Information Technology",
    "source": "NIFTY 50",
-   "price": 1348.2,
-   "pe": 20.0,
+   "price": 1344.7,
+   "pe": 19.9,
    "criteria": [
     {
      "key": "profit",
@@ -452,7 +452,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹365,097 cr",
+     "value": "₹363,960 cr",
      "ok": false
     },
     {
@@ -472,7 +472,7 @@
    "name": "JSW Steel",
    "sector": "Metals & Mining",
    "source": "NIFTY 50",
-   "price": 1312.4,
+   "price": 1315.9,
    "pe": 11.3,
    "criteria": [
     {
@@ -502,7 +502,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹320,473 cr",
+     "value": "₹321,327 cr",
      "ok": false
     },
     {
@@ -522,7 +522,7 @@
    "name": "ONGC",
    "sector": "Oil Gas & Fuels",
    "source": "NIFTY 50",
-   "price": 224.77,
+   "price": 225.0,
    "pe": 5.7,
    "criteria": [
     {
@@ -552,7 +552,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹282,754 cr",
+     "value": "₹283,056 cr",
      "ok": false
     },
     {
@@ -572,7 +572,7 @@
    "name": "Reliance Industries",
    "sector": "Oil Gas & Fuels",
    "source": "NIFTY 50",
-   "price": 1367.0,
+   "price": 1363.0,
    "pe": 22.5,
    "criteria": [
     {
@@ -602,8 +602,8 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "n/a",
-     "ok": null
+     "value": "₹1,844,476 cr",
+     "ok": false
     },
     {
      "key": "trend",
@@ -613,7 +613,7 @@
     }
    ],
    "met": 3,
-   "known": 5,
+   "known": 6,
    "flagged": false,
    "risks": []
   },
@@ -622,8 +622,8 @@
    "name": "Titan Company",
    "sector": "Consumer Durables",
    "source": "NIFTY 50",
-   "price": 4663.8,
-   "pe": 58.9,
+   "price": 4648.1,
+   "pe": 58.7,
    "criteria": [
     {
      "key": "profit",
@@ -652,13 +652,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹413,780 cr",
+     "value": "₹412,432 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+14% 6m",
+     "value": "+13% 6m",
      "ok": true
     }
    ],
@@ -672,8 +672,8 @@
    "name": "Trent",
    "sector": "Consumer Services",
    "source": "NIFTY 50",
-   "price": 3173.2,
-   "pe": 89.3,
+   "price": 3190.0,
+   "pe": 89.7,
    "criteria": [
     {
      "key": "profit",
@@ -702,13 +702,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹169,200 cr",
+     "value": "₹170,101 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+17% 6m",
+     "value": "+18% 6m",
      "ok": true
     }
    ],
@@ -716,7 +716,7 @@
    "known": 6,
    "flagged": false,
    "risks": [
-    "Very high P/E (89)"
+    "Very high P/E (90)"
    ]
   },
   {
@@ -724,8 +724,8 @@
    "name": "UltraTech Cement",
    "sector": "Construction Materials",
    "source": "NIFTY 50",
-   "price": 12375.0,
-   "pe": 41.4,
+   "price": 12428.0,
+   "pe": 41.6,
    "criteria": [
     {
      "key": "profit",
@@ -754,7 +754,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹364,052 cr",
+     "value": "₹365,463 cr",
      "ok": false
     },
     {
@@ -774,8 +774,8 @@
    "name": "Adani Enterprises",
    "sector": "Metals & Mining",
    "source": "NIFTY 50",
-   "price": 2688.0,
-   "pe": 57.3,
+   "price": 2684.2,
+   "pe": 57.2,
    "criteria": [
     {
      "key": "profit",
@@ -804,7 +804,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹363,881 cr",
+     "value": "₹363,366 cr",
      "ok": false
     },
     {
@@ -824,7 +824,7 @@
    "name": "Adani Ports and SEZ",
    "sector": "Services",
    "source": "NIFTY 50",
-   "price": 1905.0,
+   "price": 1902.6,
    "pe": 31.8,
    "criteria": [
     {
@@ -854,7 +854,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹438,904 cr",
+     "value": "₹438,351 cr",
      "ok": false
     },
     {
@@ -874,8 +874,8 @@
    "name": "Asian Paints",
    "sector": "Consumer Durables",
    "source": "NIFTY 50",
-   "price": 2573.9,
-   "pe": 51.0,
+   "price": 2580.3,
+   "pe": 51.1,
    "criteria": [
     {
      "key": "profit",
@@ -904,7 +904,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹246,699 cr",
+     "value": "₹247,313 cr",
      "ok": false
     },
     {
@@ -924,8 +924,8 @@
    "name": "BSE Ltd",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 3750.5,
-   "pe": 50.1,
+   "price": 3755.7,
+   "pe": 50.2,
    "criteria": [
     {
      "key": "profit",
@@ -954,13 +954,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹152,120 cr",
+     "value": "₹152,530 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "-11% 6m",
+     "value": "-10% 6m",
      "ok": false
     }
    ],
@@ -974,7 +974,7 @@
    "name": "Bajaj Finance",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 1096.0,
+   "price": 1093.85,
    "pe": 31.5,
    "criteria": [
     {
@@ -1004,13 +1004,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹681,829 cr",
+     "value": "₹680,802 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+19% 6m",
+     "value": "+18% 6m",
      "ok": true
     }
    ],
@@ -1024,7 +1024,7 @@
    "name": "Bajaj Finserv",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 1859.6,
+   "price": 1856.2,
    "pe": 28.1,
    "criteria": [
     {
@@ -1054,7 +1054,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹297,325 cr",
+     "value": "₹297,037 cr",
      "ok": false
     },
     {
@@ -1074,7 +1074,7 @@
    "name": "Bharat Electronics",
    "sector": "Capital Goods",
    "source": "NIFTY 50",
-   "price": 395.3,
+   "price": 395.8,
    "pe": 45.2,
    "criteria": [
     {
@@ -1104,13 +1104,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹288,846 cr",
+     "value": "₹289,321 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "-7% 6m",
+     "value": "-6% 6m",
      "ok": false
     }
    ],
@@ -1124,8 +1124,8 @@
    "name": "Bharti Airtel",
    "sector": "Telecommunication",
    "source": "NIFTY 50",
-   "price": 2128.9,
-   "pe": 41.9,
+   "price": 2132.0,
+   "pe": 42.0,
    "criteria": [
     {
      "key": "profit",
@@ -1154,7 +1154,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹1,327,692 cr",
+     "value": "₹1,330,250 cr",
      "ok": false
     },
     {
@@ -1174,7 +1174,7 @@
    "name": "Canara Bank",
    "sector": "Financial Services",
    "source": "Watchlist",
-   "price": 132.93,
+   "price": 133.4,
    "pe": 5.9,
    "criteria": [
     {
@@ -1204,13 +1204,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹120,612 cr",
+     "value": "₹121,002 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+5% 6m",
+     "value": "+6% 6m",
      "ok": true
     }
    ],
@@ -1224,8 +1224,8 @@
    "name": "Cipla",
    "sector": "Healthcare",
    "source": "NIFTY 50",
-   "price": 1421.2,
-   "pe": 39.6,
+   "price": 1417.0,
+   "pe": 39.5,
    "criteria": [
     {
      "key": "profit",
@@ -1254,7 +1254,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹114,736 cr",
+     "value": "₹114,478 cr",
      "ok": false
     },
     {
@@ -1274,8 +1274,8 @@
    "name": "Dr. Reddy's Laboratories",
    "sector": "Healthcare",
    "source": "NIFTY 50",
-   "price": 1395.5,
-   "pe": 41.9,
+   "price": 1398.2,
+   "pe": 41.6,
    "criteria": [
     {
      "key": "profit",
@@ -1304,7 +1304,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹116,355 cr",
+     "value": "₹116,563 cr",
      "ok": false
     },
     {
@@ -1324,7 +1324,7 @@
    "name": "Grasim Industries",
    "sector": "Construction Materials",
    "source": "NIFTY 50",
-   "price": 3066.8,
+   "price": 3062.0,
    "pe": 42.4,
    "criteria": [
     {
@@ -1354,7 +1354,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹207,923 cr",
+     "value": "₹207,692 cr",
      "ok": false
     },
     {
@@ -1374,8 +1374,8 @@
    "name": "HDFC Bank",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 805.7,
-   "pe": 17.6,
+   "price": 808.15,
+   "pe": 17.7,
    "criteria": [
     {
      "key": "profit",
@@ -1404,7 +1404,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹1,243,766 cr",
+     "value": "₹1,247,161 cr",
      "ok": false
     },
     {
@@ -1424,8 +1424,8 @@
    "name": "HDFC Life Insurance",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 578.25,
-   "pe": 61.0,
+   "price": 575.5,
+   "pe": 60.8,
    "criteria": [
     {
      "key": "profit",
@@ -1454,13 +1454,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹125,559 cr",
+     "value": "₹124,994 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "-5% 6m",
+     "value": "-6% 6m",
      "ok": false
     }
    ],
@@ -1474,8 +1474,8 @@
    "name": "Hindalco Industries",
    "sector": "Metals & Mining",
    "source": "NIFTY 50",
-   "price": 902.0,
-   "pe": 10.5,
+   "price": 900.0,
+   "pe": 10.4,
    "criteria": [
     {
      "key": "profit",
@@ -1504,7 +1504,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹200,229 cr",
+     "value": "₹199,785 cr",
      "ok": false
     },
     {
@@ -1524,8 +1524,8 @@
    "name": "Hindustan Unilever",
    "sector": "FMCG",
    "source": "NIFTY 50",
-   "price": 1996.5,
-   "pe": 44.3,
+   "price": 1993.0,
+   "pe": 44.2,
    "criteria": [
     {
      "key": "profit",
@@ -1554,7 +1554,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹469,213 cr",
+     "value": "₹468,274 cr",
      "ok": false
     },
     {
@@ -1574,7 +1574,7 @@
    "name": "InterGlobe Aviation",
    "sector": "Services",
    "source": "NIFTY 50",
-   "price": 5491.3,
+   "price": 5499.3,
    "pe": null,
    "criteria": [
     {
@@ -1604,7 +1604,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹212,570 cr",
+     "value": "₹212,640 cr",
      "ok": false
     },
     {
@@ -1626,8 +1626,8 @@
    "name": "Jio Financial Services",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 223.55,
-   "pe": 85.1,
+   "price": 224.5,
+   "pe": 85.4,
    "criteria": [
     {
      "key": "profit",
@@ -1656,7 +1656,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹153,346 cr",
+     "value": "₹153,853 cr",
      "ok": false
     },
     {
@@ -1678,8 +1678,8 @@
    "name": "Maruti Suzuki",
    "sector": "Automobile",
    "source": "NIFTY 50",
-   "price": 12645.0,
-   "pe": 29.6,
+   "price": 12632.0,
+   "pe": 29.5,
    "criteria": [
     {
      "key": "profit",
@@ -1708,13 +1708,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹397,719 cr",
+     "value": "₹397,153 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "-2% 6m",
+     "value": "-3% 6m",
      "ok": false
     }
    ],
@@ -1728,8 +1728,8 @@
    "name": "Nestle India",
    "sector": "FMCG",
    "source": "NIFTY 50",
-   "price": 1288.8,
-   "pe": 60.9,
+   "price": 1281.6,
+   "pe": 60.6,
    "criteria": [
     {
      "key": "profit",
@@ -1758,7 +1758,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹248,521 cr",
+     "value": "₹247,133 cr",
      "ok": false
     },
     {
@@ -1778,8 +1778,8 @@
    "name": "Shriram Finance",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 967.65,
-   "pe": 16.1,
+   "price": 970.0,
+   "pe": 16.2,
    "criteria": [
     {
      "key": "profit",
@@ -1808,13 +1808,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹227,667 cr",
+     "value": "₹228,255 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+4% 6m",
+     "value": "+5% 6m",
      "ok": false
     }
    ],
@@ -1828,7 +1828,7 @@
    "name": "State Bank of India",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 1137.7,
+   "price": 1135.0,
    "pe": 11.6,
    "criteria": [
     {
@@ -1858,7 +1858,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹1,050,583 cr",
+     "value": "₹1,047,675 cr",
      "ok": false
     },
     {
@@ -1878,8 +1878,8 @@
    "name": "Sun Pharmaceutical",
    "sector": "Healthcare",
    "source": "NIFTY 50",
-   "price": 1881.1,
-   "pe": 41.2,
+   "price": 1871.5,
+   "pe": 41.0,
    "criteria": [
     {
      "key": "profit",
@@ -1908,13 +1908,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹451,531 cr",
+     "value": "₹449,036 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "-0% 6m",
+     "value": "-1% 6m",
      "ok": false
     }
    ],
@@ -1928,7 +1928,7 @@
    "name": "Tata Consultancy Services",
    "sector": "Information Technology",
    "source": "NIFTY 50",
-   "price": 2387.0,
+   "price": 2379.5,
    "pe": 16.7,
    "criteria": [
     {
@@ -1958,18 +1958,18 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "n/a",
-     "ok": null
+     "value": "₹860,924 cr",
+     "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+3% 6m",
+     "value": "+2% 6m",
      "ok": false
     }
    ],
    "met": 2,
-   "known": 5,
+   "known": 6,
    "flagged": false,
    "risks": []
   },
@@ -1978,7 +1978,7 @@
    "name": "Tata Motors Passenger Vehicles",
    "sector": "Automobile",
    "source": "NIFTY 50",
-   "price": 252.95,
+   "price": 252.55,
    "pe": null,
    "criteria": [
     {
@@ -2008,7 +2008,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹93,071 cr",
+     "value": "₹93,015 cr",
      "ok": false
     },
     {
@@ -2030,8 +2030,8 @@
    "name": "Tech Mahindra",
    "sector": "Information Technology",
    "source": "NIFTY 50",
-   "price": 1751.1,
-   "pe": 28.2,
+   "price": 1750.0,
+   "pe": 28.1,
    "criteria": [
     {
      "key": "profit",
@@ -2060,7 +2060,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹155,337 cr",
+     "value": "₹155,045 cr",
      "ok": false
     },
     {
@@ -2080,8 +2080,8 @@
    "name": "Apollo Hospitals",
    "sector": "Healthcare",
    "source": "NIFTY 50",
-   "price": 8799.0,
-   "pe": 55.9,
+   "price": 8821.0,
+   "pe": 56.4,
    "criteria": [
     {
      "key": "profit",
@@ -2110,7 +2110,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹126,516 cr",
+     "value": "₹126,832 cr",
      "ok": false
     },
     {
@@ -2130,8 +2130,8 @@
    "name": "Ashok Leyland",
    "sector": "Automobile",
    "source": "Watchlist",
-   "price": 162.02,
-   "pe": 26.7,
+   "price": 162.45,
+   "pe": 26.8,
    "criteria": [
     {
      "key": "profit",
@@ -2160,8 +2160,8 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "n/a",
-     "ok": null
+     "value": "₹95,421 cr",
+     "ok": false
     },
     {
      "key": "trend",
@@ -2171,7 +2171,7 @@
     }
    ],
    "met": 1,
-   "known": 5,
+   "known": 6,
    "flagged": false,
    "risks": []
   },
@@ -2180,7 +2180,7 @@
    "name": "Axis Bank",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 1358.9,
+   "price": 1360.0,
    "pe": 14.2,
    "criteria": [
     {
@@ -2210,7 +2210,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹423,226 cr",
+     "value": "₹423,569 cr",
      "ok": false
     },
     {
@@ -2230,8 +2230,8 @@
    "name": "ICICI Bank",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 1596.6,
-   "pe": 19.6,
+   "price": 1601.3,
+   "pe": 19.7,
    "criteria": [
     {
      "key": "profit",
@@ -2260,7 +2260,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹1,147,305 cr",
+     "value": "₹1,150,394 cr",
      "ok": false
     },
     {
@@ -2280,8 +2280,8 @@
    "name": "ITC",
    "sector": "FMCG",
    "source": "NIFTY 50",
-   "price": 297.8,
-   "pe": 19.8,
+   "price": 296.6,
+   "pe": 19.7,
    "criteria": [
     {
      "key": "profit",
@@ -2310,7 +2310,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹373,412 cr",
+     "value": "₹371,720 cr",
      "ok": false
     },
     {
@@ -2330,7 +2330,7 @@
    "name": "Infosys",
    "sector": "Information Technology",
    "source": "NIFTY 50",
-   "price": 1108.3,
+   "price": 1108.8,
    "pe": 14.8,
    "criteria": [
     {
@@ -2360,7 +2360,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹448,903 cr",
+     "value": "₹449,106 cr",
      "ok": false
     },
     {
@@ -2380,7 +2380,7 @@
    "name": "Kotak Mahindra Bank",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 493.95,
+   "price": 494.85,
    "pe": 22.9,
    "criteria": [
     {
@@ -2410,13 +2410,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹491,647 cr",
+     "value": "₹492,294 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+29% 6m",
+     "value": "+30% 6m",
      "ok": true
     }
    ],
@@ -2430,7 +2430,7 @@
    "name": "Larsen & Toubro",
    "sector": "Construction",
    "source": "NIFTY 50",
-   "price": 4148.5,
+   "price": 4159.0,
    "pe": 32.0,
    "criteria": [
     {
@@ -2460,7 +2460,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹571,034 cr",
+     "value": "₹572,232 cr",
      "ok": false
     },
     {
@@ -2480,8 +2480,8 @@
    "name": "Mahindra & Mahindra",
    "sector": "Automobile",
    "source": "NIFTY 50",
-   "price": 3347.7,
-   "pe": 19.4,
+   "price": 3359.1,
+   "pe": 19.5,
    "criteria": [
     {
      "key": "profit",
@@ -2510,13 +2510,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹401,895 cr",
+     "value": "₹403,348 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "+8% 6m",
+     "value": "+9% 6m",
      "ok": true
     }
    ],
@@ -2530,8 +2530,8 @@
    "name": "Max Healthcare",
    "sector": "Healthcare",
    "source": "NIFTY 50",
-   "price": 1020.45,
-   "pe": 72.2,
+   "price": 1022.85,
+   "pe": 72.4,
    "criteria": [
     {
      "key": "profit",
@@ -2560,13 +2560,13 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹99,352 cr",
+     "value": "₹99,557 cr",
      "ok": false
     },
     {
      "key": "trend",
      "label": "Price trend",
-     "value": "-5% 6m",
+     "value": "-4% 6m",
      "ok": false
     }
    ],
@@ -2580,8 +2580,8 @@
    "name": "NTPC",
    "sector": "Power",
    "source": "NIFTY 50",
-   "price": 320.15,
-   "pe": 10.4,
+   "price": 320.4,
+   "pe": 10.5,
    "criteria": [
     {
      "key": "profit",
@@ -2610,7 +2610,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹310,536 cr",
+     "value": "₹310,681 cr",
      "ok": false
     },
     {
@@ -2630,8 +2630,8 @@
    "name": "Power Grid Corporation",
    "sector": "Power",
    "source": "NIFTY 50",
-   "price": 258.4,
-   "pe": 14.8,
+   "price": 259.1,
+   "pe": 14.9,
    "criteria": [
     {
      "key": "profit",
@@ -2660,7 +2660,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹240,281 cr",
+     "value": "₹240,979 cr",
      "ok": false
     },
     {
@@ -2680,7 +2680,7 @@
    "name": "SBI Life Insurance",
    "sector": "Financial Services",
    "source": "NIFTY 50",
-   "price": 1787.9,
+   "price": 1788.0,
    "pe": 67.6,
    "criteria": [
     {
@@ -2710,7 +2710,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹179,430 cr",
+     "value": "₹179,410 cr",
      "ok": false
     },
     {
@@ -2730,8 +2730,8 @@
    "name": "Tata Consumer Products",
    "sector": "FMCG",
    "source": "NIFTY 50",
-   "price": 1127.3,
-   "pe": 65.7,
+   "price": 1130.9,
+   "pe": 65.9,
    "criteria": [
     {
      "key": "profit",
@@ -2760,7 +2760,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹111,610 cr",
+     "value": "₹111,926 cr",
      "ok": false
     },
     {
@@ -2780,8 +2780,8 @@
    "name": "Tata Steel",
    "sector": "Metals & Mining",
    "source": "NIFTY 50",
-   "price": 179.05,
-   "pe": 19.3,
+   "price": 179.0,
+   "pe": 19.2,
    "criteria": [
     {
      "key": "profit",
@@ -2810,7 +2810,7 @@
     {
      "key": "size",
      "label": "Market cap",
-     "value": "₹223,732 cr",
+     "value": "₹223,246 cr",
      "ok": false
     },
     {
