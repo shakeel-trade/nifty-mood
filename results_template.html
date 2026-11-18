@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quarterly Results · __TITLE_DATE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#16181D; --muted:#5B616E; --line:#E2E4E9; --bg:#F4F5F7; --card:#FFFFFF;
+          --up:#0B6E4F; --up-bg:#E3F3EC; --down:#A63D12; --down-bg:#FBEADF; --neu:#4A505C; --neu-bg:#ECEDEF;
+          --warn:#5C4300; --warn-bg:#FFF4D6; --link:#2148B8; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Inter, system-ui, sans-serif; }
+  a { color:var(--link); } a:hover { color:#16337F; }
+  .wrap { max-width:1320px; margin:0 auto; padding:24px 20px 40px; display:flex; flex-direction:column; gap:20px; }
+  .nav { display:flex; gap:8px; flex-wrap:wrap; }
+  .nav a { display:inline-flex; align-items:center; min-height:44px; padding:0 14px; border-radius:8px; font-weight:600; font-size:14px;
+           text-decoration:none; border:1px solid #C9CDD5; background:#fff; color:var(--ink); }
+  .nav a[aria-current="page"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  h1 { margin:0; font-family:'Space Grotesk', Inter, sans-serif; font-size:30px; letter-spacing:-0.5px; }
+  .sub { margin:4px 0 0; font-size:14px; color:var(--muted); }
+  .badge-demo { display:inline-block; margin-top:8px; padding:6px 10px; border-radius:8px; background:var(--warn-bg); border:1px solid #E8C96A; color:var(--warn); font-size:13px; font-weight:600; }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit, minmax(180px, 1fr)); gap:12px; }
+  .tile { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:6px; }
+  .tile .k { font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; }
+  .tile .v { font-family:'Space Grotesk', Inter, sans-serif; font-size:26px; font-weight:700; }
+  .tile .s { font-size:13px; color:var(--muted); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; }
+  .toolbar { display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px; padding:16px; border-bottom:1px solid var(--line); }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; }
+  .tab { min-height:44px; padding:0 14px; border-radius:8px; font:600 14px Inter, sans-serif; cursor:pointer; border:1px solid #C9CDD5; background:#fff; color:var(--ink); }
+  .tab[aria-pressed="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .tab:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
+  .search { display:flex; flex-direction:column; gap:4px; flex:0 1 260px; min-width:200px; }
+  .search label { font-size:12px; font-weight:600; color:var(--muted); }
+  .search input { height:44px; padding:0 12px; border:1px solid #C9CDD5; border-radius:8px; font:14px Inter, sans-serif; }
+  .scroll { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:1150px; font-size:14px; }
+  th { text-align:left; font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; padding:10px 12px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  th.r, td.r { text-align:right; }
+  td { padding:10px 12px; border-bottom:1px solid #EEF0F3; vertical-align:top; font-variant-numeric:tabular-nums; }
+  .name { font-weight:600; } .meta { font-size:12px; color:var(--muted); margin-top:2px; }
+  .g { display:block; font-size:12px; font-weight:600; margin-top:2px; }
+  .pill { display:inline-block; font-size:12px; font-weight:700; padding:3px 8px; border-radius:999px; white-space:nowrap; }
+  .p-beat { color:var(--up); background:var(--up-bg); } .p-miss { color:var(--down); background:var(--down-bg); }
+  .p-inline, .p-none { color:var(--neu); background:var(--neu-bg); }
+  .p-onetime { color:var(--warn); background:var(--warn-bg); border:1px solid #E8C96A; }
+  .note { font-size:13px; line-height:1.4; color:var(--ink); max-width:340px; }
+  .wl { display:inline-block; margin-top:4px; font-size:11px; font-weight:700; padding:2px 7px; border-radius:6px; background:#E6ECFA; color:#1E3F9E; text-transform:uppercase; }
+  .empty { padding:24px 16px; color:var(--muted); margin:0; }
+  .foot { margin:0; font-size:12px; line-height:1.5; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Report pages">
+    <a href="./">Market mood</a>
+    <a href="screen.html">Growth screen</a>
+    <a href="results.html" aria-current="page">Results</a>
+  </nav>
+
+  <div>
+    <h1>Quarterly Results</h1>
+    <p class="sub" id="subtitle"></p>
+    <span class="badge-demo" id="demo" hidden>DEMO DATA · random numbers, not real results</span>
+  </div>
+
+  <div class="tiles" id="tiles"></div>
+
+  <section class="card" aria-label="Results table">
+    <div class="toolbar">
+      <div class="tabs" role="group" aria-label="Show" id="tabs"></div>
+      <div class="search">
+        <label for="q">Search stocks</label>
+        <input id="q" type="search" placeholder="Name or symbol" autocomplete="off">
+      </div>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Stock</th>
+            <th scope="col">Quarter</th>
+            <th scope="col" class="r">Revenue (₹ cr)</th>
+            <th scope="col" class="r">Net profit (₹ cr)</th>
+            <th scope="col" class="r">EPS (₹)</th>
+            <th scope="col" class="r">EPS estimate</th>
+            <th scope="col">Vs expectations</th>
+            <th scope="col">One-time items</th>
+            <th scope="col">Notes</th>
+            <th scope="col">Next results</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="foot" id="foot"></p>
+</div>
+
+<script>
+const DATA = __RESULTS_DATA__;
+
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v);
+  }
+  for (const kid of kids) if (kid != null) n.append(kid);
+  return n;
+}
+const fmt = v => v == null ? 'n/a' : v.toLocaleString('en-IN', { maximumFractionDigits: 1 });
+const fmt2 = v => v == null ? 'n/a' : v.toLocaleString('en-IN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const pct = v => v == null ? null : (v > 0 ? '+' : (v < 0 ? '−' : '')) + Math.abs(v * 100).toFixed(0) + '% YoY';
+const gColor = v => v == null ? '#5B616E' : (v >= 0 ? '#0B6E4F' : '#A63D12');
+
+const S = DATA.stocks.filter(s => s.has_results);
+const count = f => S.filter(f).length;
+const beat = count(s => s.verdict === 'Beat'), miss = count(s => s.verdict === 'Miss'),
+      inline = count(s => s.verdict === 'In line'), onetime = count(s => s.one_time_flag), recent = count(s => s.recent);
+
+document.getElementById('subtitle').textContent =
+  `Latest reported quarter for ${DATA.stocks.length} stocks (NIFTY 50 + watchlist) · updated ${DATA.generated_at}`;
+if (DATA.demo) document.getElementById('demo').hidden = false;
+document.getElementById('foot').textContent =
+  `Data: Yahoo Finance quarterly statements and analyst estimates. "Vs expectations" compares reported EPS with the average analyst EPS estimate: ` +
+  `within ±${DATA.in_line_band}% is "in line". Many Indian companies have no Yahoo estimate ("No estimate"). One-time items are flagged when they are ` +
+  `${DATA.one_time_share}% or more of net profit; Yahoo reports them before tax, so "profit excluding one-time items" is approximate. ` +
+  `Check the company's results filing on NSE/BSE for exact figures. Not investment advice.`;
+
+const tile = (k, v, s, color) => el('div', { class: 'tile' },
+  el('span', { class: 'k', text: k }), el('span', { class: 'v', text: String(v), style: color ? `color:${color}` : '' }), el('span', { class: 's', text: s }));
+document.getElementById('tiles').replaceChildren(
+  tile('Latest season', recent, 'reported for the most recent quarter'),
+  tile('Beat estimates', beat, `EPS more than ${DATA.in_line_band}% above`, '#0B6E4F'),
+  tile('In line', inline, `within ±${DATA.in_line_band}%`, '#4A505C'),
+  tile('Missed estimates', miss, `EPS more than ${DATA.in_line_band}% below`, '#A63D12'),
+  tile('One-time items', onetime, 'profit distorted by exceptional items', '#5C4300')
+);
+
+const state = { view: 'all', q: '' };
+const views = [
+  ['all', 'All', () => true],
+  ['recent', 'Latest season', s => s.recent],
+  ['beat', 'Beat', s => s.verdict === 'Beat'],
+  ['miss', 'Missed', s => s.verdict === 'Miss'],
+  ['onetime', 'One-time items', s => s.one_time_flag]
+];
+
+function renderTabs() {
+  document.getElementById('tabs').replaceChildren(...views.map(([k, label, f]) =>
+    el('button', { type: 'button', class: 'tab', 'aria-pressed': String(state.view === k),
+      text: `${label} · ${k === 'all' ? DATA.stocks.length : S.filter(f).length}`,
+      onclick: () => { state.view = k; renderTabs(); renderRows(); } })));
+}
+
+function verdictPill(s) {
+  if (!s.has_results) return el('span', { class: 'pill p-none', text: 'n/a' });
+  const cls = { 'Beat': 'p-beat', 'Miss': 'p-miss', 'In line': 'p-inline' }[s.verdict] || 'p-none';
+  const label = s.surprise_pct == null ? s.verdict : `${s.verdict} ${s.surprise_pct > 0 ? '+' : ''}${s.surprise_pct}%`;
+  return el('span', { class: 'pill ' + cls, text: label });
+}
+
+function renderRows() {
+  const f = views.find(v => v[0] === state.view)[2];
+  const q = state.q.trim().toLowerCase();
+  const list = DATA.stocks.filter(s => (state.view === 'all' || (s.has_results && f(s))) &&
+    (!q || s.name.toLowerCase().includes(q) || s.ticker.toLowerCase().includes(q)));
+  const body = document.getElementById('rows');
+  if (!list.length) { body.replaceChildren(el('tr', {}, el('td', { colspan: '10' }, el('p', { class: 'empty', text: 'No stocks match.' })))); return; }
+  body.replaceChildren(...list.map(s => el('tr', {},
+    el('td', {}, el('div', { class: 'name', text: s.name }), el('div', { class: 'meta', text: `${s.ticker} · ${s.sector}` }),
+      s.source === 'Watchlist' ? el('span', { class: 'wl', text: 'Watchlist' }) : null),
+    el('td', {}, el('span', { text: s.quarter }), s.quarter_end ? el('div', { class: 'meta', text: 'ended ' + s.quarter_end }) : null),
+    el('td', { class: 'r' }, fmt(s.revenue_cr), pct(s.revenue_yoy) ? el('span', { class: 'g', text: pct(s.revenue_yoy), style: `color:${gColor(s.revenue_yoy)}` }) : null),
+    el('td', { class: 'r' }, fmt(s.profit_cr), pct(s.profit_yoy) ? el('span', { class: 'g', text: pct(s.profit_yoy), style: `color:${gColor(s.profit_yoy)}` }) : null,
+      s.profit_ex_one_time_cr != null ? el('span', { class: 'g', text: `ex one-time ≈ ${fmt(s.profit_ex_one_time_cr)}`, style: 'color:#5C4300' }) : null),
+    el('td', { class: 'r', text: fmt2(s.eps) }),
+    el('td', { class: 'r', text: fmt2(s.eps_estimate) }),
+    el('td', {}, verdictPill(s)),
+    el('td', {}, s.one_time_flag
+      ? el('span', { class: 'pill p-onetime', text: `⚠ ₹${fmt(Math.abs(s.one_time_cr))} cr · ${s.one_time_share}%` })
+      : el('span', { class: 'meta', text: s.one_time_cr ? `small (₹${fmt(s.one_time_cr)} cr)` : 'none reported' })),
+    el('td', {}, el('div', { class: 'note', text: (s.notes || []).join(' ') || '—' })),
+    el('td', { text: s.next_date || 'n/a' })
+  )));
+}
+
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderRows(); });
+renderTabs(); renderRows();
+</script>
+</body>
+</html>

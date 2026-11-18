@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Growth Screen · __TITLE_DATE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#16181D; --muted:#5B616E; --line:#E2E4E9; --bg:#F4F5F7; --card:#FFFFFF;
+          --ok:#0B6E4F; --ok-bg:#E3F3EC; --no:#A63D12; --no-bg:#FBEADF; --na:#4A505C; --na-bg:#ECEDEF; --link:#2148B8; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:Inter, system-ui, sans-serif; }
+  a { color:var(--link); } a:hover { color:#16337F; }
+  .wrap { max-width:1320px; margin:0 auto; padding:24px 20px 40px; display:flex; flex-direction:column; gap:20px; }
+  .nav { display:flex; gap:8px; flex-wrap:wrap; }
+  .nav a { display:inline-flex; align-items:center; min-height:44px; padding:0 14px; border-radius:8px; font-weight:600; font-size:14px;
+           text-decoration:none; border:1px solid #C9CDD5; background:#fff; color:var(--ink); }
+  .nav a[aria-current="page"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  h1 { margin:0; font-family:'Space Grotesk', Inter, sans-serif; font-size:30px; letter-spacing:-0.5px; }
+  .sub { margin:4px 0 0; font-size:14px; color:var(--muted); }
+  .warn { background:#FFF4D6; border:1px solid #E8C96A; color:#5C4300; border-radius:10px; padding:14px 16px; font-size:14px; line-height:1.5; }
+  .warn strong { color:#3D2C00; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; }
+  .crit { padding:16px; display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr)); gap:12px 20px; }
+  .crit div { font-size:14px; line-height:1.4; }
+  .crit b { display:block; font-size:12px; text-transform:uppercase; letter-spacing:.5px; color:var(--muted); margin-bottom:2px; }
+  .toolbar { display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:12px; padding:16px; border-bottom:1px solid var(--line); }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; }
+  .tab { min-height:44px; padding:0 14px; border-radius:8px; font:600 14px Inter, sans-serif; cursor:pointer; border:1px solid #C9CDD5; background:#fff; color:var(--ink); }
+  .tab[aria-pressed="true"] { background:var(--ink); color:#fff; border-color:var(--ink); }
+  .tab:focus-visible { outline:2px solid var(--link); outline-offset:2px; }
+  .search { display:flex; flex-direction:column; gap:4px; flex:0 1 260px; min-width:200px; }
+  .search label { font-size:12px; font-weight:600; color:var(--muted); }
+  .search input { height:44px; padding:0 12px; border:1px solid #C9CDD5; border-radius:8px; font:14px Inter, sans-serif; }
+  .scroll { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; min-width:1100px; font-size:14px; }
+  th { text-align:left; font-size:12px; font-weight:600; color:var(--muted); text-transform:uppercase; letter-spacing:.5px; padding:10px 12px; border-bottom:1px solid var(--line); white-space:nowrap; }
+  td { padding:10px 12px; border-bottom:1px solid #EEF0F3; vertical-align:top; }
+  tr.flag td { background:#F3F8FF; }
+  tr.flag td:first-child { box-shadow:inset 3px 0 0 var(--link); }
+  .name { font-weight:600; } .meta { font-size:12px; color:var(--muted); margin-top:2px; }
+  .c { display:inline-flex; align-items:center; gap:6px; padding:3px 8px; border-radius:6px; font-size:13px; font-weight:600; white-space:nowrap; font-variant-numeric:tabular-nums; }
+  .c.ok { color:var(--ok); background:var(--ok-bg); } .c.no { color:var(--no); background:var(--no-bg); } .c.na { color:var(--na); background:var(--na-bg); }
+  .met { font-family:'Space Grotesk', Inter, sans-serif; font-weight:700; font-size:18px; white-space:nowrap; }
+  .badge { display:inline-block; margin-top:4px; font-size:11px; font-weight:700; padding:2px 7px; border-radius:6px; background:#E6ECFA; color:#1E3F9E; text-transform:uppercase; }
+  .risk { font-size:13px; color:var(--no); line-height:1.4; }
+  .empty { padding:24px 16px; color:var(--muted); margin:0; }
+  .foot { margin:0; font-size:12px; line-height:1.5; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="nav" aria-label="Report pages">
+    <a href="./">Market mood</a>
+    <a href="screen.html" aria-current="page">Growth screen</a>
+    <a href="results.html">Results</a>
+  </nav>
+
+  <div>
+    <h1>Growth Screen</h1>
+    <p class="sub" id="subtitle"></p>
+  </div>
+
+  <div class="warn" role="note">
+    <strong>Research list, not recommendations.</strong> Stocks here match growth characteristics similar to Cupid's
+    before its rally. Many stocks with these characteristics do <strong>not</strong> go on to rise, and some fall sharply.
+    Use this list to decide what to read about, then check each company's results, investor presentation and valuation yourself.
+    <span id="demo-note"></span>
+  </div>
+
+  <section class="card" aria-labelledby="crit-h">
+    <h2 id="crit-h" style="margin:0; padding:16px 16px 0; font-size:16px">The six criteria</h2>
+    <div class="crit" id="criteria"></div>
+  </section>
+
+  <section class="card" aria-label="Screen results">
+    <div class="toolbar">
+      <div class="tabs" role="group" aria-label="Show" id="tabs"></div>
+      <div class="search">
+        <label for="q">Search stocks</label>
+        <input id="q" type="search" placeholder="Name or symbol" autocomplete="off">
+      </div>
+    </div>
+    <div class="scroll">
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Stock</th>
+            <th scope="col">Met</th>
+            <th scope="col">Profit growth</th>
+            <th scope="col">Revenue growth</th>
+            <th scope="col">Debt / equity</th>
+            <th scope="col">Promoter / insider</th>
+            <th scope="col">Market cap</th>
+            <th scope="col">Price trend</th>
+            <th scope="col">Risks to check</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="foot">Data: Yahoo Finance (latest reported quarter; Indian company fundamentals there can be missing or a quarter late).
+    "n/a" means no data and counts as not met. Promoter holding uses Yahoo's "held by insiders" figure as an approximation;
+    check the exact shareholding pattern on NSE/BSE. Not investment advice.</p>
+</div>
+
+<script>
+const DATA = __SCREEN_DATA__;
+
+function el(tag, attrs, ...kids) {
+  const n = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs || {})) {
+    if (k === 'text') n.textContent = v;
+    else if (k.startsWith('on')) n.addEventListener(k.slice(2), v);
+    else n.setAttribute(k, v);
+  }
+  for (const kid of kids) if (kid != null) n.append(kid);
+  return n;
+}
+
+const state = { view: 'flagged', q: '' };
+const flaggedCount = DATA.stocks.filter(s => s.flagged).length;
+if (!flaggedCount) state.view = 'all';
+
+document.getElementById('subtitle').textContent =
+  `Updated ${DATA.generated_at} · ${DATA.stocks.length} stocks checked (NIFTY 50 + watchlist) · ${flaggedCount} flagged`;
+if (DATA.demo) document.getElementById('demo-note').textContent = ' DEMO DATA: random numbers, not real company figures.';
+
+const T = DATA.thresholds;
+const critDefs = [
+  ['Profit growth', T.profit], ['Revenue growth', T.revenue], ['Debt / equity', T.debt],
+  ['Promoter / insider holding', T.insider], ['Market cap', T.size], ['Price trend', T.trend],
+  ['Flagged when', T.flag]
+];
+document.getElementById('criteria').replaceChildren(...critDefs.map(([k, v]) => el('div', {}, el('b', { text: k }), v)));
+
+function renderTabs() {
+  const defs = [['flagged', `Flagged · ${flaggedCount}`], ['all', `All stocks · ${DATA.stocks.length}`]];
+  document.getElementById('tabs').replaceChildren(...defs.map(([k, label]) =>
+    el('button', { type: 'button', class: 'tab', 'aria-pressed': String(state.view === k), text: label,
+      onclick: () => { state.view = k; renderTabs(); renderRows(); } })));
+}
+
+function cell(c) {
+  const cls = c.ok === true ? 'ok' : (c.ok === false ? 'no' : 'na');
+  const mark = c.ok === true ? '✓' : (c.ok === false ? '✗' : '–');
+  const word = c.ok === true ? 'met' : (c.ok === false ? 'not met' : 'no data');
+  return el('td', {}, el('span', { class: 'c ' + cls, 'aria-label': `${c.label}: ${c.value}, ${word}` },
+    el('span', { 'aria-hidden': 'true', text: mark }), el('span', { 'aria-hidden': 'true', text: c.value })));
+}
+
+function renderRows() {
+  const q = state.q.trim().toLowerCase();
+  const list = DATA.stocks.filter(s => (state.view === 'all' || s.flagged) &&
+    (!q || s.name.toLowerCase().includes(q) || s.ticker.toLowerCase().includes(q)));
+  const body = document.getElementById('rows');
+  if (!list.length) {
+    body.replaceChildren(el('tr', {}, el('td', { colspan: '9' }, el('p', { class: 'empty',
+      text: state.view === 'flagged' ? 'No stock meets enough criteria today. Switch to "All stocks" to see how close each one is.' : 'No stocks match this search.' }))));
+    return;
+  }
+  body.replaceChildren(...list.map(s => el('tr', { class: s.flagged ? 'flag' : '' },
+    el('td', {},
+      el('div', { class: 'name', text: s.name }),
+      el('div', { class: 'meta', text: `${s.ticker} · ${s.sector}${s.price != null ? ' · ₹' + s.price.toLocaleString('en-IN') : ''}` }),
+      s.source === 'Watchlist' ? el('span', { class: 'badge', text: 'Watchlist' }) : null),
+    el('td', {}, el('span', { class: 'met', text: `${s.met}/6` }), s.flagged ? el('div', { class: 'badge', text: 'Flagged' }) : null),
+    ...s.criteria.map(cell),
+    el('td', {}, s.risks.length ? el('div', { class: 'risk', text: s.risks.join(' · ') }) : el('span', { class: 'meta', text: 'None flagged' }))
+  )));
+}
+
+document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderRows(); });
+renderTabs(); renderRows();
+</script>
+</body>
+</html>
