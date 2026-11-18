@@ -1,33 +1,55 @@
-name: Daily NIFTY 50 mood
+name: Market mood (hourly)
 
 on:
   schedule:
-    - cron: "0 12 * * 1-5"   # 12:00 UTC = 17:30 IST, Monday to Friday
+    - cron: "45 3-10 * * 1-5"   # 09:15 to 16:15 IST, Monday to Friday
+    - cron: "45 11 * * 1-5"     # 17:15 IST final run (also screen + results)
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: market-mood
+  cancel-in-progress: false
+
 jobs:
   mood:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+
       - name: Run the mood pipeline
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MOOD_OUTPUT_DIR: docs
         run: python mood_pipeline.py
+
+      - name: Run the growth screen
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '45 11 * * 1-5'
+        continue-on-error: true
+        env:
+          MOOD_OUTPUT_DIR: docs
+        run: python growth_screen.py
+
+      - name: Run the results report
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '45 11 * * 1-5'
+        continue-on-error: true
+        env:
+          MOOD_OUTPUT_DIR: docs
+        run: python results_report.py
+
       - name: Publish the dashboard
         run: |
           cp docs/dashboard.html docs/index.html
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add docs data
-          git commit -m "Market mood for $(date -u +%F)" || echo "Nothing new to commit"
+          git commit -m "Market mood $(TZ=Asia/Kolkata date '+%F %H:%M IST')" || echo "Nothing new to commit"
+          git pull --rebase -X theirs || true
           git push
