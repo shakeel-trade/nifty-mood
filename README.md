@@ -27,6 +27,31 @@ layout as the prototype.
    - `output/archive/mood_YYYY-MM-DD.html` and `.json`: one copy per day
    - `data/history.db`: SQLite tables `daily_mood` and `daily_market` with every day's scores
 
+## Extra stocks (watchlist)
+
+`watchlist.csv` lists stocks monitored alongside the NIFTY 50 in all three reports
+(currently Ashok Leyland, Canara Bank, Cupid, Federal Bank, Groww and Shipping Corporation of India).
+Add one line per stock: `NSE_SYMBOL,Company name,Industry`. Stocks already in the NIFTY 50 are skipped.
+
+## Growth screen
+
+`growth_screen.py` checks every stock in `nifty50.csv` plus `watchlist.csv` against six criteria
+(profit growth, revenue growth, debt, promoter/insider holding, market cap, price trend) and writes
+`screen.html`, linked from the dashboard's "Growth screen" button. Stocks meeting 5 or more criteria,
+including profit growth, are flagged, with risk warnings such as a very high P/E.
+
+- Add stocks to check in `watchlist.csv` (one line each: `SYMBOL,Name,Industry`, NSE symbol).
+- Change the thresholds at the top of `growth_screen.py`.
+- It is a research list, not a buy list.
+
+## Results report
+
+`results_report.py` writes `results.html` (the "Results" button) with each company's latest quarter:
+revenue, net profit and EPS with growth vs the same quarter last year; EPS vs the analysts' estimate
+(Beat / In line within ±5% / Miss); one-time (exceptional) items flagged when they are 10% or more of
+net profit, with approximate profit excluding them; and the next expected results date.
+Yahoo has no analyst estimate for many Indian companies; those show "No estimate".
+
 ## Setup (Linux / macOS / Windows, Python 3.9+)
 
 ```sh
@@ -47,8 +72,10 @@ Use `--no-news` to skip headlines.
 
 ## Run it on GitHub (no server needed)
 
-The workflow in `.github/workflows/daily-mood.yml` runs the script on GitHub's computers at
-17:30 IST every weekday, saves the dashboard to `docs/index.html` and the history to `data/history.db`,
+The workflow in `.github/workflows/daily-mood.yml` runs on GitHub's computers every hour from
+09:15 to 17:15 IST on weekdays (the growth screen and results report refresh only at 17:15). During
+market hours the dashboard is an intraday snapshot, and volume is compared with what is normally traded by
+that time of day. GitHub may start scheduled runs 5-30 minutes late at busy times. Each run saves the dashboard to `docs/index.html` and the history to `data/history.db`,
 and GitHub Pages publishes it at `https://<your-username>.github.io/<repository-name>/`.
 Use the "Run workflow" button on the Actions tab to run it on demand.
 

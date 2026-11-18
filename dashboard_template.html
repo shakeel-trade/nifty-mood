@@ -18,6 +18,7 @@
   h1 { margin:0; font-family:'Space Grotesk', Inter, sans-serif; font-size:30px; letter-spacing:-0.5px; }
   .sub { margin:4px 0 0; font-size:14px; color:var(--muted); }
   .badge { padding:8px 12px; border-radius:8px; font-size:13px; font-weight:500; background:#E6ECFA; color:#1E3F9E; }
+  .badge.live { background:#E3F3EC; color:#0B6E4F; border:1px solid #9FD3BE; }
   .badge.demo { background:#FFF4D6; border:1px solid #E8C96A; color:#5C4300; }
   .tiles { display:grid; grid-template-columns:repeat(auto-fit, minmax(190px, 1fr)); gap:12px; }
   .tile { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:6px; }
@@ -64,14 +65,23 @@
   .factor .top { display:flex; justify-content:space-between; gap:12px; font-size:14px; }
   .src { display:flex; gap:10px; align-items:flex-start; font-size:14px; line-height:1.4; }
   .src .tag { flex:0 0 auto; font-size:11px; font-weight:700; padding:3px 7px; border-radius:6px; background:#E6ECFA; color:#1E3F9E; text-transform:uppercase; }
+  .nav { display:flex; gap:8px; flex-wrap:wrap; }
+  .nav a { display:inline-flex; align-items:center; min-height:44px; padding:0 14px; border-radius:8px; font-weight:600; font-size:14px;
+           text-decoration:none; border:1px solid #C9CDD5; background:#fff; color:var(--ink); }
+  .nav a[aria-current="page"] { background:var(--ink); color:#fff; border-color:var(--ink); }
   .foot { margin:0; font-size:12px; line-height:1.5; color:var(--muted); }
 </style>
 </head>
 <body>
 <div class="wrap">
+  <nav class="nav" aria-label="Report pages">
+    <a href="./" id="nav-mood" aria-current="page">Market mood</a>
+    <a href="screen.html" id="nav-screen">Growth screen</a>
+    <a href="results.html" id="nav-results">Results</a>
+  </nav>
   <div class="head">
     <div>
-      <h1>NIFTY 50 Market Mood</h1>
+      <h1>Market Mood</h1>
       <p class="sub" id="subtitle"></p>
     </div>
     <div class="badge" id="badge"></div>
@@ -83,6 +93,14 @@
     <section class="list" aria-label="Stocks">
       <div class="toolbar">
         <div class="tabs" role="group" aria-label="Filter by mood" id="tabs"></div>
+        <div class="sort">
+          <label for="group">Group</label>
+          <select id="group">
+            <option value="all">All monitored</option>
+            <option value="NIFTY 50">NIFTY 50 only</option>
+            <option value="Watchlist">Watchlist only</option>
+          </select>
+        </div>
         <div class="sort">
           <label for="sort">Sort by</label>
           <select id="sort">
@@ -115,6 +133,13 @@
 <script>
 const DATA = __MOOD_DATA__;
 
+// Archived copies live one folder down, so point the page links back up
+if (location.pathname.includes('/archive/')) {
+  document.getElementById('nav-mood').setAttribute('href', '../');
+  document.getElementById('nav-screen').setAttribute('href', '../screen.html');
+  document.getElementById('nav-results').setAttribute('href', '../results.html');
+}
+
 const MOODS = {
   Bullish: { fg: '#0B6E4F', bg: '#E3F3EC' },
   Neutral: { fg: '#4A505C', bg: '#ECEDEF' },
@@ -139,7 +164,7 @@ function el(tag, attrs, ...kids) {
   return n;
 }
 
-const state = { filter: 'all', q: '', sort: 'change', sel: null };
+const state = { filter: 'all', q: '', sort: 'change', sel: null, group: 'all' };
 const stocks = DATA.stocks;
 const sorted0 = stocks.slice().sort((a, b) => Math.abs(b.change) - Math.abs(a.change));
 state.sel = sorted0.length ? sorted0[0].ticker : null;
@@ -147,10 +172,12 @@ state.sel = sorted0.length ? sorted0[0].ticker : null;
 function header() {
   const m = DATA.market;
   document.getElementById('subtitle').textContent =
-    `Trading day ${DATA.trade_date} · generated ${DATA.generated_at} · ${stocks.length} stocks`;
+    `Trading day ${DATA.trade_date} · generated ${DATA.generated_at} · ${stocks.length} stocks (NIFTY 50 + ${stocks.filter(s => s.source === 'Watchlist').length} watchlist)`;
   const badge = document.getElementById('badge');
+  const how = DATA.explained_by === 'ai' ? 'AI explanations' : 'rule-based explanations';
   if (DATA.demo) { badge.className = 'badge demo'; badge.textContent = 'DEMO DATA · random numbers, not real prices'; }
-  else badge.textContent = DATA.explained_by === 'ai' ? 'Explanations: AI from today’s headlines' : 'Explanations: rule-based';
+  else if (DATA.intraday) { badge.className = 'badge live'; badge.textContent = `Market open · snapshot at ${DATA.generated_at.split(' ').slice(-2).join(' ')} · updates hourly · ${how}`; }
+  else badge.textContent = `Closing data · ${how}`;
 
   const byChg = stocks.slice().sort((a, b) => b.change - a.change);
   const top = byChg[0], low = byChg[byChg.length - 1];
@@ -184,6 +211,7 @@ function renderTabs() {
 function visibleStocks() {
   const q = state.q.trim().toLowerCase();
   const list = stocks.filter(s => (state.filter === 'all' || s.mood === state.filter) &&
+    (state.group === 'all' || (s.source || 'NIFTY 50') === state.group) &&
     (!q || s.name.toLowerCase().includes(q) || s.ticker.toLowerCase().includes(q)));
   const cmp = {
     change: (a, b) => b.change - a.change,
@@ -204,7 +232,7 @@ function renderRows() {
         onclick: () => { state.sel = s.ticker; renderRows(); renderDetail(); } },
       el('span', { style: { display: 'flex', flexDirection: 'column', gap: '2px', minWidth: 0 } },
         el('span', { class: 'name', text: s.name }),
-        el('span', { class: 'meta', text: `${s.ticker} · ${s.sector}` })),
+        el('span', { class: 'meta', text: `${s.ticker} · ${s.sector}${s.source === 'Watchlist' ? ' · Watchlist' : ''}` })),
       el('span', { class: 'num', text: fmtPrice(s.price) }),
       el('span', { class: 'num chg', text: `${arrow(s.change)} ${fmtChg(s.change)}`, style: { color: dirColor(s.change) } }),
       el('span', { class: 'mood' },
@@ -249,6 +277,7 @@ function renderDetail() {
 }
 
 document.getElementById('q').addEventListener('input', e => { state.q = e.target.value; renderRows(); });
+document.getElementById('group').addEventListener('change', e => { state.group = e.target.value; renderRows(); });
 document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; renderRows(); });
 
 header(); renderTabs(); renderRows(); renderDetail();

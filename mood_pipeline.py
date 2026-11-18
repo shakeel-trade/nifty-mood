@@ -42,6 +42,7 @@ from email.utils import parsedate_to_datetime
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 UNIVERSE_CSV = os.path.join(BASE_DIR, "nifty50.csv")
+WATCHLIST_CSV = os.path.join(BASE_DIR, "watchlist.csv")   # extra stocks to monitor alongside the NIFTY 50
 TEMPLATE_HTML = os.path.join(BASE_DIR, "dashboard_template.html")
 OUTPUT_DIR = os.environ.get("MOOD_OUTPUT_DIR", os.path.join(BASE_DIR, "output"))
 DB_PATH = os.environ.get("MOOD_DB", os.path.join(BASE_DIR, "data", "history.db"))
@@ -89,6 +90,23 @@ def load_universe(path=UNIVERSE_CSV):
     return rows
 
 
+def load_monitored():
+    """NIFTY 50 plus any extra stocks in watchlist.csv (duplicates skipped)."""
+    stocks = [dict(u, source="NIFTY 50") for u in load_universe()]
+    seen = {u["symbol"] for u in stocks}
+    if os.path.exists(WATCHLIST_CSV):
+        with open(WATCHLIST_CSV, encoding="utf-8") as f:
+            header = [h.strip() for h in f.readline().strip().split(",")]
+            for line in f:
+                parts = [p.strip() for p in line.strip().split(",")]
+                if len(parts) >= 3 and parts[0] and parts[0] not in seen:
+                    rec = dict(zip(header, parts), source="Watchlist")
+                    rec["yahoo"] = rec["symbol"] + ".NS"
+                    stocks.append(rec)
+                    seen.add(rec["symbol"])
+    return stocks
+
+
 def mood_label(score):
     if score >= 60:
         return "Bullish"
@@ -98,6 +116,28 @@ def mood_label(score):
 
 
 # --------------------------------------------------------------------------- 1. prices
+
+MARKET_OPEN = dt.time(9, 15)
+MARKET_CLOSE = dt.time(15, 30)
+
+
+def session_fraction(trade_date):
+    """Share of today's trading session that has passed (1.0 after the close or for past days).
+    Used so a 10:15 AM volume is compared with the volume normally traded by 10:15, not a full day's."""
+    now = dt.datetime.now(IST)
+    if trade_date != now.date().isoformat():
+        return 1.0
+    opened = dt.datetime.combine(now.date(), MARKET_OPEN, IST)
+    closed = dt.datetime.combine(now.date(), MARKET_CLOSE, IST)
+    if now >= closed:
+        return 1.0
+    return max(0.05, (now - opened).total_seconds() / (closed - opened).total_seconds())
+
+
+def is_intraday(trade_date):
+    now = dt.datetime.now(IST)
+    return trade_date == now.date().isoformat() and now.time() < MARKET_CLOSE
+
 
 def fetch_prices(universe):
     """Return (trade_date, {symbol: metrics}, index_change)."""
@@ -125,7 +165,8 @@ def fetch_prices(universe):
             "prev_close": prev,
             "change_pct": (last / prev - 1.0) * 100.0,
             "volume": float(vol.iloc[-1]),
-            "vol_ratio": (float(vol.iloc[-1]) / avg_vol20) if avg_vol20 else 1.0,
+            "vol_ratio": (float(vol.iloc[-1]) / (avg_vol20 * session_fraction(df.index[-1].date().isoformat())))
+                         if avg_vol20 else 1.0,
             "sma20": float(close.iloc[-20:].mean()),
             "sma50": float(close.iloc[-50:].mean()) if len(close) >= 50 else float(close.mean()),
             "high_52w": float(close.max()),
@@ -359,7 +400,8 @@ def main():
     ap.add_argument("--no-news", action="store_true", help="skip fetching headlines")
     args = ap.parse_args()
 
-    universe = load_universe()
+    universe = load_monitored()
+    log(f"Monitoring {len(universe)} stocks ({sum(u['source'] == 'Watchlist' for u in universe)} from watchlist.csv)")
     if args.demo:
         trade_date, prices, index_change = demo_prices(universe)
     else:
@@ -404,7 +446,7 @@ def main():
 
         trend_txt = "above" if m["close"] > m["sma20"] else "below"
         stocks.append({
-            "ticker": u["symbol"], "name": u["name"], "sector": u["industry"],
+            "ticker": u["symbol"], "name": u["name"], "sector": u["industry"], "source": u["source"],
             "price": round(m["close"], 2), "change": round(m["change_pct"], 2),
             "vol_ratio": round(m["vol_ratio"], 2), "score": int(score), "mood": mood_label(score),
             "why": result["why"], "confidence": result["confidence"],
@@ -430,6 +472,7 @@ def main():
               "decliners": sum(s["change"] < 0 for s in stocks), "counts": counts}
 
     payload = {"trade_date": trade_date, "generated_at": dt.datetime.now(IST).strftime("%d %b %Y %H:%M IST"),
+               "intraday": (not args.demo) and is_intraday(trade_date),
                "demo": bool(args.demo), "market": market, "stocks": stocks,
                "explained_by": "ai" if (api_key and not args.demo) else "rules"}
 
