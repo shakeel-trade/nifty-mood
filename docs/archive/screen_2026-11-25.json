@@ -1,0 +1,2829 @@
+{
+ "date": "2026-11-25",
+ "generated_at": "25 Nov 2026 18:14 IST",
+ "demo": false,
+ "thresholds": {
+  "profit": "≥ +50% vs same quarter last year",
+  "revenue": "≥ +30% vs same quarter last year",
+  "debt": "≤ 0.5",
+  "insider": "≥ 40% of shares",
+  "size": "≤ ₹10,000 crore",
+  "trend": "above 200-day average and up over 6 months",
+  "flag": "5 or more of 6, including profit growth"
+ },
+ "stocks": [
+  {
+   "ticker": "GROWW",
+   "name": "Billionbrains Garage Ventures (Groww)",
+   "sector": "Financial Services",
+   "source": "Watchlist",
+   "price": 217.48,
+   "pe": 50.8,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+54%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+45%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.01",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "42%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹135,076 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+15% 6m",
+     "ok": true
+    }
+   ],
+   "met": 5,
+   "known": 6,
+   "flagged": true,
+   "risks": []
+  },
+  {
+   "ticker": "CUPID",
+   "name": "Cupid Ltd",
+   "sector": "FMCG",
+   "source": "Watchlist",
+   "price": 366.35,
+   "pe": 293.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+133%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+123%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.20",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "64%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹49,262 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+194% 6m",
+     "ok": true
+    }
+   ],
+   "met": 5,
+   "known": 6,
+   "flagged": true,
+   "risks": [
+    "Very high P/E (293)",
+    "Already up 194% in 6 months"
+   ]
+  },
+  {
+   "ticker": "BAJAJ-AUTO",
+   "name": "Bajaj Auto",
+   "sector": "Automobile",
+   "source": "NIFTY 50",
+   "price": 10868.0,
+   "pe": 23.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+62%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+57%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.70",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "61%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹298,657 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+4% 6m",
+     "ok": true
+    }
+   ],
+   "met": 4,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ETERNAL",
+   "name": "Eternal",
+   "sector": "Consumer Services",
+   "source": "NIFTY 50",
+   "price": 371.7,
+   "pe": 701.3,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+92%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+78%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.18",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "27%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹342,439 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+50% 6m",
+     "ok": true
+    }
+   ],
+   "met": 4,
+   "known": 6,
+   "flagged": false,
+   "risks": [
+    "Very high P/E (701)"
+   ]
+  },
+  {
+   "ticker": "SCI",
+   "name": "Shipping Corporation of India",
+   "sector": "Services",
+   "source": "Watchlist",
+   "price": 253.77,
+   "pe": 5.9,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+205%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+71%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.24",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "64%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹11,821 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-16% 6m",
+     "ok": false
+    }
+   ],
+   "met": 4,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "COALINDIA",
+   "name": "Coal India",
+   "sector": "Oil Gas & Fuels",
+   "source": "NIFTY 50",
+   "price": 385.0,
+   "pe": 7.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+50%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+64%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.12",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "61%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹237,265 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-16% 6m",
+     "ok": false
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "EICHERMOT",
+   "name": "Eicher Motors",
+   "sector": "Automobile",
+   "source": "NIFTY 50",
+   "price": 8336.0,
+   "pe": 38.3,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+15%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+20%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.02",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "51%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹228,863 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+12% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "FEDERALBNK",
+   "name": "Federal Bank",
+   "sector": "Financial Services",
+   "source": "Watchlist",
+   "price": 356.2,
+   "pe": 17.4,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+51%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+36%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "11%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹88,010 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+23% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "HCLTECH",
+   "name": "HCL Technologies",
+   "sector": "Information Technology",
+   "source": "NIFTY 50",
+   "price": 1380.0,
+   "pe": 20.4,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+11%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+2%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.08",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "63%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹373,514 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+18% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "JSWSTEEL",
+   "name": "JSW Steel",
+   "sector": "Metals & Mining",
+   "source": "NIFTY 50",
+   "price": 1302.5,
+   "pe": 11.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+225%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.62",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "64%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹318,055 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+1% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "MARUTI",
+   "name": "Maruti Suzuki",
+   "sector": "Automobile",
+   "source": "NIFTY 50",
+   "price": 14200.0,
+   "pe": 33.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-26%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.00",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "62%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹446,452 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+8% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ONGC",
+   "name": "ONGC",
+   "sector": "Oil Gas & Fuels",
+   "source": "NIFTY 50",
+   "price": 222.0,
+   "pe": 5.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+55%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.42",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "69%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹279,282 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-22% 6m",
+     "ok": false
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "RELIANCE",
+   "name": "Reliance Industries",
+   "sector": "Oil Gas & Fuels",
+   "source": "NIFTY 50",
+   "price": 1373.9,
+   "pe": 22.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+41%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+30%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.44",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "52%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+1% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "SUNPHARMA",
+   "name": "Sun Pharmaceutical",
+   "sector": "Healthcare",
+   "source": "NIFTY 50",
+   "price": 1901.0,
+   "pe": 41.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-36%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+12%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.04",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "56%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹456,114 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+3% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "TCS",
+   "name": "Tata Consultancy Services",
+   "sector": "Information Technology",
+   "source": "NIFTY 50",
+   "price": 2517.3,
+   "pe": 17.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+15%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+11%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.10",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "72%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+9% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "TITAN",
+   "name": "Titan Company",
+   "sector": "Consumer Durables",
+   "source": "NIFTY 50",
+   "price": 4686.6,
+   "pe": 59.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+114%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+10%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "2.19",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "61%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹415,848 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+13% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "TRENT",
+   "name": "Trent",
+   "sector": "Consumer Services",
+   "source": "NIFTY 50",
+   "price": 3319.6,
+   "pe": 93.4,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+23%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+22%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.29",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "42%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹177,012 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+16% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": [
+    "Very high P/E (93)"
+   ]
+  },
+  {
+   "ticker": "ULTRACEMCO",
+   "name": "UltraTech Cement",
+   "sector": "Construction Materials",
+   "source": "NIFTY 50",
+   "price": 12800.0,
+   "pe": 43.3,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+19%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.38",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "61%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹376,403 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+9% 6m",
+     "ok": true
+    }
+   ],
+   "met": 3,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ADANIENT",
+   "name": "Adani Enterprises",
+   "sector": "Metals & Mining",
+   "source": "NIFTY 50",
+   "price": 2668.5,
+   "pe": 56.9,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-53%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+75%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.14",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "75%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹361,241 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-6% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ADANIPORTS",
+   "name": "Adani Ports and SEZ",
+   "sector": "Services",
+   "source": "NIFTY 50",
+   "price": 1926.3,
+   "pe": 32.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+16%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+24%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.63",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "66%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹443,812 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+7% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ASIANPAINT",
+   "name": "Asian Paints",
+   "sector": "Consumer Durables",
+   "source": "NIFTY 50",
+   "price": 2621.2,
+   "pe": 51.9,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+8%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+17%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.21",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "53%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹251,233 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-1% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "BSE",
+   "name": "BSE Ltd",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 3775.2,
+   "pe": 50.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+45%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+36%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.00",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "0%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹153,322 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-12% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "BAJFINANCE",
+   "name": "Bajaj Finance",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 1131.35,
+   "pe": 32.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+28%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+27%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "3.42",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "55%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹717,055 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+20% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "BAJAJFINSV",
+   "name": "Bajaj Finserv",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 1925.0,
+   "pe": 29.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+23%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+17%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "2.82",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "64%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹308,047 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+7% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "BEL",
+   "name": "Bharat Electronics",
+   "sector": "Capital Goods",
+   "source": "NIFTY 50",
+   "price": 404.3,
+   "pe": 46.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+20%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.00",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "54%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹295,534 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-4% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "BHARTIARTL",
+   "name": "Bharti Airtel",
+   "sector": "Telecommunication",
+   "source": "NIFTY 50",
+   "price": 2117.5,
+   "pe": 41.7,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+31%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+17%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.00",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "53%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹1,321,203 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+13% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "CIPLA",
+   "name": "Cipla",
+   "sector": "Healthcare",
+   "source": "NIFTY 50",
+   "price": 1433.2,
+   "pe": 40.0,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-35%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "-1%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.02",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "31%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹115,787 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+1% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "DRREDDY",
+   "name": "Dr. Reddy's Laboratories",
+   "sector": "Healthcare",
+   "source": "NIFTY 50",
+   "price": 1398.0,
+   "pe": 41.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-36%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "-2%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.19",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "31%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹116,546 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+5% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "HDFCBANK",
+   "name": "HDFC Bank",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 846.2,
+   "pe": 18.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+81%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "0%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹1,306,000 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+8% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "HDFCLIFE",
+   "name": "HDFC Life Insurance",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 601.3,
+   "pe": 63.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+16%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+18%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.16",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "58%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹130,613 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-3% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "HINDALCO",
+   "name": "Hindalco Industries",
+   "sector": "Metals & Mining",
+   "source": "NIFTY 50",
+   "price": 889.9,
+   "pe": 10.3,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+59%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+39%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.74",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "38%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹197,543 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-19% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "HINDUNILVR",
+   "name": "Hindustan Unilever",
+   "sector": "FMCG",
+   "source": "NIFTY 50",
+   "price": 2141.8,
+   "pe": 47.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+4%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+12%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.03",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "62%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹503,235 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-2% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ITC",
+   "name": "ITC",
+   "sector": "FMCG",
+   "source": "NIFTY 50",
+   "price": 309.25,
+   "pe": 20.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-19%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+4%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.01",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "27%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹387,574 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+2% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "INDIGO",
+   "name": "InterGlobe Aviation",
+   "sector": "Services",
+   "source": "NIFTY 50",
+   "price": 5720.0,
+   "pe": null,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "17.39",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "42%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹221,174 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+27% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 5,
+   "flagged": false,
+   "risks": [
+    "P/E not available (may be loss-making)"
+   ]
+  },
+  {
+   "ticker": "JIOFIN",
+   "name": "Jio Financial Services",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 222.85,
+   "pe": 84.7,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-51%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+27%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.32",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "48%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹152,722 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-8% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": [
+    "Very high P/E (85)"
+   ]
+  },
+  {
+   "ticker": "MAXHEALTH",
+   "name": "Max Healthcare",
+   "sector": "Healthcare",
+   "source": "NIFTY 50",
+   "price": 1076.3,
+   "pe": 76.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-16%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+20%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.33",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "28%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹104,759 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+8% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "NESTLEIND",
+   "name": "Nestle India",
+   "sector": "FMCG",
+   "source": "NIFTY 50",
+   "price": 1358.5,
+   "pe": 64.2,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+36%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+20%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.08",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "63%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹261,961 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-4% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "SHRIRAMFIN",
+   "name": "Shriram Finance",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 989.95,
+   "pe": 16.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+59%",
+     "ok": true
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+38%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.46",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "22%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹232,949 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+3% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "SBIN",
+   "name": "State Bank of India",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 1138.15,
+   "pe": 11.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+20%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+8%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "57%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹1,050,583 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+17% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "TMPV",
+   "name": "Tata Motors Passenger Vehicles",
+   "sector": "Automobile",
+   "source": "NIFTY 50",
+   "price": 262.1,
+   "pe": null,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+34%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.78",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "44%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹96,533 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-30% 6m",
+     "ok": false
+    }
+   ],
+   "met": 2,
+   "known": 5,
+   "flagged": false,
+   "risks": [
+    "P/E not available (may be loss-making)"
+   ]
+  },
+  {
+   "ticker": "TECHM",
+   "name": "Tech Mahindra",
+   "sector": "Information Technology",
+   "source": "NIFTY 50",
+   "price": 1801.2,
+   "pe": 28.9,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+33%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+16%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.07",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "37%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹159,662 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+25% 6m",
+     "ok": true
+    }
+   ],
+   "met": 2,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "APOLLOHOSP",
+   "name": "Apollo Hospitals",
+   "sector": "Healthcare",
+   "source": "NIFTY 50",
+   "price": 9300.0,
+   "pe": 59.5,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+32%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.73",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "28%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹133,720 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+11% 6m",
+     "ok": true
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ASHOKLEY",
+   "name": "Ashok Leyland",
+   "sector": "Automobile",
+   "source": "Watchlist",
+   "price": 158.0,
+   "pe": 26.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+12%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+35%",
+     "ok": true
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "3.77",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "37%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-4% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "AXISBANK",
+   "name": "Axis Bank",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 1418.1,
+   "pe": 14.8,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+39%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "4%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹441,712 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+8% 6m",
+     "ok": true
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "CANBK",
+   "name": "Canara Bank",
+   "sector": "Financial Services",
+   "source": "Watchlist",
+   "price": 133.46,
+   "pe": 5.9,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+11%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "-13%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "64%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹121,057 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-0% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "GRASIM",
+   "name": "Grasim Industries",
+   "sector": "Construction Materials",
+   "source": "NIFTY 50",
+   "price": 3162.0,
+   "pe": 43.8,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.44",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "50%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹214,475 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-0% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "ICICIBANK",
+   "name": "ICICI Bank",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 1640.0,
+   "pe": 20.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+22%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+16%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "4%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹1,178,278 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+27% 6m",
+     "ok": true
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "INFY",
+   "name": "Infosys",
+   "sector": "Information Technology",
+   "source": "NIFTY 50",
+   "price": 1130.0,
+   "pe": 15.0,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "-3%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+1%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.09",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "16%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹457,693 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-3% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "KOTAKBANK",
+   "name": "Kotak Mahindra Bank",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 509.0,
+   "pe": 23.6,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "28%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹506,399 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+30% 6m",
+     "ok": true
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "LT",
+   "name": "Larsen & Toubro",
+   "sector": "Construction",
+   "source": "NIFTY 50",
+   "price": 4156.0,
+   "pe": 32.0,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+32%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+17%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.05",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "18%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹571,819 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+3% 6m",
+     "ok": true
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "M&M",
+   "name": "Mahindra & Mahindra",
+   "sector": "Automobile",
+   "source": "NIFTY 50",
+   "price": 3509.5,
+   "pe": 20.3,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+25%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+26%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.33",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "25%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹421,408 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "+12% 6m",
+     "ok": true
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "NTPC",
+   "name": "NTPC",
+   "sector": "Power",
+   "source": "NIFTY 50",
+   "price": 318.0,
+   "pe": 10.4,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+39%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+21%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.26",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "54%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹308,354 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-18% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "POWERGRID",
+   "name": "Power Grid Corporation",
+   "sector": "Power",
+   "source": "NIFTY 50",
+   "price": 266.75,
+   "pe": 15.3,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+8%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+3%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "1.46",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "53%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹248,094 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-10% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "SBILIFE",
+   "name": "SBI Life Insurance",
+   "sector": "Financial Services",
+   "source": "NIFTY 50",
+   "price": 1823.9,
+   "pe": 68.9,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+11%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+6%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "n/a",
+     "ok": null
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "59%",
+     "ok": true
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹183,020 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-4% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 5,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "TATACONSUM",
+   "name": "Tata Consumer Products",
+   "sector": "FMCG",
+   "source": "NIFTY 50",
+   "price": 1185.8,
+   "pe": 69.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+16%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+14%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.11",
+     "ok": true
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "34%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹117,360 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-0% 6m",
+     "ok": false
+    }
+   ],
+   "met": 1,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  },
+  {
+   "ticker": "TATASTEEL",
+   "name": "Tata Steel",
+   "sector": "Metals & Mining",
+   "source": "NIFTY 50",
+   "price": 159.3,
+   "pe": 17.1,
+   "criteria": [
+    {
+     "key": "profit",
+     "label": "Profit growth",
+     "value": "+18%",
+     "ok": false
+    },
+    {
+     "key": "revenue",
+     "label": "Revenue growth",
+     "value": "+12%",
+     "ok": false
+    },
+    {
+     "key": "debt",
+     "label": "Debt / equity",
+     "value": "0.97",
+     "ok": false
+    },
+    {
+     "key": "insider",
+     "label": "Promoter / insider",
+     "value": "36%",
+     "ok": false
+    },
+    {
+     "key": "size",
+     "label": "Market cap",
+     "value": "₹198,676 cr",
+     "ok": false
+    },
+    {
+     "key": "trend",
+     "label": "Price trend",
+     "value": "-24% 6m",
+     "ok": false
+    }
+   ],
+   "met": 0,
+   "known": 6,
+   "flagged": false,
+   "risks": []
+  }
+ ]
+}
